@@ -45,7 +45,8 @@ execute if block 6 19 20 minecraft:oak_button[powered=true] run function main:pr
 execute if entity @a[scores={triggers=1}] run function main:pregame/leave_spectators
 
 # start team select
-execute if block -1 19 20 minecraft:oak_button[powered=true] run function main:teamselect/delay
+execute if block -1 19 20 minecraft:oak_button[powered=true] if entity @e[name=lobby.teamselect.delay.var,limit=1,scores={vars=0}] run function main:teamselect/delay
+execute if block -1 19 20 minecraft:oak_button[powered=true] if entity @e[name=lobby.teamselect.delay.var,limit=1,scores={vars=1}] run function main:teamselect/cancel
 
 # yellow ready
 execute if block 18 20 52 minecraft:lever[powered=true] if entity @e[name=lobby.ready.yellow.var,limit=1,scores={vars=0}] unless entity @a[tag=teamselect] run function main:pregame/ready_yellow

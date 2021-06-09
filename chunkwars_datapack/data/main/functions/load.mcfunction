@@ -16,6 +16,7 @@ team modify spectators color gray
 
 execute unless entity @e[name=game.state.var] run summon area_effect_cloud 0 0 -1024 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:"\"game.state.var\""}
 execute unless entity @e[name=lobby.ready.yellow.var] run summon area_effect_cloud 0 0 -1024 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:"\"lobby.ready.yellow.var\""}
+execute unless entity @e[name=lobby.teamselect.delay.var] run summon area_effect_cloud 0 0 -1024 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:"\"lobby.teamselect.delay.var\""}
 execute unless entity @e[name=lobby.ready.blue.var] run summon area_effect_cloud 0 0 -1024 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:"\"lobby.ready.blue.var\""}
 execute unless entity @e[name=lobby.ready.timer.var] run summon area_effect_cloud 0 0 -1024 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:"\"lobby.ready.timer.var\""}
 execute unless entity @e[name=pregame.timer.var] run summon area_effect_cloud 0 0 -1024 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:"\"pregame.timer.var\""}
@@ -35,6 +36,7 @@ execute unless entity @e[name=options.enchanting.var] run summon area_effect_clo
 
 scoreboard players set @e[name=game.state.var,limit=1] vars 0
 scoreboard players set @e[name=lobby.ready.yellow.var,limit=1] vars 0
+scoreboard players set @e[name=lobby.teamselect.delay.var,limit=1] vars 0
 scoreboard players set @e[name=lobby.ready.blue.var,limit=1] vars 0
 scoreboard players set @e[name=lobby.ready.timer.var,limit=1] vars 0
 scoreboard players set @e[name=pregame.timer.var,limit=1] vars 0
