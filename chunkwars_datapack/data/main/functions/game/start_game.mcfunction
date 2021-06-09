@@ -1,12 +1,8 @@
 #yellow
-setblock 67 71 960 minecraft:air replace
-setblock 66 74 958 minecraft:air replace
-setblock 68 74 958 minecraft:air replace
+fill 56 54 967 71 90 952 minecraft:air replace minecraft:barrier
 
 #blue
-setblock -68 71 1087 minecraft:air replace
-setblock -67 74 1089 minecraft:air replace
-setblock -69 74 1089 minecraft:air replace
+fill -57 54 1080 -72 90 1095 minecraft:air replace minecraft:barrier
 
 execute as @a at @s run playsound minecraft:entity.ender_dragon.ambient master @a ~ ~ ~
 
