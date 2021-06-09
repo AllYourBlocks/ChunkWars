@@ -10,3 +10,6 @@ setblock -15 19 20 minecraft:oak_button[face=wall,facing=north,powered=false] re
 
 # unready blue
 setblock -19 20 52 minecraft:lever[powered=false,face=wall,facing=south]
+
+# set leave sign
+data merge block -23 21 52 {Text1:'{"text":"","clickEvent":{"action":"run_command","value":"trigger triggers"}}',Text2:'{"text":"Right Click to"}',Text3:'{"text":"Leave Team"}'}
