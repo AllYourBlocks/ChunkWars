@@ -1,4 +1,4 @@
-gamemode creative @a
+gamemode spectator @a
 tellraw @a {"text":"Yellow Wins!","color":"yellow"}
 tag @a remove ingame
 
