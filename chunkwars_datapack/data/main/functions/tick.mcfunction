@@ -60,11 +60,6 @@ execute if block 18 20 52 minecraft:lever[powered=false] if entity @e[name=lobby
 # blue unready
 execute if block -19 20 52 minecraft:lever[powered=false] if entity @e[name=lobby.ready.blue.var,limit=1,scores={vars=1}] run function main:pregame/unready_blue
 
-# player eliminated -90 0 934 -> 89 119 1113
-execute as @a[tag=ingame] unless entity @s[x=-90,y=-30000000,z=934,dx=180,dy=30000120,dz=180] run tag @s add eliminated
-
-execute if entity @a[tag=eliminated] run function main:game/eliminated
-
 tag @a[x=-12,y=99,z=-1036,dx=23,dy=5,dz=23,tag=!ingame,tag=!bluecap,tag=!yellowcap] remove init
 
 execute if entity @a[x=-12,y=99,z=-1036,dx=23,dy=5,dz=23,tag=bluecap] run function main:teamselect/sumo_win_yellow
