@@ -1,12 +1,19 @@
+# deal with players who haven't joined a team
+team join spectators @a[team=]
+gamemode spectator @a[team=spectators,gamemode=!spectator]
+
+# disable leaving of team
+execute as @a run trigger triggers set 0 
+
 # move players
 tp @a[team=yellow] 67 71 955
-tp @a[team=blue] -68 71 1091 
+tp @a[team=blue] -68 71 1091
+tp @a[team=spectators] -1.0 90 1025.0 
 
 tag @a[team=yellow] add ingame
 tag @a[team=blue] add ingame
 
 clear @a
-difficulty hard
 
 scoreboard players set @e[name=game.state.var] vars 1
 scoreboard players set @e[name=pregame.timer.var] vars 31
