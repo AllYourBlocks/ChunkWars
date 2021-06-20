@@ -41,6 +41,9 @@ execute if entity @a[x=-22,y=23,z=50,dx=2,dy=2,dz=1] run function main:pregame/l
 # join spectator team
 execute if block 6 19 20 minecraft:oak_button[powered=true] run function main:pregame/join_spectators
 
+# join spectator team
+execute if block -8 19 20 minecraft:oak_button[powered=true] run function main:pregame/tutorial
+
 # leave spectator team
 execute if entity @a[scores={triggers=1}] run function main:pregame/leave_team
 
