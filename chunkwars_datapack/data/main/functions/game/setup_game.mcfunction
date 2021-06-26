@@ -6,8 +6,12 @@ gamemode spectator @a[team=spectators,gamemode=!spectator]
 execute as @a run trigger triggers set 0 
 
 # move players
-tp @a[team=yellow] 67 71 955
-tp @a[team=blue] -68 71 1091
+# tp @a[team=yellow] 67 71 955
+# tp @a[team=blue] -68 71 1091
+
+tp @a[team=yellow] @e[name=game.spawn.yellow.var,limit=1]
+tp @a[team=blue] @e[name=game.spawn.blue.var,limit=1]
+
 tp @a[team=spectators] -1.0 90 1025.0 
 
 tag @a[team=yellow] add ingame

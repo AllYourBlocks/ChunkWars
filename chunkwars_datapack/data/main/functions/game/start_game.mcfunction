@@ -15,3 +15,5 @@ gamerule doDaylightCycle true
 function main:game/schedule/give_option_items
 
 scoreboard players set @e[name=pregame.timer.var] vars 0
+
+forceload remove -88 936 87 1111
