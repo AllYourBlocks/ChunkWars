@@ -9,3 +9,6 @@ execute if block -4 19 50 minecraft:oak_button[powered=true] if entity @p[team=!
 execute if block 0 19 50 minecraft:oak_button[powered=true] if entity @p[team=!spectators,x=0,y=19,z=39,distance=..2] run function main:teamselect/positions/position8
 execute if block 4 19 50 minecraft:oak_button[powered=true] if entity @p[team=!spectators,x=4,y=19,z=39,distance=..2] run function main:teamselect/positions/position9
 execute if block 8 19 50 minecraft:oak_button[powered=true] if entity @p[team=!spectators,x=8,y=19,z=39,distance=..2] run function main:teamselect/positions/position10
+
+execute if block 11 19 55 minecraft:oak_button[powered=true] run function main:teamselect/positions/random_yellow
+execute if block -13 19 55 minecraft:oak_button[powered=true] run function main:teamselect/positions/random_blue
