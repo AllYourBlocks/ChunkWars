@@ -19,8 +19,8 @@ summon minecraft:donkey 62.5 70 993.5 {PersistenceRequired:1}
 summon minecraft:villager 62.5 70 991.5 {PersistenceRequired:1}
 summon minecraft:villager 68.5 70.5 996.5 {PersistenceRequired:1}
 summon minecraft:villager 60.50 70 996.5 {PersistenceRequired:1}
-summon minecraft:fox 70.5 70.5 989.5 {Type:0,PersistenceRequired:1}
-summon minecraft:fox 68.5 70.5 989.5 {Type:0,PersistenceRequired:1}
+summon minecraft:fox 70.5 70.5 989.5 {Type:"red",PersistenceRequired:1}
+summon minecraft:fox 68.5 70.5 989.5 {Type:"red",PersistenceRequired:1}
 
 # yellow swamp
 summon minecraft:witch -3.5 72 956.5 {PersistenceRequired:1}
@@ -112,8 +112,8 @@ summon minecraft:donkey -62.5 70.00 1054.5 {PersistenceRequired:1}
 summon minecraft:villager -68.5 71.00 1051.5 {PersistenceRequired:1}
 summon minecraft:villager -59.5 71.00 1051.5 {PersistenceRequired:1}
 summon minecraft:villager -62.5 70.00 1056.5 {PersistenceRequired:1}
-summon minecraft:fox -70.5 70.5 1058.5 {Type:0,PersistenceRequired:1}
-summon minecraft:fox -68.5 70.5 1058.5 {Type:0,PersistenceRequired:1}
+summon minecraft:fox -70.5 70.5 1058.5 {Type:"red",PersistenceRequired:1}
+summon minecraft:fox -68.5 70.5 1058.5 {Type:"red",PersistenceRequired:1}
 
 # blue swamp
 summon minecraft:witch 3.5 72 1091.5 {PersistenceRequired:1}
