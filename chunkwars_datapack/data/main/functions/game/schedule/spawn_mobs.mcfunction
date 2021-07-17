@@ -23,8 +23,8 @@ summon minecraft:fox 70.5 70.5 989.5 {Type:0,PersistenceRequired:1}
 summon minecraft:fox 68.5 70.5 989.5 {Type:0,PersistenceRequired:1}
 
 # yellow swamp
-summon minecraft:witch 29.5 72 956.5 {PersistenceRequired:1}
-summon minecraft:cat 29.5 72.00 955.5 {CatType:10,PersistenceRequired:1}
+summon minecraft:witch -3.5 72 956.5 {PersistenceRequired:1}
+summon minecraft:cat -3.5 72.00 955.5 {CatType:10,PersistenceRequired:1}
 
 # (closest to) yellow ice lake
 summon minecraft:polar_bear 3.5 73.50 995.5 {PersistenceRequired:1}
@@ -41,12 +41,12 @@ summon minecraft:rabbit 36.79 73.00 992.02 {RabbitType:4,PersistenceRequired:1}
 summon minecraft:rabbit 36.79 73.00 992.02 {RabbitType:4,PersistenceRequired:1}
 
 # yellow jungle 
-summon minecraft:panda 6.5 70.0 960.5 {PersistenceRequired:1}
-summon minecraft:panda -1.5 70.0 955.5 {PersistenceRequired:1}
-summon minecraft:ocelot -2.5 70.00 964.5 {PersistenceRequired:1} 
-summon minecraft:ocelot -5.5 70.00 955.5 {PersistenceRequired:1} 
-summon minecraft:parrot 0.5 77.00 960.5 {PersistenceRequired:1}
-summon minecraft:parrot 0.5 77.00 960.5 {PersistenceRequired:1} 
+summon minecraft:panda 38.5 70.0 960.5 {PersistenceRequired:1}
+summon minecraft:panda 31.5 70.0 955.5 {PersistenceRequired:1}
+summon minecraft:ocelot 30.5 70.00 964.5 {PersistenceRequired:1} 
+summon minecraft:ocelot 27.5 70.00 955.5 {PersistenceRequired:1} 
+summon minecraft:parrot 32.5 77.00 960.5 {PersistenceRequired:1}
+summon minecraft:parrot 32.5 77.00 960.5 {PersistenceRequired:1} 
 
 # yellow sea
 summon minecraft:guardian 4.5 62 996.5 {PersistenceRequired:1}
@@ -116,8 +116,8 @@ summon minecraft:fox -70.5 70.5 1058.5 {Type:0,PersistenceRequired:1}
 summon minecraft:fox -68.5 70.5 1058.5 {Type:0,PersistenceRequired:1}
 
 # blue swamp
-summon minecraft:witch -29.5 72 1091.5 {PersistenceRequired:1}
-summon minecraft:cat -29.5 72 1092.5 {CatType:10,PersistenceRequired:1}
+summon minecraft:witch 3.5 72 1091.5 {PersistenceRequired:1}
+summon minecraft:cat 3.5 72 1092.5 {CatType:10,PersistenceRequired:1}
 
 # (closest to) blue ice lake
 summon minecraft:polar_bear -3.5 73.50 1052.5 {PersistenceRequired:1}
@@ -134,12 +134,12 @@ summon minecraft:rabbit -36.51 73.00 1055.95 {RabbitType:4,PersistenceRequired:1
 summon minecraft:rabbit -36.51 73.00 1055.95 {RabbitType:4,PersistenceRequired:1}
 
 # blue jungle 
-summon minecraft:panda -4.5 70.00 1087.5 {PersistenceRequired:1}
-summon minecraft:panda 1.5 70.00 1092.5 {PersistenceRequired:1}
-summon minecraft:ocelot 2.5 70.00 1083.50 {PersistenceRequired:1}
-summon minecraft:ocelot 4.5 70.00 1092.50 {PersistenceRequired:1}
-summon minecraft:parrot 0.5 77.00 1087.5 {PersistenceRequired:1}
-summon minecraft:parrot 0.5 77.00 1087.5 {PersistenceRequired:1}
+summon minecraft:panda -36.5 70.00 1087.5 {PersistenceRequired:1}
+summon minecraft:panda -31.5 70.00 1092.5 {PersistenceRequired:1}
+summon minecraft:ocelot -30.5 70.00 1083.50 {PersistenceRequired:1}
+summon minecraft:ocelot -28.5 70.00 1092.50 {PersistenceRequired:1}
+summon minecraft:parrot -32.5 77.00 1087.5 {PersistenceRequired:1}
+summon minecraft:parrot -32.5 77.00 1087.5 {PersistenceRequired:1}
 
 # blue sea
 summon minecraft:guardian -4.5 62 1051.5 {PersistenceRequired:1}
