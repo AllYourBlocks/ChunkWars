@@ -1,4 +1,4 @@
-# game:arena_reset/arena1
+#> main:arena_reset/arena1
 
 #>----------------------
 #>Clean 
@@ -19,3 +19,9 @@ function main:waterstop/enable
 schedule function main:arena_reset/arena1_build 4t
 
 schedule function main:waterstop/disable 1s
+
+#>----------------------
+#>Paint
+#>----------------------
+
+schedule function main:arena_reset/arena1_paint 8t
