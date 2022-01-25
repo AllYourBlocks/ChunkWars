@@ -14,4 +14,4 @@ execute if block 10 19 55 minecraft:oak_button[powered=true] if entity @p[team=!
 
 
 execute if block 13 19 60 minecraft:oak_button[powered=true] run function main:teamselect/positions/random_yellow
-execute if block -5 19 60 minecraft:oak_button[powered=true] run function main:teamselect/positions/random_blue
+execute if block -15 19 60 minecraft:oak_button[powered=true] run function main:teamselect/positions/random_blue
