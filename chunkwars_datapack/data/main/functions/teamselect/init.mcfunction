@@ -1,6 +1,6 @@
-team leave @a[team=!spectators]  
-setblock 18 20 52 minecraft:lever[powered=false,face=wall,facing=south]
-setblock -19 20 52 minecraft:lever[powered=false,face=wall,facing=south]
+team leave @a[team=!spectators]
+setblock 20 20 57 minecraft:lever[powered=false,face=wall,facing=south]
+setblock -21 20 57 minecraft:lever[powered=false,face=wall,facing=south]
 
 scoreboard players set @e[name=game.state.var] vars 3
 scoreboard players set @e[name=lobby.teamselect.delay.var] 0

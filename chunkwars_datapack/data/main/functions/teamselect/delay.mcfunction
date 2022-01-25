@@ -8,7 +8,4 @@ execute if score playercount.var vars matches 4.. run tellraw @a {"text":"Team s
 execute if score playercount.var vars matches 4.. run schedule function main:teamselect/team_select_check 10s
 execute if score playercount.var vars matches 4.. run scoreboard players set @e[name=lobby.teamselect.delay.var] vars 1
 
-setblock -1 19 20 minecraft:oak_button[face=wall,facing=north,powered=false] replace 
-# execute if score playercount.var vars matches 4.. run setblock -1 19 20 minecraft:air replace
-
 scoreboard players reset playercount.var vars

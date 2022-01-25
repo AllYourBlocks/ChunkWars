@@ -26,42 +26,26 @@ execute if entity @e[name=game.state.var,scores={vars=0}] run effect give @a min
 
 ### lobby commands
 
-# join yellow team
-execute if block 13 19 20 minecraft:oak_button[powered=true] run function main:pregame/join_yellow 
-
 #leave yellow team
-execute if entity @a[x=19,y=23,z=50,dx=2,dy=2,dz=1] run function main:pregame/leave_yellow 
-
-# join blue team
-execute if block -15 19 20 minecraft:oak_button[powered=true] run function main:pregame/join_blue 
+execute if entity @a[x=21,y=23,z=55,dx=2,dy=2,dz=1] run function main:pregame/leave_yellow 
 
 #leave blue team
-execute if entity @a[x=-22,y=23,z=50,dx=2,dy=2,dz=1] run function main:pregame/leave_blue 
+execute if entity @a[x=-24,y=23,z=55,dx=2,dy=2,dz=1] run function main:pregame/leave_blue 
 
-# join spectator team
-execute if block 6 19 20 minecraft:oak_button[powered=true] run function main:pregame/join_spectators
-
-# join spectator team
-execute if block -8 19 20 minecraft:oak_button[powered=true] run function main:pregame/tutorial
-
-# leave spectator team
-execute if entity @a[scores={triggers=1}] run function main:pregame/leave_team
-
-# start team select
-execute if block -1 19 20 minecraft:oak_button[powered=true] if entity @e[name=lobby.teamselect.delay.var,limit=1,scores={vars=0}] run function main:teamselect/delay
-execute if block -1 19 20 minecraft:oak_button[powered=true] if entity @e[name=lobby.teamselect.delay.var,limit=1,scores={vars=1}] run function main:teamselect/cancel
+# leave spectator team, join teams, etc...
+execute if entity @a[scores={triggers=1..}] run function main:tick/triggers
 
 # yellow ready
-execute if block 18 20 52 minecraft:lever[powered=true] if entity @e[name=lobby.ready.yellow.var,limit=1,scores={vars=0}] unless entity @a[tag=teamselect] run function main:pregame/ready_yellow
+execute if block 20 20 57 minecraft:lever[powered=true] if entity @e[name=lobby.ready.yellow.var,limit=1,scores={vars=0}] unless entity @a[tag=teamselect] run function main:pregame/ready_yellow
 
 # blue ready
-execute if block -19 20 52 minecraft:lever[powered=true] if entity @e[name=lobby.ready.blue.var,limit=1,scores={vars=0}] unless entity @a[tag=teamselect] run function main:pregame/ready_blue
+execute if block -21 20 57 minecraft:lever[powered=true] if entity @e[name=lobby.ready.blue.var,limit=1,scores={vars=0}] unless entity @a[tag=teamselect] run function main:pregame/ready_blue
 
 # yellow unready
-execute if block 18 20 52 minecraft:lever[powered=false] if entity @e[name=lobby.ready.yellow.var,limit=1,scores={vars=1}] run function main:pregame/unready_yellow
+execute if block 20 20 57 minecraft:lever[powered=false] if entity @e[name=lobby.ready.yellow.var,limit=1,scores={vars=1}] run function main:pregame/unready_yellow
 
 # blue unready
-execute if block -19 20 52 minecraft:lever[powered=false] if entity @e[name=lobby.ready.blue.var,limit=1,scores={vars=1}] run function main:pregame/unready_blue
+execute if block -21 20 57 minecraft:lever[powered=false] if entity @e[name=lobby.ready.blue.var,limit=1,scores={vars=1}] run function main:pregame/unready_blue
 
 tag @a[x=-12,y=99,z=-1036,dx=23,dy=5,dz=23,tag=!ingame,tag=!bluecap,tag=!yellowcap] remove init
 
