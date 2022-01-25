@@ -4,8 +4,8 @@ effect give @a[tag=bluecap] minecraft:resistance 5 10
 gamemode adventure @a[tag=yellowcap]
 gamemode adventure @a[tag=bluecap]
 
-tp @a[tag=bluecap] -12.0 19.00 53.0
-tp @a[tag=yellowcap] 12.0 19.00 53.0
+tp @a[tag=bluecap] -14.0 19.00 58.0
+tp @a[tag=yellowcap] 14.0 19.00 58.0
 
 tag @a[tag=bluecap] add teamselectturn
 

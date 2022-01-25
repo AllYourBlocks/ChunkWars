@@ -9,7 +9,7 @@ execute if entity @e[tag=bluecap,tag=teamselectturn] run fill -11 22 56 -11 19 4
 execute if entity @e[tag=bluecap,tag=teamselectturn] run tellraw @a ["",{"selector":"@e[tag=bluecap,tag=teamselectturn]"},{"text":" to pick.","color":"gold"}]
 execute if entity @e[tag=yellowcap,tag=teamselectturn] run tellraw @a ["",{"selector":"@e[tag=yellowcap,tag=teamselectturn]"},{"text":" to pick.","color":"gold"}]
 
-tp @a[tag=bluecap] -12.0 19.00 53.0
-tp @a[tag=yellowcap] 12.0 19.00 53.0
+tp @a[tag=bluecap] -14.0 19.00 58.0
+tp @a[tag=yellowcap] 14.0 19.00 58.0
 
 function main:teamselect/signs_update
