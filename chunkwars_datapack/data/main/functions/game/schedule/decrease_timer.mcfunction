@@ -1,7 +1,7 @@
 scoreboard players remove @e[name=pregame.timer.var] vars 1
 
 execute if entity @e[name=pregame.timer.var,scores={vars=1..5}] as @a at @s run playsound minecraft:block.dispenser.dispense master @a ~ ~ ~
-title @a actionbar ["",{"text":"Game starting in "},{"score":{"name":"@e[name=pregame.timer.var]","objective":"vars"}},{"text":" seconds."},{"text":" Remember to set your spawn by right clicking the bed!","color":"gold"}]
+title @a actionbar ["",{"text":"Game starting in "},{"score":{"name":"@e[name=pregame.timer.var,limit=1]","objective":"vars"}},{"text":" seconds."},{"text":" Remember to set your spawn by right clicking the bed!","color":"gold"}]
 
 #yellow
 setblock 67 71 960 minecraft:barrier replace
