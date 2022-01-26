@@ -19,8 +19,8 @@ team join yellow @a[tag=yellowcap]
 tellraw @a ["",{"selector":"@a[tag=bluecap]","color":"aqua"},{"text":" is the blue captain!","color":"aqua"}]
 tellraw @a ["",{"selector":"@a[tag=yellowcap]","color":"yellow"},{"text":" is the yellow captain!","color":"yellow"}]
 
-tp @a[tag=yellowcap] 9.5 7 48.50
-tp @a[tag=bluecap] -9.5 7 67.5
+tp @a[tag=yellowcap] 10.5 7 48.50
+tp @a[tag=bluecap] -10.5 7 67.5
 
 tag @r[team=,tag=!yellowcap,tag=!bluecap,tag=!teamselect] add teaminit
 tp @a[tag=teaminit] 10.00 20.00 44.00
