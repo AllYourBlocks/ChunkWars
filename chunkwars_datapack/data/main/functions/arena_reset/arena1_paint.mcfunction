@@ -22,3 +22,7 @@ fill -85 71 1108 -84 71 1108 minecraft:light_blue_carpet
 
 # Spawning the blue bed drops a yellow bed, so we clear that up
 kill @e[type=minecraft:item,x=-105,y=0,z=921,dx=207,dy=229,dz=207]
+
+# place spawn markers
+summon minecraft:armor_stand 82.5 71 941.5 {CustomName:'"game.spawn.yellow.var"',Marker:1,Invisible:1,Invulnerable:1}
+summon minecraft:armor_stand -84.5 71 1108.5 {CustomName:'"game.spawn.blue.var"',Marker:1,Invisible:1,Invulnerable:1,Rotation:[180.0f,0.0f]}
