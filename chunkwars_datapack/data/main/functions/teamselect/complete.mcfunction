@@ -10,3 +10,5 @@ tag @a[tag=bluecap] remove bluecap
 tag @a[tag=yellowcap] remove yellowcap
 
 function main:teamselect/reset
+
+function main:misc/lock_signs_for_readying

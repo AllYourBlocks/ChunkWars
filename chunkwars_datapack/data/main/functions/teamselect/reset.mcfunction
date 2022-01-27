@@ -9,3 +9,5 @@ setblock -13 0 45 minecraft:structure_block{author:"ffaen",mode:"LOAD",name:"chu
 setblock -13 1 45 minecraft:redstone_block
 
 schedule function main:waterstop/disable 1s
+
+function main:misc/unlock_signs

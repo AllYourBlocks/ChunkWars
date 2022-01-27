@@ -16,4 +16,6 @@ function main:game/schedule/give_option_items
 
 scoreboard players set @e[name=pregame.timer.var] vars 0
 
+function main:misc/lock_signs_for_game
+
 forceload remove -88 936 87 1111

@@ -5,6 +5,8 @@ setblock -21 20 57 minecraft:lever[powered=false,face=wall,facing=south]
 scoreboard players set @e[name=game.state.var] vars 3
 scoreboard players set @e[name=lobby.teamselect.delay.var] vars 0
 
+function main:misc/lock_signs_for_teamselect
+
 # debug for breaking out
 tellraw ffaen {"text":"Click here to breakout of team select","color":"gray","clickEvent":{"action":"suggest_command","value":"/function main:teamselect/breakout"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function main:teamselect/breakout"}}}
 tellraw Blocks {"text":"Click here to breakout of team select","color":"gray","clickEvent":{"action":"suggest_command","value":"/function main:teamselect/breakout"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function main:teamselect/breakout"}}}
