@@ -1,10 +1,10 @@
-execute if entity @e[tag=bluecap,tag=teamselectturn] run fill 12 23 54 12 19 61 minecraft:barrier
+execute if entity @e[tag=bluecap,tag=teamselectturn] run fill 12 23 54 11 19 61 minecraft:barrier
 
-execute if entity @e[tag=yellowcap,tag=teamselectturn] run fill -13 23 61 -13 19 54 minecraft:barrier
+execute if entity @e[tag=yellowcap,tag=teamselectturn] run fill -13 23 61 -12 19 54 minecraft:barrier
 
-execute if entity @e[tag=yellowcap,tag=teamselectturn] run fill 12 23 54 12 19 61 minecraft:air
+execute if entity @e[tag=yellowcap,tag=teamselectturn] run fill 12 23 54 11 19 61 minecraft:air
 
-execute if entity @e[tag=bluecap,tag=teamselectturn] run fill -13 23 61 -13 19 54 minecraft:air
+execute if entity @e[tag=bluecap,tag=teamselectturn] run fill -13 23 61 -12 19 54 minecraft:air
 
 execute if entity @e[tag=bluecap,tag=teamselectturn] run tellraw @a ["",{"selector":"@e[tag=bluecap,tag=teamselectturn]"},{"text":" to pick.","color":"gold"}]
 execute if entity @e[tag=yellowcap,tag=teamselectturn] run tellraw @a ["",{"selector":"@e[tag=yellowcap,tag=teamselectturn]"},{"text":" to pick.","color":"gold"}]
