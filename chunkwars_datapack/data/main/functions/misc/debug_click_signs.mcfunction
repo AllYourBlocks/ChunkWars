@@ -23,4 +23,4 @@ execute unless entity @e[name="lobby.goto.options"] run summon area_effect_cloud
 execute unless entity @e[name="lobby.goto.puzzle"] run summon area_effect_cloud 0.5 19.5 24.5 {Age:-2147483648, Duration:-1,WaitTime:-2147483648,CustomName:'"lobby.goto.puzzle"'}
 
 # start team selection
-execute unless entity @e[name="lobby.start.selection"] run summon area_effect_cloud -0.5 53.5 5.5 {Age:-2147483648, Duration:-1,WaitTime:-2147483648,CustomName:'"lobby.start.selection"'}
+execute unless entity @e[name="lobby.start.selection"] run summon area_effect_cloud -0.5 19.5 25.5 {Age:-2147483648, Duration:-1,WaitTime:-2147483648,CustomName:'"lobby.start.selection"'}
