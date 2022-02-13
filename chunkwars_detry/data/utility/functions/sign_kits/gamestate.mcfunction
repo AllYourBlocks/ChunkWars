@@ -1,0 +1,7 @@
+give @s oak_sign{display:{Name:'{"text":"Option: Map - Game"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Game Map","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/gamestate/map_game/execute/driver"}}',Text2:'{"text":"ON","color":"green"}',Text4:'{"text":"Right click","color":"gold"}'}}
+
+give @s oak_sign{display:{Name:'{"text":"Option: Map - Selection"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Selection Map","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/gamestate/map_selection/execute/driver"}}',Text2:'{"text":"ON","color":"green"}',Text4:'{"text":"Right click","color":"gold"}'}}
+
+give @s oak_sign{display:{Name:'{"text":"Option: Teams"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Teams","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/gamestate/teams/execute/driver"}}',Text2:'{"text":"ON","color":"green"}',Text4:'{"text":"Right click","color":"gold"}'}}
+
+give @s oak_sign{display:{Name:'{"text":"Option: Mode"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Mode","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/gamestate/mode/execute/driver"}}',Text2:'{"text":"ON","color":"green"}',Text4:'{"text":"Right click","color":"gold"}'}}

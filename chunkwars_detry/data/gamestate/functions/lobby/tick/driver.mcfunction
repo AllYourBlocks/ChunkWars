@@ -1,0 +1,1 @@
+execute as @a run function gamestate:lobby/tick/actionbar

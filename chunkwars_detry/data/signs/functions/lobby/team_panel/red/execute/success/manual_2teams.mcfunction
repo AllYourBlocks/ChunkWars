@@ -1,0 +1,1 @@
+say Cannot join team Red, because there are only 2 teams.
