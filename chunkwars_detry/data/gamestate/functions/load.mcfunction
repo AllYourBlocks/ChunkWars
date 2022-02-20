@@ -27,18 +27,25 @@ scoreboard objectives add pick_order dummy
 #/execute align xyz run fill ~1 ~2 ~-2 ~-2 ~-1 ~1 minecraft:black_stained_glass hollow
 
 scoreboard objectives add option dummy
-execute unless score $witherskull option matches -2147483648..2147483647 run scoreboard players set $witherskull option 0
+execute unless score $wither_skulls option matches -2147483648..2147483647 run scoreboard players set $wither_skulls option 0
 execute unless score $weather option matches -2147483648..2147483647 run scoreboard players set $weather option 0
+execute unless score $troll_mode option matches -2147483648..2147483647 run scoreboard players set $troll_mode option 0
 execute unless score $tnt option matches -2147483648..2147483647 run scoreboard players set $tnt option 0
-execute unless score $spawneggs option matches -2147483648..2147483647 run scoreboard players set $spawneggs option 0
+execute unless score $spawn_eggs option matches -2147483648..2147483647 run scoreboard players set $spawn_eggs option 0
+execute unless score $respawn option matches -2147483648..2147483647 run scoreboard players set $respawn option 1
+execute unless score $regeneration option matches -2147483648..2147483647 run scoreboard players set $regeneration option 1
+execute unless score $redstone_mode option matches -2147483648..2147483647 run scoreboard players set $redstone_mode option 0
 execute unless score $potions option matches -2147483648..2147483647 run scoreboard players set $potions option 0
-execute unless score $keepinv option matches -2147483648..2147483647 run scoreboard players set $keepinv option 1
-execute unless score $iron option matches -2147483648..2147483647 run scoreboard players set $iron option 0
-execute unless score $godapple option matches -2147483648..2147483647 run scoreboard players set $godapple option 0
-execute unless score $enderpearl option matches -2147483648..2147483647 run scoreboard players set $enderpearl option 0
+execute unless score $keep_inventory option matches -2147483648..2147483647 run scoreboard players set $keep_inventory option 1
+execute unless score $iron_gear option matches -2147483648..2147483647 run scoreboard players set $iron_gear option 0
+execute unless score $halloween_mode option matches -2147483648..2147483647 run scoreboard players set $halloween_mode option 0
+execute unless score $enchanted_apples option matches -2147483648..2147483647 run scoreboard players set $enchanted_apples option 0
+execute unless score $ender_pearls option matches -2147483648..2147483647 run scoreboard players set $ender_pearls option 0
 execute unless score $enchanting_table option matches -2147483648..2147483647 run scoreboard players set $enchanting_table option 0
 execute unless score $difficulty option matches -2147483648..2147483647 run scoreboard players set $difficulty option 2
-execute unless score $daylight option matches -2147483648..2147483647 run scoreboard players set $daylight option 0
+execute unless score $daylight_cycle option matches -2147483648..2147483647 run scoreboard players set $daylight_cycle option 1
+execute unless score $bonus_chest option matches -2147483648..2147483647 run scoreboard players set $bonus_chest option 0
+execute unless score $anvil option matches -2147483648..2147483647 run scoreboard players set $anvil option 0
 
 scoreboard objectives add team_ready dummy
 
@@ -81,15 +88,22 @@ team modify Yellow color yellow
 #define score_holder $map_selection_4teams
 
 #define objective option
-#define score_holder $witherskull
+#define score_holder $wither_skulls
 #define score_holder $weather
+#define score_holder $troll_mode
 #define score_holder $tnt
-#define score_holder $spawneggs
+#define score_holder $spawn_eggs
+#define score_holder $respawn
+#define score_holder $regeneration
+#define score_holder $redstone_mode
 #define score_holder $potions
-#define score_holder $keepinv
-#define score_holder $iron
-#define score_holder $godapple
-#define score_holder $enderpearl
+#define score_holder $keep_inventory
+#define score_holder $iron_gear
+#define score_holder $halloween_mode
+#define score_holder $enchanted_apples
+#define score_holder $ender_pearls
 #define score_holder $enchanting_table
 #define score_holder $difficulty
-#define score_holder $daylight
+#define score_holder $daylight_cycle
+#define score_holder $bonus_chest
+#define score_holder $anvil

@@ -1,0 +1,2 @@
+execute if score $map_game_4teams gamestate matches 1 run function signs:lobby/gamestate/map_game/modern/update/4teams/0
+execute if score $map_game_4teams gamestate matches 0 run function signs:lobby/gamestate/map_game/modern/update/4teams/1
