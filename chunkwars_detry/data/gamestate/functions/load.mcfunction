@@ -27,16 +27,16 @@ scoreboard objectives add pick_order dummy
 scoreboard objectives add option dummy
 execute unless score $wither_skulls option matches -2147483648..2147483647 run scoreboard players set $wither_skulls option 0
 execute unless score $weather option matches -2147483648..2147483647 run scoreboard players set $weather option 0
-execute unless score $troll_mode option matches -2147483648..2147483647 run scoreboard players set $troll_mode option 0
 execute unless score $tnt option matches -2147483648..2147483647 run scoreboard players set $tnt option 0
 execute unless score $spawn_eggs option matches -2147483648..2147483647 run scoreboard players set $spawn_eggs option 0
 execute unless score $respawn option matches -2147483648..2147483647 run scoreboard players set $respawn option 1
 execute unless score $regeneration option matches -2147483648..2147483647 run scoreboard players set $regeneration option 1
-execute unless score $redstone_mode option matches -2147483648..2147483647 run scoreboard players set $redstone_mode option 0
+execute unless score $redstone option matches -2147483648..2147483647 run scoreboard players set $redstone option 0
 execute unless score $potions option matches -2147483648..2147483647 run scoreboard players set $potions option 0
 execute unless score $keep_inventory option matches -2147483648..2147483647 run scoreboard players set $keep_inventory option 1
 execute unless score $iron_gear option matches -2147483648..2147483647 run scoreboard players set $iron_gear option 0
-execute unless score $halloween_mode option matches -2147483648..2147483647 run scoreboard players set $halloween_mode option 0
+execute unless score $infestation option matches -2147483648..2147483647 run scoreboard players set $infestation option 0
+execute unless score $halloween option matches -2147483648..2147483647 run scoreboard players set $halloween option 0
 execute unless score $enchanted_apples option matches -2147483648..2147483647 run scoreboard players set $enchanted_apples option 0
 execute unless score $ender_pearls option matches -2147483648..2147483647 run scoreboard players set $ender_pearls option 0
 execute unless score $enchanting_table option matches -2147483648..2147483647 run scoreboard players set $enchanting_table option 0
@@ -45,11 +45,12 @@ execute unless score $daylight_cycle option matches -2147483648..2147483647 run 
 execute unless score $bonus_chest option matches -2147483648..2147483647 run scoreboard players set $bonus_chest option 0
 execute unless score $anvil option matches -2147483648..2147483647 run scoreboard players set $anvil option 0
 
-execute unless score $map_bridges option matches -2147483648..2147483647 run scoreboard players set $map_bridges option 0
-execute unless score $map_condensed option matches -2147483648..2147483647 run scoreboard players set $map_condensed option 0
-execute unless score $map_end_and_nether option matches -2147483648..2147483647 run scoreboard players set $map_end_and_nether option 0
-execute unless score $map_random option matches -2147483648..2147483647 run scoreboard players set $map_random option 0
-execute unless score $map_remixed option matches -2147483648..2147483647 run scoreboard players set $map_remixed option 0
+scoreboard objectives add map_variation dummy
+execute unless score $map_bridges map_variation matches -2147483648..2147483647 run scoreboard players set $map_bridges map_variation 0
+execute unless score $map_condensed map_variation matches -2147483648..2147483647 run scoreboard players set $map_condensed map_variation 0
+execute unless score $map_nether_and_end map_variation matches -2147483648..2147483647 run scoreboard players set $map_nether_and_end map_variation 0
+execute unless score $map_random map_variation matches -2147483648..2147483647 run scoreboard players set $map_random map_variation 0
+execute unless score $map_remixed map_variation matches -2147483648..2147483647 run scoreboard players set $map_remixed map_variation 0
 
 scoreboard objectives add team_ready dummy
 
@@ -93,16 +94,16 @@ team modify Yellow color yellow
 #define objective option
 #define score_holder $wither_skulls
 #define score_holder $weather
-#define score_holder $troll_mode
 #define score_holder $tnt
 #define score_holder $spawn_eggs
 #define score_holder $respawn
 #define score_holder $regeneration
-#define score_holder $redstone_mode
+#define score_holder $redstone
 #define score_holder $potions
 #define score_holder $keep_inventory
 #define score_holder $iron_gear
-#define score_holder $halloween_mode
+#define score_holder $infestation
+#define score_holder $halloween
 #define score_holder $enchanted_apples
 #define score_holder $ender_pearls
 #define score_holder $enchanting_table
@@ -113,8 +114,9 @@ team modify Yellow color yellow
 
 # Map Options
 
+#define objective map_variation
 #define score_holder $map_remixed
 #define score_holder $map_random
-#define score_holder $map_end_and_nether
+#define score_holder $map_nether_and_end
 #define score_holder $map_condensed
 #define score_holder $map_bridges

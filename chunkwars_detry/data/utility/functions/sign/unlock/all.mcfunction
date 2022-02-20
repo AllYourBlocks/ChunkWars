@@ -2,7 +2,7 @@ execute as @e[type=marker,tag=Option] at @s run function utility:sign/unlock/thi
 
 execute as @e[type=marker,tag=GamestateMapSize] at @s run function utility:sign/unlock/this
 
-execute as @e[type=marker,tag=GamestateMapVariation] at @s run function utility:sign/unlock/this
+execute as @e[type=marker,tag=MapVariation] at @s run function utility:sign/unlock/this
 
 execute as @e[type=marker,tag=GamestateTeams] at @s run function utility:sign/unlock/this
 

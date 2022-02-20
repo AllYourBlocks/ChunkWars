@@ -1,2 +1,0 @@
-execute unless score $map_remixed option matches 1 run function signs:lobby/map_option/remixed/update/0
-execute if score $map_remixed option matches 1 run function signs:lobby/map_option/remixed/update/1

@@ -6,6 +6,6 @@ function gamestate:load
 function join:load
 function timers:load
 
-tellraw @a [{"text":""},{"text":"| Chunks Wars [Detry Reformat] has been successfully initialized.","color":"green"}]
+tellraw @a [{"text":""},{"text":"| Chunks Wars [Detry Reformat] has been successfully initialized.","color":"#bdfc00"}]
 
 scoreboard players set $ready datapack_init 1

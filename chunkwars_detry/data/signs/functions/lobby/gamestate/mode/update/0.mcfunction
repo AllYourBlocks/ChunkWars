@@ -11,4 +11,4 @@ execute if block ~ ~ ~ #wall_signs[facing=south] run setblock ~ ~1 ~-1 minecraft
 execute if block ~ ~ ~ #wall_signs[facing=west] run setblock ~1 ~1 ~ minecraft:redstone_lamp
 
 
-data modify block ~ ~ ~ Text2 set value '{"text":"Captain","color":"green"}'
+data modify block ~ ~ ~ Text2 set value '{"text":"Captain","color":"#bdfc00"}'

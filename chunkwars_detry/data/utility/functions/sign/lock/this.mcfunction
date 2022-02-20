@@ -1,1 +1,1 @@
-data modify block ~ ~ ~ Text4 set value '{"text":"Locked","color":"red"}'
+data modify block ~ ~ ~ Text4 set value '{"text":"Locked","color":"#82becb"}'

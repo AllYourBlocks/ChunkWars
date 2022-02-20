@@ -1,1 +1,1 @@
-data modify block ~ ~ ~ Text2 set value '{"text":"OFF","color":"red"}'
+data modify block ~ ~ ~ Text2 set value '{"text":"OFF","color":"#82becb"}'
