@@ -1,1 +1,1 @@
-say Cannot join team Green, because there are only 2 teams.
+say Cannot join Team Green, because there are only 2 Teams

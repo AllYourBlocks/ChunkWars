@@ -1,4 +1,4 @@
-execute unless entity @e[tag=MassUpdater] run say Updated difficulty to Hard!
+execute unless entity @e[tag=MassUpdater] run say Hard difficulty selected
 
 function utility:sign/set_lamp/on
 

@@ -19,9 +19,13 @@ scoreboard players set $bonus_chest option 0
 scoreboard players set $anvil option 0
 
 scoreboard players set $map_size_2teams gamestate 0
-scoreboard players set $map_variation_2teams gamestate 0
 scoreboard players set $map_size_4teams gamestate 0
-scoreboard players set $map_variation_4teams gamestate 0
+
+scoreboard players set $map_bridges option 0
+scoreboard players set $map_condensed option 0
+scoreboard players set $map_end_and_nether option 0
+scoreboard players set $map_random option 0
+scoreboard players set $map_remixed option 0
 
 scoreboard players set $teams gamestate 2
 scoreboard players set $mode gamestate 0
@@ -51,9 +55,9 @@ execute as @e[type=marker,tag=OptionWitherSkulls,limit=1] at @s run function sig
 function signs:lobby/option/difficulty/update/driver
 
 function signs:lobby/gamestate/map_size/update/driver
-function signs:lobby/gamestate/map_variation/update/driver
+function signs:lobby/map_option/update/driver
 function signs:lobby/gamestate/teams/update/driver
 
 tag @s remove MassUpdater
 
-say Updated all settings to default!
+say All options have been reset to default

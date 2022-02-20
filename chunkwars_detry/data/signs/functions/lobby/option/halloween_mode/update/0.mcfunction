@@ -1,4 +1,4 @@
-execute unless entity @e[tag=MassUpdater] run say Halloween Mode updated to OFF!
+execute unless entity @e[tag=MassUpdater] run say Halloween updated to OFF
 
 function utility:sign/set_lamp/off
 

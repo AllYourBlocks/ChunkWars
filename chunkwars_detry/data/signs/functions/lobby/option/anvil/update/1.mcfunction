@@ -1,4 +1,4 @@
-execute unless entity @e[tag=MassUpdater] run say Anvil updated to ON!
+execute unless entity @e[tag=MassUpdater] run say Anvil updated to ON
 
 function utility:sign/set_lamp/on
 

@@ -12,9 +12,7 @@ execute unless score $mode gamestate matches -2147483648..2147483647 run scorebo
 # $mode 1 - Manual
 # $mode 2 - Random
 execute unless score $map_size_2teams gamestate matches -2147483648..2147483647 run scoreboard players set $map_size_2teams gamestate 0
-execute unless score $map_variation_2teams gamestate matches -2147483648..2147483647 run scoreboard players set $map_variation_2teams gamestate 0
 execute unless score $map_size_4teams gamestate matches -2147483648..2147483647 run scoreboard players set $map_size_4teams gamestate 0
-execute unless score $map_variation_4teams gamestate matches -2147483648..2147483647 run scoreboard players set $map_variation_4teams gamestate 0
 
 scoreboard objectives add pick_order dummy
 # 0 - first; 1 - second; 2 - third; 3 - fourth
@@ -46,6 +44,12 @@ execute unless score $difficulty option matches -2147483648..2147483647 run scor
 execute unless score $daylight_cycle option matches -2147483648..2147483647 run scoreboard players set $daylight_cycle option 1
 execute unless score $bonus_chest option matches -2147483648..2147483647 run scoreboard players set $bonus_chest option 0
 execute unless score $anvil option matches -2147483648..2147483647 run scoreboard players set $anvil option 0
+
+execute unless score $map_bridges option matches -2147483648..2147483647 run scoreboard players set $map_bridges option 0
+execute unless score $map_condensed option matches -2147483648..2147483647 run scoreboard players set $map_condensed option 0
+execute unless score $map_end_and_nether option matches -2147483648..2147483647 run scoreboard players set $map_end_and_nether option 0
+execute unless score $map_random option matches -2147483648..2147483647 run scoreboard players set $map_random option 0
+execute unless score $map_remixed option matches -2147483648..2147483647 run scoreboard players set $map_remixed option 0
 
 scoreboard objectives add team_ready dummy
 
@@ -83,10 +87,9 @@ team modify Yellow color yellow
 #define score_holder $teams
 #define score_holder $mode
 #define score_holder $map_size_2teams
-#define score_holder $map_variation_2teams
 #define score_holder $map_size_4teams
-#define score_holder $map_variation_4teams
 
+# Options
 #define objective option
 #define score_holder $wither_skulls
 #define score_holder $weather
@@ -107,3 +110,11 @@ team modify Yellow color yellow
 #define score_holder $daylight_cycle
 #define score_holder $bonus_chest
 #define score_holder $anvil
+
+# Map Options
+
+#define score_holder $map_remixed
+#define score_holder $map_random
+#define score_holder $map_end_and_nether
+#define score_holder $map_condensed
+#define score_holder $map_bridges

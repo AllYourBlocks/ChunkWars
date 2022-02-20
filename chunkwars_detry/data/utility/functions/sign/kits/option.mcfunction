@@ -20,7 +20,9 @@ give @s oak_sign{display:{Name:'{"text":"Option: Enchanting Table"}'},BlockEntit
 
 give @s oak_sign{display:{Name:'{"text":"Option: Ender Pearls"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Ender Pearls","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/ender_pearls/execute/driver"}}',Text2:'{"text":"OFF","color":"red"}',Text4:'{"text":"Right click","color":"gold"}'}}
 
-give @s oak_sign{display:{Name:'{"text":"Option: Halloween Mode"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Halloween Mode","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/halloween_mode/execute/driver"}}',Text2:'{"text":"OFF","color":"red"}',Text4:'{"text":"Right click","color":"gold"}'}}
+give @s oak_sign{display:{Name:'{"text":"Option: Halloween"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Halloween","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/halloween_mode/execute/driver"}}',Text2:'{"text":"OFF","color":"red"}',Text4:'{"text":"Right click","color":"gold"}'}}
+
+give @s oak_sign{display:{Name:'{"text":"Option: Infestation"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Infestation","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/troll_mode/execute/driver"}}',Text2:'{"text":"OFF","color":"red"}',Text4:'{"text":"Right click","color":"gold"}'}}
 
 give @s oak_sign{display:{Name:'{"text":"Option: Iron Gear"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Iron Gear","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/iron_gear/execute/driver"}}',Text2:'{"text":"OFF","color":"red"}',Text4:'{"text":"Right click","color":"gold"}'}}
 
@@ -28,7 +30,7 @@ give @s oak_sign{display:{Name:'{"text":"Option: Keep Inventory"}'},BlockEntityT
 
 give @s oak_sign{display:{Name:'{"text":"Option: Potions"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Potions","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/potions/execute/driver"}}',Text2:'{"text":"OFF","color":"red"}',Text4:'{"text":"Right click","color":"gold"}'}}
 
-give @s oak_sign{display:{Name:'{"text":"Option: Redstone Mode"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Redstone Mode","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/redstone_mode/execute/driver"}}',Text2:'{"text":"OFF","color":"red"}',Text4:'{"text":"Right click","color":"gold"}'}}
+give @s oak_sign{display:{Name:'{"text":"Option: Redstone"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Redstone","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/redstone_mode/execute/driver"}}',Text2:'{"text":"OFF","color":"red"}',Text4:'{"text":"Right click","color":"gold"}'}}
 
 give @s oak_sign{display:{Name:'{"text":"Option: Regeneration"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Regeneration","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/regeneration/execute/driver"}}',Text2:'{"text":"ON","color":"green"}',Text4:'{"text":"Right click","color":"gold"}'}}
 
@@ -37,8 +39,6 @@ give @s oak_sign{display:{Name:'{"text":"Option: Respawn"}'},BlockEntityTag:{Col
 give @s oak_sign{display:{Name:'{"text":"Option: Spawn Eggs"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Spawn Eggs","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/spawn_eggs/execute/driver"}}',Text2:'{"text":"OFF","color":"red"}',Text4:'{"text":"Right click","color":"gold"}'}}
 
 give @s oak_sign{display:{Name:'{"text":"Option: TNT"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"TNT","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/tnt/execute/driver"}}',Text2:'{"text":"OFF","color":"red"}',Text4:'{"text":"Right click","color":"gold"}'}}
-
-give @s oak_sign{display:{Name:'{"text":"Option: Troll Mode"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Troll Mode","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/troll_mode/execute/driver"}}',Text2:'{"text":"OFF","color":"red"}',Text4:'{"text":"Right click","color":"gold"}'}}
 
 give @s oak_sign{display:{Name:'{"text":"Option: Weather"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Weather","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/weather/execute/driver"}}',Text2:'{"text":"OFF","color":"red"}',Text4:'{"text":"Right click","color":"gold"}'}}
 

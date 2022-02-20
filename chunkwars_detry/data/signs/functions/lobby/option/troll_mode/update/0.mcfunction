@@ -1,4 +1,4 @@
-execute unless entity @e[tag=MassUpdater] run say Troll Mode updated to OFF!
+execute unless entity @e[tag=MassUpdater] run say Infestation updated to OFF
 
 function utility:sign/set_lamp/off
 

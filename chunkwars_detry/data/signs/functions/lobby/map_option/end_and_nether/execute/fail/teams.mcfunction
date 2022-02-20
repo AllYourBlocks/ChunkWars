@@ -1,0 +1,1 @@
+say Can only play this with 2 Teams

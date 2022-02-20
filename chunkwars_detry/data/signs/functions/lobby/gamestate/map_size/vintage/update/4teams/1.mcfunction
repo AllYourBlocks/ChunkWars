@@ -1,4 +1,4 @@
-execute unless entity @e[tag=MassUpdater] run say Updated to Vintage Arena [4 teams]
+execute unless entity @e[tag=MassUpdater] run say Vintage Arena selected [4 Teams]
 
 function utility:sign/set_lamp/on
 

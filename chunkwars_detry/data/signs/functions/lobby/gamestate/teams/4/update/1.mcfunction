@@ -1,4 +1,4 @@
-execute unless entity @e[tag=MassUpdater] run say Teams updated to 4! [Gamestate]
+execute unless entity @e[tag=MassUpdater] run say 4 Teams selected
 
 function utility:sign/set_lamp/on
 

@@ -1,4 +1,4 @@
-execute unless entity @e[tag=MassUpdater] run say Daylight Cycle updated to ON!
+execute unless entity @e[tag=MassUpdater] run say Daylight Cycle updated to ON
 
 function utility:sign/set_lamp/on
 

@@ -1,4 +1,4 @@
-execute unless entity @e[tag=MassUpdater] run say Enderpearl updated to ON!
+execute unless entity @e[tag=MassUpdater] run say Ender Pearls updated to ON
 
 function utility:sign/set_lamp/on
 

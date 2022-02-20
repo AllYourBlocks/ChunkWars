@@ -1,4 +1,4 @@
-execute unless entity @e[tag=MassUpdater] run say Redstone Mode updated to OFF!
+execute unless entity @e[tag=MassUpdater] run say Redstone updated to OFF
 
 function utility:sign/set_lamp/off
 

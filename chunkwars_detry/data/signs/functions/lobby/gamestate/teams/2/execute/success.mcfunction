@@ -5,7 +5,7 @@ function signs:lobby/gamestate/teams/update/driver
 tag @s add MassUpdater
 
 execute as @e[type=marker,tag=GamestateMapSize] at @s run function signs:lobby/gamestate/map_size/update/driver
-execute at @e[type=marker,tag=GamestateMapVariationRegular,limit=1] run function signs:lobby/gamestate/map_variation/update/driver
+execute at @e[type=marker,tag=GamestateMapVariation,limit=1] run function signs:lobby/map_option/update/driver
 
 tag @s remove MassUpdater
 

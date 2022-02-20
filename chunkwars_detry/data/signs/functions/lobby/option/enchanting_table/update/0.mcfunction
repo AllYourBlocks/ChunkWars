@@ -1,4 +1,4 @@
-execute unless entity @e[tag=MassUpdater] run say Enchanting table updated to OFF!
+execute unless entity @e[tag=MassUpdater] run say Enchanting Table updated to OFF
 
 function utility:sign/set_lamp/off
 

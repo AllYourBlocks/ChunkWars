@@ -1,2 +1,0 @@
-execute if score $map_variation_4teams gamestate matches 3 run function signs:lobby/gamestate/map_variation/remixed/update/4teams/1
-execute unless score $map_variation_4teams gamestate matches 3 run function signs:lobby/gamestate/map_variation/remixed/update/4teams/0
