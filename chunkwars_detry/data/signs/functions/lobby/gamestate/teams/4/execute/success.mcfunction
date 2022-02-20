@@ -7,8 +7,8 @@ execute if score $map_variation_4teams gamestate matches 1 run scoreboard player
 
 tag @s add MassUpdater
 
-execute at @e[type=marker,tag=GamestateMapGame,limit=1] run function signs:lobby/gamestate/map_size/update/driver
-execute at @e[type=marker,tag=GamestateMapSelectionRegular,limit=1] run function signs:lobby/gamestate/map_variation/update/driver
+execute as @e[type=marker,tag=GamestateMapSize,limit=1] at @s run function signs:lobby/gamestate/map_size/update/driver
+execute at @e[type=marker,tag=GamestateMapVariationRegular,limit=1] run function signs:lobby/gamestate/map_variation/update/driver
 
 tag @s remove MassUpdater
 

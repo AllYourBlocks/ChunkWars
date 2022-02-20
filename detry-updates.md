@@ -35,10 +35,10 @@ We will need both during the merging period.
 * 7 options have been added (anvil, bonus_chest, halloween_mode, redstone_mode, regeneration, respawn, troll_mode)
 * map_game has been renamed to map_size
 * map_selection has been renamed to map_variation
+* reset all options to default
 
 ## To do
 
-* Finish implementing the "reset to default" sign, a skeleton copypaste template is under /signs/lobby/option/defaults
 * Messages "Joined Team" need to be moved further down the line to reflect the choice in the message
 * * Possibly in the method that actually assigns the teams
 * * Call a driver method (as the player) to handle further tasks like teleportation

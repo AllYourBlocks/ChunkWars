@@ -7,5 +7,5 @@ execute if score $stage gamestate matches 0 if score $teams gamestate matches 2 
 
 execute if score $stage gamestate matches 0 if score $teams gamestate matches 2 if score $map_size_2teams gamestate matches 0 unless score $map_variation_2teams gamestate matches 1 run function signs:lobby/gamestate/map_variation/end_and_nether/execute/success
 
-execute if entity @s[tag=MarkerRepositioner] run kill @e[type=marker,tag=GamestateMapSelectionEndAndNether]
-execute if entity @s[tag=MarkerRepositioner] run summon minecraft:marker ~ ~ ~ {Tags:["GamestateMapSelectionEndAndNether"]}
+execute if entity @s[tag=MarkerRepositioner] run kill @e[type=marker,tag=GamestateMapVariationEndAndNether]
+execute if entity @s[tag=MarkerRepositioner] run summon minecraft:marker ~ ~ ~ {Tags:["GamestateMapVariation","GamestateMapVariationEndAndNether"]}

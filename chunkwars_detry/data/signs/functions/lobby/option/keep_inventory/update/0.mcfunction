@@ -1,8 +1,5 @@
-say Keep inventory updated to false!
+execute unless entity @e[tag=MassUpdater] run say Keep inventory updated to OFF!
 
-execute if block ~ ~ ~ #wall_signs[facing=north] run setblock ~ ~1 ~2 minecraft:air
-execute if block ~ ~ ~ #wall_signs[facing=east] run setblock ~-2 ~1 ~ minecraft:air
-execute if block ~ ~ ~ #wall_signs[facing=south] run setblock ~ ~1 ~-2 minecraft:air
-execute if block ~ ~ ~ #wall_signs[facing=west] run setblock ~2 ~1 ~ minecraft:air
+function utility:sign/set_lamp/off
 
-data modify block ~ ~ ~ Text2 set value '{"text":"OFF","color":"red"}'
+function utility:sign/set_value/off

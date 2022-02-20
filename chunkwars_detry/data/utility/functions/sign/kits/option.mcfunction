@@ -1,3 +1,5 @@
+give @s oak_sign{display:{Name:'{"text":"Option: !Defaults!"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Reset all options","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/defaults/execute/driver"}}',Text2:'{"text":"to default","color":"white"}',Text4:'{"text":"Right click","color":"gold"}'}}
+
 give @s oak_sign{display:{Name:'{"text":"Option: Anvil"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Anvil","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/anvil/execute/driver"}}',Text2:'{"text":"OFF","color":"red"}',Text4:'{"text":"Right click","color":"gold"}'}}
 
 give @s oak_sign{display:{Name:'{"text":"Option: Bonus Chest"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Bonus Chest","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/bonus_chest/execute/driver"}}',Text2:'{"text":"OFF","color":"red"}',Text4:'{"text":"Right click","color":"gold"}'}}
