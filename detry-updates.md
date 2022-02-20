@@ -32,7 +32,7 @@ We will need both during the merging period.
 * * Ingame messages do contain special names so can have Title Case
 * 2 Teams / 4 Teams has been split into 2 radio-like signs
 * gamestate/map_game has been split into 2 radio-like signs, values are "modern" (6x6) and "vintage" (5x5)
-* 7 options have been added (anvil, bonus_chest, halloween, infestation, redstone, regeneration, respawn)
+* 8 options have been added (anvil, bonus_chest, halloween, infestation, jukebox, redstone, regeneration, respawn)
 * map_game has been renamed to map_size
 * map_selection has been renamed to map_variation
 * reset all options to default

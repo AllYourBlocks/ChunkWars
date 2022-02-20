@@ -35,6 +35,7 @@ execute unless score $redstone option matches -2147483648..2147483647 run scoreb
 execute unless score $potions option matches -2147483648..2147483647 run scoreboard players set $potions option 0
 execute unless score $keep_inventory option matches -2147483648..2147483647 run scoreboard players set $keep_inventory option 1
 execute unless score $iron_gear option matches -2147483648..2147483647 run scoreboard players set $iron_gear option 0
+execute unless score $jukebox option matches -2147483648..2147483647 run scoreboard players set $jukebox option 0
 execute unless score $infestation option matches -2147483648..2147483647 run scoreboard players set $infestation option 0
 execute unless score $halloween option matches -2147483648..2147483647 run scoreboard players set $halloween option 0
 execute unless score $enchanted_apples option matches -2147483648..2147483647 run scoreboard players set $enchanted_apples option 0
@@ -102,6 +103,7 @@ team modify Yellow color yellow
 #define score_holder $potions
 #define score_holder $keep_inventory
 #define score_holder $iron_gear
+#define score_holder $jukebox
 #define score_holder $infestation
 #define score_holder $halloween
 #define score_holder $enchanted_apples
