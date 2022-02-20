@@ -11,10 +11,10 @@ execute unless score $mode gamestate matches -2147483648..2147483647 run scorebo
 # $mode 0 - Captain
 # $mode 1 - Manual
 # $mode 2 - Random
-execute unless score $map_game_2teams gamestate matches -2147483648..2147483647 run scoreboard players set $map_game_2teams gamestate 0
-execute unless score $map_selection_2teams gamestate matches -2147483648..2147483647 run scoreboard players set $map_selection_2teams gamestate 0
-execute unless score $map_game_4teams gamestate matches -2147483648..2147483647 run scoreboard players set $map_game_4teams gamestate 0
-execute unless score $map_selection_4teams gamestate matches -2147483648..2147483647 run scoreboard players set $map_selection_4teams gamestate 0
+execute unless score $map_size_2teams gamestate matches -2147483648..2147483647 run scoreboard players set $map_size_2teams gamestate 0
+execute unless score $map_variation_2teams gamestate matches -2147483648..2147483647 run scoreboard players set $map_variation_2teams gamestate 0
+execute unless score $map_size_4teams gamestate matches -2147483648..2147483647 run scoreboard players set $map_size_4teams gamestate 0
+execute unless score $map_variation_4teams gamestate matches -2147483648..2147483647 run scoreboard players set $map_variation_4teams gamestate 0
 
 scoreboard objectives add pick_order dummy
 # 0 - first; 1 - second; 2 - third; 3 - fourth
@@ -82,10 +82,10 @@ team modify Yellow color yellow
 #define score_holder $stage
 #define score_holder $teams
 #define score_holder $mode
-#define score_holder $map_game_2teams
-#define score_holder $map_selection_2teams
-#define score_holder $map_game_4teams
-#define score_holder $map_selection_4teams
+#define score_holder $map_size_2teams
+#define score_holder $map_variation_2teams
+#define score_holder $map_size_4teams
+#define score_holder $map_variation_4teams
 
 #define objective option
 #define score_holder $wither_skulls

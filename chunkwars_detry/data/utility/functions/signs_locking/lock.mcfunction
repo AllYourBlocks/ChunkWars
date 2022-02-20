@@ -22,7 +22,12 @@ execute at @e[type=marker,tag=OptionWeather,limit=1] run data modify block ~ ~ ~
 execute at @e[type=marker,tag=OptionWitherSkulls,limit=1] run data modify block ~ ~ ~ Text4 set value '{"text":"Locked","color":"red"}'
 
 execute at @e[type=marker,tag=GamestateMapGame,limit=1] run data modify block ~ ~ ~ Text4 set value '{"text":"Locked","color":"red"}'
-execute at @e[type=marker,tag=GamestateMapSelection,limit=1] run data modify block ~ ~ ~ Text4 set value '{"text":"Locked","color":"red"}'
+execute at @e[type=marker,tag=GamestateMapSelectionRegular,limit=1] run data modify block ~ ~ ~ Text4 set value '{"text":"Locked","color":"red"}'
+execute at @e[type=marker,tag=GamestateMapSelectionNetherAndEnd,limit=1] run data modify block ~ ~ ~ Text4 set value '{"text":"Locked","color":"red"}'
+execute at @e[type=marker,tag=GamestateMapSelectionBridges,limit=1] run data modify block ~ ~ ~ Text4 set value '{"text":"Locked","color":"red"}'
+execute at @e[type=marker,tag=GamestateMapSelectionRemixed,limit=1] run data modify block ~ ~ ~ Text4 set value '{"text":"Locked","color":"red"}'
+execute at @e[type=marker,tag=GamestateMapSelectionRandom,limit=1] run data modify block ~ ~ ~ Text4 set value '{"text":"Locked","color":"red"}'
+execute at @e[type=marker,tag=GamestateMapSelectionCondensed,limit=1] run data modify block ~ ~ ~ Text4 set value '{"text":"Locked","color":"red"}'
 
 execute at @e[type=marker,tag=GamestateTeams2,limit=1] run data modify block ~ ~ ~ Text4 set value '{"text":"Locked","color":"red"}'
 execute at @e[type=marker,tag=GamestateTeams4,limit=1] run data modify block ~ ~ ~ Text4 set value '{"text":"Locked","color":"red"}'

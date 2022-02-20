@@ -1,0 +1,1 @@
+say Can only play this in the 6x6 arena!

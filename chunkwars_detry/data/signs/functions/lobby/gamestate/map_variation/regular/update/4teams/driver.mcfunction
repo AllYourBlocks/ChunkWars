@@ -1,0 +1,2 @@
+execute if score $map_variation_4teams gamestate matches 0 run function signs:lobby/gamestate/map_variation/regular/update/4teams/1
+execute unless score $map_variation_4teams gamestate matches 0 run function signs:lobby/gamestate/map_variation/regular/update/4teams/0
