@@ -5,12 +5,11 @@ execute unless score $stage gamestate matches -2147483648..2147483647 run scoreb
 # $stage 1 - sumo
 # $stage 2 - selection
 # $stage 3 - houses
-# $stage 4 - game
+# $stage 4 - pregame (countdown, all locked in!)
+# $stage 5 - game
+# $stage 6 - postgame (banter and reset)
 execute unless score $teams gamestate matches -2147483648..2147483647 run scoreboard players set $teams gamestate 2
-execute unless score $mode gamestate matches -2147483648..2147483647 run scoreboard players set $mode gamestate 0
-# $mode 0 - Captain
-# $mode 1 - Manual
-# $mode 2 - Random
+
 execute unless score $map_size_2teams gamestate matches -2147483648..2147483647 run scoreboard players set $map_size_2teams gamestate 0
 execute unless score $map_size_4teams gamestate matches -2147483648..2147483647 run scoreboard players set $map_size_4teams gamestate 0
 
@@ -27,6 +26,7 @@ scoreboard objectives add pick_order dummy
 scoreboard objectives add option dummy
 execute unless score $wither_skulls option matches -2147483648..2147483647 run scoreboard players set $wither_skulls option 0
 execute unless score $weather option matches -2147483648..2147483647 run scoreboard players set $weather option 0
+execute unless score $troll option matches -2147483648..2147483647 run scoreboard players set $troll option 0
 execute unless score $tnt option matches -2147483648..2147483647 run scoreboard players set $tnt option 0
 execute unless score $spawn_eggs option matches -2147483648..2147483647 run scoreboard players set $spawn_eggs option 0
 execute unless score $respawn option matches -2147483648..2147483647 run scoreboard players set $respawn option 1
@@ -36,7 +36,7 @@ execute unless score $potions option matches -2147483648..2147483647 run scorebo
 execute unless score $keep_inventory option matches -2147483648..2147483647 run scoreboard players set $keep_inventory option 1
 execute unless score $iron_gear option matches -2147483648..2147483647 run scoreboard players set $iron_gear option 0
 execute unless score $jukebox option matches -2147483648..2147483647 run scoreboard players set $jukebox option 0
-execute unless score $infestation option matches -2147483648..2147483647 run scoreboard players set $infestation option 0
+execute unless score $infested option matches -2147483648..2147483647 run scoreboard players set $infested option 0
 execute unless score $halloween option matches -2147483648..2147483647 run scoreboard players set $halloween option 0
 execute unless score $enchanted_apples option matches -2147483648..2147483647 run scoreboard players set $enchanted_apples option 0
 execute unless score $ender_pearls option matches -2147483648..2147483647 run scoreboard players set $ender_pearls option 0
@@ -54,12 +54,23 @@ execute unless score $map_random map_variation matches -2147483648..2147483647 r
 execute unless score $map_remixed map_variation matches -2147483648..2147483647 run scoreboard players set $map_remixed map_variation 0
 
 scoreboard objectives add team_ready dummy
+execute unless score $blue_ready team_ready matches -2147483648..2147483647 run scoreboard players set $blue_ready team_ready 0
+execute unless score $green_ready team_ready matches -2147483648..2147483647 run scoreboard players set $green_ready team_ready 0
+execute unless score $red_ready team_ready matches -2147483648..2147483647 run scoreboard players set $red_ready team_ready 0
+execute unless score $yellow_ready team_ready matches -2147483648..2147483647 run scoreboard players set $yellow_ready team_ready 0
+
+scoreboard objectives add timer dummy
+execute unless score $countdown timer matches -2147483648..2147483647 run scoreboard players set $countdown timer 0
+execute unless score $count_state timer matches -2147483648..2147483647 run scoreboard players set $count_state timer 0
+
+
+
 
 # Player
 scoreboard objectives add team dummy
-# 0 - Lobby
-# 1 - Spectator
-# 2 - Playing
+# 0 - Lobby     - anyone roaming the lobby, potentially 
+# 1 - Spectator - anyone spectating the lobby, team selection or the game
+# 2 - Playing   - a player joined the automatic team selection, has not been selected yet
 # 3 - Red
 # 4 - Green
 # 5 - Blue
@@ -87,7 +98,6 @@ team modify Yellow color yellow
 #define objective gamestate
 #define score_holder $stage
 #define score_holder $teams
-#define score_holder $mode
 #define score_holder $map_size_2teams
 #define score_holder $map_size_4teams
 
@@ -95,6 +105,7 @@ team modify Yellow color yellow
 #define objective option
 #define score_holder $wither_skulls
 #define score_holder $weather
+#define score_holder $troll
 #define score_holder $tnt
 #define score_holder $spawn_eggs
 #define score_holder $respawn
@@ -104,7 +115,7 @@ team modify Yellow color yellow
 #define score_holder $keep_inventory
 #define score_holder $iron_gear
 #define score_holder $jukebox
-#define score_holder $infestation
+#define score_holder $infested
 #define score_holder $halloween
 #define score_holder $enchanted_apples
 #define score_holder $ender_pearls
@@ -122,3 +133,22 @@ team modify Yellow color yellow
 #define score_holder $map_nether_and_end
 #define score_holder $map_condensed
 #define score_holder $map_bridges
+
+# Teams Ready
+
+#define objective team_ready
+#define score_holder $blue_ready
+#define score_holder $green_ready
+#define score_holder $red_ready
+#define score_holder $yellow_ready
+
+#define objective timer
+#define score_holder $count_stage
+#define score_holder $countdown
+
+
+#define objective pick_order
+#define score_holder $blue
+#define score_holder $yellow
+#define score_holder $red
+#define score_holder $green

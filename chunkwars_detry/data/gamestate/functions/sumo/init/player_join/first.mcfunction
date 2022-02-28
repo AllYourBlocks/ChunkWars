@@ -1,0 +1,12 @@
+execute as @r[team=Playing,tag=!Captain,tag=!Teleported] run function gamestate:sumo/init/player_join/1
+execute as @r[team=Playing,tag=!Captain,tag=!Teleported] run function gamestate:sumo/init/player_join/2
+execute as @r[team=Playing,tag=!Captain,tag=!Teleported] run function gamestate:sumo/init/player_join/3
+execute as @r[team=Playing,tag=!Captain,tag=!Teleported] run function gamestate:sumo/init/player_join/4
+execute as @r[team=Playing,tag=!Captain,tag=!Teleported] run function gamestate:sumo/init/player_join/5
+execute as @r[team=Playing,tag=!Captain,tag=!Teleported] run function gamestate:sumo/init/player_join/6
+execute as @r[team=Playing,tag=!Captain,tag=!Teleported] run function gamestate:sumo/init/player_join/7
+execute as @r[team=Playing,tag=!Captain,tag=!Teleported] run function gamestate:sumo/init/player_join/8
+execute as @r[team=Playing,tag=!Captain,tag=!Teleported] run function gamestate:sumo/init/player_join/9
+execute as @r[team=Playing,tag=!Captain,tag=!Teleported] run function gamestate:sumo/init/player_join/10
+execute as @r[team=Playing,tag=!Captain,tag=!Teleported] run function gamestate:sumo/init/player_join/11
+execute as @r[team=Playing,tag=!Captain,tag=!Teleported] run function gamestate:sumo/init/player_join/12

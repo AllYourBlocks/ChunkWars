@@ -1,6 +1,7 @@
 # Server
 scoreboard objectives remove gamestate
 scoreboard objectives remove pick_order
+scoreboard objectives remove timer
 scoreboard objectives remove option
 scoreboard objectives remove map_variation
 scoreboard objectives remove team_ready

@@ -1,0 +1,1 @@
+scoreboard players set $count_state timer 1

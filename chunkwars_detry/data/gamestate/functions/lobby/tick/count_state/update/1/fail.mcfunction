@@ -1,0 +1,1 @@
+tellraw @a ["", {"text":"Not enough players to start team select!","bold":true,"color":"gold"}]

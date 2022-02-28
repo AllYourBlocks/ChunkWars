@@ -22,7 +22,7 @@ give @s oak_sign{display:{Name:'{"text":"Option: Ender Pearls"}'},BlockEntityTag
 
 give @s oak_sign{display:{Name:'{"text":"Option: Halloween"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Halloween","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/halloween/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
-give @s oak_sign{display:{Name:'{"text":"Option: Infestation"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Infestation","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/infestation/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
+give @s oak_sign{display:{Name:'{"text":"Option: Infested"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Infested","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/infested/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
 give @s oak_sign{display:{Name:'{"text":"Option: Jukebox"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Jukebox","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/jukebox/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
@@ -41,6 +41,8 @@ give @s oak_sign{display:{Name:'{"text":"Option: Respawn"}'},BlockEntityTag:{Col
 give @s oak_sign{display:{Name:'{"text":"Option: Spawn Eggs"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Spawn Eggs","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/spawn_eggs/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
 give @s oak_sign{display:{Name:'{"text":"Option: TNT"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"TNT","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/tnt/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
+
+give @s oak_sign{display:{Name:'{"text":"Option: Troll"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Troll","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/troll/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
 give @s oak_sign{display:{Name:'{"text":"Option: Weather"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Weather","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/weather/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 

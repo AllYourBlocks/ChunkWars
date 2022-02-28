@@ -1,0 +1,1 @@
+say Cannot start a team selection right now

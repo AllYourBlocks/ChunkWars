@@ -1,0 +1,5 @@
+
+execute if entity @a[tag=YellowCaptain,tag=Captain] unless entity @a[tag=BlueCaptain,tag=Captain] unless entity @a[tag=RedCaptain,tag=Captain] unless entity @a[tag=GreenCaptain,tag=Captain] run function gamestate:selection/init/driver
+execute if entity @a[tag=BlueCaptain,tag=Captain] unless entity @a[tag=YellowCaptain,tag=Captain] unless entity @a[tag=RedCaptain,tag=Captain] unless entity @a[tag=GreenCaptain,tag=Captain] run function gamestate:selection/init/driver
+execute if entity @a[tag=RedCaptain,tag=Captain] unless entity @a[tag=YellowCaptain,tag=Captain] unless entity @a[tag=BlueCaptain,tag=Captain] unless entity @a[tag=GreenCaptain,tag=Captain] run function gamestate:selection/init/driver
+execute if entity @a[tag=GreenCaptain,tag=Captain] unless entity @a[tag=YellowCaptain,tag=Captain] unless entity @a[tag=BlueCaptain,tag=Captain] unless entity @a[tag=RedCaptain,tag=Captain] run function gamestate:selection/init/driver

@@ -1,0 +1,1 @@
+tp @s @e[name=game.spawn.red.var,limit=1]

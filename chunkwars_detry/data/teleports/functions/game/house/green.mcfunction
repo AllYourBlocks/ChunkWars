@@ -1,0 +1,1 @@
+tp @s @e[name=game.spawn.green.var,limit=1]

@@ -1,6 +1,8 @@
 give @s oak_sign{display:{Name:'{"text":"Team: Lobby"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Go back to","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/team_panel/lobby/execute/driver"}}',Text2:'{"text":"the Lobby","color":"white"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
-give @s oak_sign{display:{Name:'{"text":"Team: Red"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Join the","color":"#82becb","clickEvent":{"action":"run_command","value":"/function signs:lobby/team_panel/red/execute/driver"}}',Text2:'{"text":"Red Team","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
+give @s oak_sign{display:{Name:'{"text":"Team: Start"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Start / Stop","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/team_panel/start/execute/driver"}}',Text2:'{"text":"Team Selection","color":"white"}',Text4:'{"text":"Right click","color":"yellow"}'}}
+
+give @s oak_sign{display:{Name:'{"text":"Team: Red"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Join the","color":"red","clickEvent":{"action":"run_command","value":"/function signs:lobby/team_panel/red/execute/driver"}}',Text2:'{"text":"Red Team","color":"red"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
 give @s oak_sign{display:{Name:'{"text":"Team: Green"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Join the","color":"#bdfc00","clickEvent":{"action":"run_command","value":"/function signs:lobby/team_panel/green/execute/driver"}}',Text2:'{"text":"Green Team","color":"#bdfc00"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 

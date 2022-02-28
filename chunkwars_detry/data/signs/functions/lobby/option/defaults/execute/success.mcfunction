@@ -1,7 +1,7 @@
 scoreboard players set $wither_skulls option 0
 scoreboard players set $weather option 0
 scoreboard players set $jukebox option 0
-scoreboard players set $infestation option 0
+scoreboard players set $infested option 0
 scoreboard players set $tnt option 0
 scoreboard players set $spawn_eggs option 0
 scoreboard players set $respawn option 1
@@ -29,7 +29,6 @@ scoreboard players set $map_random map_variation 0
 scoreboard players set $map_remixed map_variation 0
 
 scoreboard players set $teams gamestate 2
-scoreboard players set $mode gamestate 0
 
 
 tag @s add MassUpdater
@@ -50,7 +49,7 @@ execute as @e[type=marker,tag=OptionRegeneration,limit=1] at @s run function sig
 execute as @e[type=marker,tag=OptionRespawn,limit=1] at @s run function signs:lobby/option/respawn/update/driver
 execute as @e[type=marker,tag=OptionSpawnEggs,limit=1] at @s run function signs:lobby/option/spawn_eggs/update/driver
 execute as @e[type=marker,tag=OptionTNT,limit=1] at @s run function signs:lobby/option/tnt/update/driver
-execute as @e[type=marker,tag=OptionInfestation,limit=1] at @s run function signs:lobby/option/infestation/update/driver
+execute as @e[type=marker,tag=OptionInfested,limit=1] at @s run function signs:lobby/option/infested/update/driver
 execute as @e[type=marker,tag=OptionWeather,limit=1] at @s run function signs:lobby/option/weather/update/driver
 execute as @e[type=marker,tag=OptionWitherSkulls,limit=1] at @s run function signs:lobby/option/wither_skulls/update/driver
 
