@@ -1,7 +1,7 @@
 #TODO: maybe check if there is enough players and break out if not
 # team_select_check
 
-execute as @a[team=!spectators] run function utility:team/join/playing
+execute as @a[team=!Spectator] run function utility:team/join/playing
 #TODO this might belong in houses:init
 #setblock 20 20 57 minecraft:lever[powered=false,face=wall,facing=south]
 #setblock -21 20 57 minecraft:lever[powered=false,face=wall,facing=south]

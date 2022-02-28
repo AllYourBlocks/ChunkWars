@@ -1,3 +1,2 @@
-say This is supposed to put you on Spectator team.
-
+# put a plyer on the spectator team
 scoreboard players set @s team 1
