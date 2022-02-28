@@ -1,1 +1,1 @@
-say Incorrect stage.
+tell @s You can not join the Yellow Team right now

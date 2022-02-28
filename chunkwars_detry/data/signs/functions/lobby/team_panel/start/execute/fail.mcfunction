@@ -1,1 +1,1 @@
-say Cannot start a team selection right now
+tell @s You can not start a team selection right now

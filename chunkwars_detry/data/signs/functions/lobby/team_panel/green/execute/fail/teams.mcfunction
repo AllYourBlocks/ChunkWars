@@ -1,1 +1,1 @@
-say Cannot join Team Green, because there are only 2 Teams
+tell @s You can not join the Green Team, because there are only 2 Teams

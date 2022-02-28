@@ -1,1 +1,1 @@
-say This option cannot be used together with "condensed"
+tell @s This option cannot be used together with "Condensed"

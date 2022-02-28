@@ -1,1 +1,1 @@
-say Incorrect stage.
+tell @s You can not change options right now

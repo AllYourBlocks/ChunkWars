@@ -1,1 +1,1 @@
-say Can only play this with 2 Teams
+tell @s You can only play this with 2 Teams

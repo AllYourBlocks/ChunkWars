@@ -1,1 +1,1 @@
-say Incorrect stage.
+tell @s You can not change the map size right now

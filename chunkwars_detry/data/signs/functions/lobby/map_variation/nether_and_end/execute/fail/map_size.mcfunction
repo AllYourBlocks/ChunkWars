@@ -1,1 +1,1 @@
-say Can only play this in the 6x6 arena
+tell @s Can only play this in the 6x6 arena

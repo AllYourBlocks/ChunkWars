@@ -1,1 +1,1 @@
-say This option cannot be used together with "bridges"
+tell @s This option can not be used together with "Bridges"
