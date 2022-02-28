@@ -1,1 +1,1 @@
-tell @s You can not start a team selection right now
+tellraw @s {"text":"You can not start a Team Selection right now","color":"#82becb"}

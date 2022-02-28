@@ -1,1 +1,1 @@
-tell @s You can not go back to the lobby right now
+tellraw @s {"text":"You can not go back to the lobby right now","color":"#82becb"}

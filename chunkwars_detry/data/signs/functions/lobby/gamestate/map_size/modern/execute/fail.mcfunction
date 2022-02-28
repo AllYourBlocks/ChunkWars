@@ -1,1 +1,1 @@
-tell @s You can not change the map size right now
+tellraw @s {"text":"You can not change the map size right now","color":"#82becb"}

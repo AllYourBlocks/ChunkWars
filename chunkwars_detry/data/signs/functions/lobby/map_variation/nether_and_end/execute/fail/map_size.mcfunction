@@ -1,1 +1,1 @@
-tell @s Can only play this in the 6x6 arena
+tellraw @s {"text":"You can only play this in the 6x6 arena","color":"#82becb"}

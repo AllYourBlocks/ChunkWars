@@ -1,1 +1,1 @@
-tell @s You can not change the amount of teams right now
+tellraw @s {"text":"You can not change the amount of teams right now","color":"#82becb"}

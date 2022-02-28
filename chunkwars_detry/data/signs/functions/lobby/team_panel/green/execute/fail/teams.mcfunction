@@ -1,1 +1,1 @@
-tell @s You can not join the Green Team, because there are only 2 Teams
+tellraw @s {"text":"You can not join the Green Team, because there are only 2 Teams","color":"#82becb"}
