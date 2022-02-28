@@ -13,5 +13,3 @@ execute at @e[type=marker,tag=MapVariation,limit=1] run function signs:lobby/map
 tag @s remove MassUpdater
 
 function signs:lobby/team_panel/update/driver
-
-scoreboard players set @s team 0

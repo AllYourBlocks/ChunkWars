@@ -19,8 +19,6 @@ tag @a[team=Red] add Ingame
 
 clear @a
 
-#scoreboard players set @e[name=game.state.var] vars 1
-
 effect clear @a
 effect give @a[team=Yellow] minecraft:saturation 20 0 true
 effect give @a[team=Blue] minecraft:saturation 20 0 true

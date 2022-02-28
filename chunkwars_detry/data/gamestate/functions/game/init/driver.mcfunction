@@ -16,8 +16,6 @@ execute if score $daylight_cycle option matches 1 run gamerule doDaylightCycle t
 
 function gamestate:game/init/give_items/driver
 
-#scoreboard players set @e[name=pregame.timer.var] vars 0
-
 function utility:sign/lock/all
 
 forceload remove -88 936 87 1111
