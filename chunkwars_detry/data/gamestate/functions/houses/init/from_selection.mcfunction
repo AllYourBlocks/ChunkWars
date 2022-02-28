@@ -2,8 +2,8 @@ tellraw @a {"text":"All done.","bold":true,"color":"gold"}
 
 function utility:lever/unready/blue/driver
 function utility:lever/unready/yellow/driver
-function utility:lever/unready/green/driver
-function utility:lever/unready/red/driver
+execute if score $teams gamestate matches 4 run function utility:lever/unready/green/driver
+execute if score $teams gamestate matches 4 run function utility:lever/unready/red/driver
 
 scoreboard players set $stage gamestate 3
 
