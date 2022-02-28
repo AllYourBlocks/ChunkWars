@@ -1,1 +1,2 @@
-execute if score $count_state timer matches 2 if score $countdown timer matches ..0 run function gamestate:game/init/driver
+execute unless entity @e[team=Blue] unless entity @e[team=Yellow] unless entity @e[team=Green] unless entity @e[team=Red] run scoreboard players set $stage gamestate 0
+execute if score $count_state timer matches 2 if score $countdown timer matches ..0 run function gamestate:pregame/init/driver
