@@ -1,6 +1,7 @@
 scoreboard players set $count_state timer 1
 scoreboard players set $countdown timer 31
 
+schedule function timers:countdown/game/start 1t append
 schedule function timers:countdown/game/start 1s append
 schedule function timers:countdown/game/start 2s append
 schedule function timers:countdown/game/start 3s append
