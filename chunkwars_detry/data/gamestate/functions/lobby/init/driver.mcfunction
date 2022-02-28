@@ -7,4 +7,4 @@ scoreboard players set $stage gamestate 0
 
 difficulty peaceful
 
-function utility:sign/lock/all
+function utility:sign/unlock/all
