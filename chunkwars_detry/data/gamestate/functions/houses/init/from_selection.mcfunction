@@ -16,3 +16,5 @@ execute as @a[tag=GreenCaptain] run function teleports:lobby/house/green/driver
 execute as @a[tag=RedCaptain] run function teleports:lobby/house/red/driver
 
 function gamestate:houses/init/cleanup_selection
+
+function signs:lobby/team_panel/update/driver

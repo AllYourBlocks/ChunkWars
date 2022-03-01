@@ -22,3 +22,5 @@ execute as @a[tag=GreenCaptain] run function teleports:selection/green/driver
 clear @a
 
 function gamestate:selection/update/turn/start
+
+function signs:lobby/team_panel/update/driver
