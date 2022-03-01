@@ -12,6 +12,12 @@ execute if score $blue pick_order matches ..0 run tag @a[tag=BlueCaptain] add Tu
 execute if score $teams gamestate matches 4 if score $red pick_order matches ..0 run tag @a[tag=RedCaptain] add Turn
 execute if score $teams gamestate matches 4 if score $green pick_order matches ..0 run tag @a[tag=GreenCaptain] add Turn
 
+scoreboard players set $stage gamestate 2
+
+execute as @a[tag=YellowCaptain] run function teleports:selection/yellow/driver
+execute as @a[tag=BlueCaptain] run function teleports:selection/blue/driver
+execute as @a[tag=RedCaptain] run function teleports:selection/red/driver
+execute as @a[tag=GreenCaptain] run function teleports:selection/green/driver
 
 clear @a
 

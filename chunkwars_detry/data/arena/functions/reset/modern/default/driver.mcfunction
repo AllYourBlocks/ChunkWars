@@ -8,7 +8,7 @@ function arena:reset/modern/default/clean
 
 # Clean again after a tick, to ensure that any drops are also cleared
 
-schedule function arena:reset/modern/default/driver 2t
+schedule function arena:reset/modern/default/clean 2t
 
 #>----------------------
 #>Build
@@ -17,7 +17,6 @@ schedule function arena:reset/modern/default/driver 2t
 function utility:waterstop/enable
 
 schedule function arena:reset/modern/default/build_overworld 4t
-schedule function arena:reset/modern/default/build_nether 8t
 
 schedule function utility:waterstop/disable 2s
 

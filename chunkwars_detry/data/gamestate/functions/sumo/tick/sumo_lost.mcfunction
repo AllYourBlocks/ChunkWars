@@ -1,1 +1,1 @@
-execute as @a[x=-12,y=99,z=-1036,dx=23,dy=5,dz=23,tag=Captain] run function gamestate:sumo/update/lost/driver
+execute as @a[x=0,y=19,z=0,distance=..3,tag=Captain] run function gamestate:sumo/update/lost/driver

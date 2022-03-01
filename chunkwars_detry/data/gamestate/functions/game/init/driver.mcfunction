@@ -14,6 +14,8 @@ advancement revoke @a everything
 execute if score $daylight_cycle option matches 0 run gamerule doDaylightCycle false
 execute if score $daylight_cycle option matches 1 run gamerule doDaylightCycle true
 
+#TODO: enable mob AI?
+
 function gamestate:game/init/give_items/driver
 
 function utility:sign/lock/all

@@ -1,4 +1,5 @@
 tag @s add RedCaptain
+tag @s add Captain
 
 scoreboard players set @s team 3
 function utility:team/join/red

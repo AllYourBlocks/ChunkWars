@@ -1,4 +1,5 @@
 tag @s add BlueCaptain
+tag @s add Captain
 
 scoreboard players set @s team 5
 function utility:team/join/blue

@@ -3,6 +3,9 @@ execute as @a run spawnpoint @s 0 19 0 0
 execute as @a run scoreboard players set @s team 0
 execute as @a run gamemode adventure @s
 
+clear @a
+effect clear @a
+
 tag @a[tag=Turn] remove Turn
 tag @a[tag=BlueCaptain] remove BlueCaptain
 tag @a[tag=YellowCaptain] remove YellowCaptain
@@ -11,6 +14,8 @@ tag @a[tag=RedCaptain] remove RedCaptain
 tag @a[tag=Captain] remove Captain
 
 scoreboard players set $stage gamestate 0
+
+function signs:lobby/option/defaults/execute/success
 
 #reset timer variables
 scoreboard players set $count_state timer 0

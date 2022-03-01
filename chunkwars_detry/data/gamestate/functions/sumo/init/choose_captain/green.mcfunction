@@ -1,4 +1,5 @@
 tag @s add GreenCaptain
+tag @s add Captain
 
 scoreboard players set @s team 4
 function utility:team/join/green
