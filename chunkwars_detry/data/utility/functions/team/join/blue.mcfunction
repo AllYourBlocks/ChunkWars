@@ -7,5 +7,11 @@ execute if score $stage gamestate matches 2 if entity @s[tag=BlueCaptain] run fu
 execute if score $stage gamestate matches 3 run function teleports:lobby/house/blue/driver
 execute if score $stage gamestate matches 4.. run function teleports:game/house/blue
 
-tellraw @s {"text":"Welcome to the Blue Team.","color":"#00ffff"}
+execute unless entity @s[tag=BlueCaptain] run tag @s add MessageReceiver
+
+execute if entity @s[tag=MessageReceiver] run tellraw @a[tag=MessageReceiver] {"text":"Welcome to the Blue Team","color":"#00ffff"}
+execute if entity @s[tag=MessageReceiver] run tellraw @a[tag=!MessageReceiver] [{"selector":"@p[tag=MessageReceiver]"},{"text":" joined the Blue Team","color":"#00ffff"}]
+
+tag @s remove MessageReceiver
+
 function utility:lever/unready/blue/driver
