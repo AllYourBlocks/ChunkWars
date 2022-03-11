@@ -86,7 +86,7 @@ team add Green
 team add Blue
 team add Yellow
 
-team modify Lobby color dark_gray
+team modify Lobby color gray
 team modify Spectator color gray
 team modify Playing color green
 team modify Red color red
