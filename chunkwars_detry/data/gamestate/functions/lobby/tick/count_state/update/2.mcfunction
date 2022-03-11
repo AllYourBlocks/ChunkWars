@@ -1,7 +1,7 @@
 # we now can count down!
 scoreboard players set $countdown timer 11
 
-tellraw @a {"text":"Team selection will start in 10 seconds. Join spectators if you don't want to play!","bold":true,"color":"gold"}
+tellraw @a {"text":"Team selection will start in 10 seconds. Join spectators if you don't want to play","bold":true,"color":"gold"}
 
 schedule function timers:countdown/lobby/team_select 1t append
 schedule function timers:countdown/lobby/team_select 1s append

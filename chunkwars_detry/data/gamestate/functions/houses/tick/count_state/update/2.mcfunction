@@ -1,6 +1,6 @@
 scoreboard players set $countdown timer 11
 
-tellraw @a {"text":"Both Teams are ready!","bold":true,"color":"gold"}
+tellraw @a {"text":"Both Teams are ready","bold":true,"color":"gold"}
 
 schedule function timers:countdown/lobby/ready 1t append
 schedule function timers:countdown/lobby/ready 1s append
