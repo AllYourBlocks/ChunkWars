@@ -21,6 +21,7 @@ function signs:lobby/option/defaults/execute/success
 scoreboard players set $count_state timer 0
 scoreboard players set $countdown timer 0
 
-difficulty peaceful
+difficulty easy
+gamerule doMobSpawning false
 
-function utility:sign/unlock/all
+schedule function utility:sign/unlock/all 1t
