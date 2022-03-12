@@ -6,3 +6,5 @@ function gamestate:houses/tick/update_ready/driver
 function gamestate:houses/tick/count_state/execute/driver
 # a tick to check for whether we can move on
 function gamestate:houses/end_conditions/driver
+# prevent players from hurting each other, put people to adventure mode
+function utility:player/lobby_status
