@@ -2,7 +2,7 @@
 
 ## Source
 
-The contents of /chunkwars_detry are based on https://github.com/detry7350/ChunkWars/tree/detry
+The basis of the current datapack logic is based on https://github.com/detry7350/ChunkWars/tree/detry
 
 They are pulled manually and separately because this tree removes our logic.
 We will need both during the merging period.

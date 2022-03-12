@@ -34,6 +34,7 @@ time set 23459
 
 function gamestate:pregame/init/add_barriers
 function gamestate:pregame/init/set_options
+function gamestate:pregame/init/spawn_chunks
 function gamestate:pregame/init/set_timer
 
 function signs:lobby/team_panel/update/driver
