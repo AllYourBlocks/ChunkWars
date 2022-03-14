@@ -29,7 +29,6 @@ effect give @a[team=Blue] minecraft:regeneration 20 0 true
 effect give @a[team=Green] minecraft:regeneration 20 0 true
 effect give @a[team=Red] minecraft:regeneration 20 0 true
 
-gamerule doMobSpawning true
 time set 23459
 
 function gamestate:pregame/init/add_barriers

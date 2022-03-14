@@ -14,11 +14,9 @@ advancement revoke @a everything
 execute if score $daylight_cycle option matches 0 run gamerule doDaylightCycle false
 execute if score $daylight_cycle option matches 1 run gamerule doDaylightCycle true
 
-
-
 function gamestate:game/init/give_items/driver
 
-gamerule randomTickSpeed 3
+gamerule doMobSpawning true
 
 #enable mob AI
 execute as @e run data merge entity @s {NoAI:0}
