@@ -3,6 +3,9 @@ scoreboard players set $stage gamestate 4
 # deal with players who haven't joined a team
 execute as @a[team=Lobby] run function utility:team/join/spectator
 
+# in case someone slept in the lobby bed
+execute as @a run spawnpoint @s -1 100 -1025 0
+
 # teleport players to their spawn
 execute as @a[team=Yellow] run function teleports:game/house/yellow
 execute as @a[team=Blue] run function teleports:game/house/blue

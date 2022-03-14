@@ -27,6 +27,9 @@ execute as @r[team=Playing,tag=!Captain] run function gamestate:sumo/init/choose
 execute if score $teams gamestate matches 4 as @r[team=Playing,tag=!Captain] run function gamestate:sumo/init/choose_captain/red
 execute if score $teams gamestate matches 4 as @r[team=Playing,tag=!Captain] run function gamestate:sumo/init/choose_captain/green
 
+# in case someone slept in the lobby bed
+execute as @a run spawnpoint @s -1 100 -1025 0
+
 # add all the players to a pool of selectables
 function gamestate:sumo/init/player_join/driver
 

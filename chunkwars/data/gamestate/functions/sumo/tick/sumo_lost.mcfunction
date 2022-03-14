@@ -1,1 +1,0 @@
-execute as @a[x=0,y=19,z=0,distance=..3,tag=Captain] run function gamestate:sumo/update/lost/driver
