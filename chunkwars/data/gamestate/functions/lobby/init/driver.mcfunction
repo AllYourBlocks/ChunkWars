@@ -6,6 +6,8 @@ execute as @a run gamemode adventure @s
 clear @a
 effect clear @a
 
+execute as @a run function utility:player/trigger
+
 tag @a[tag=Turn] remove Turn
 tag @a[tag=BlueCaptain] remove BlueCaptain
 tag @a[tag=YellowCaptain] remove YellowCaptain

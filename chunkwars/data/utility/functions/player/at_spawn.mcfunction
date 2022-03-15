@@ -1,5 +1,8 @@
 # someone is at spawn!
 
+# allow them to trigger (again)
+function utility:player/trigger
+
 # if they are neither a sumo captain nor actively fighting in the game, just teleport them to the lobby
 execute unless entity @s[tag=Captain] unless entity @s[tag=Ingame] run tp 0 19 1
 

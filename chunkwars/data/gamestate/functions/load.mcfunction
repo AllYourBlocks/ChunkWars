@@ -76,6 +76,8 @@ scoreboard objectives add team dummy
 # 5 - Blue
 # 6 - Yellow
 
+scoreboard objectives add triggers trigger
+
 scoreboard objectives add cage dummy
 
 team add Lobby
