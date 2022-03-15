@@ -1,11 +1,5 @@
 # we are stating a new turn
 
-# first, we teleport everyone who is not selecting back to their selection spawn
-execute as @a[tag=YellowCaptain,tag=!Turn] run function teleports:selection/yellow/driver
-execute as @a[tag=BlueCaptain,tag=!Turn] run function teleports:selection/blue/driver
-execute as @a[tag=RedCaptain,tag=!Turn] run function teleports:selection/red/driver
-execute as @a[tag=GreenCaptain,tag=!Turn] run function teleports:selection/green/driver
-
 # then we establish all barriers, for now
 function gamestate:selection/update/barriers/add/driver
 
