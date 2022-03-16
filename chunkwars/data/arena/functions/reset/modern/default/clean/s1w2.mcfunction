@@ -1,0 +1,34 @@
+fill -107 0 1059 -76 31 1090 minecraft:air
+fill -107 0 1091 -76 31 1094 minecraft:air
+fill -107 32 1059 -76 63 1090 minecraft:air
+fill -107 32 1091 -76 63 1094 minecraft:air
+fill -107 64 1059 -76 95 1090 minecraft:air
+fill -107 64 1091 -76 95 1094 minecraft:air
+fill -107 96 1059 -76 127 1090 minecraft:air
+fill -107 96 1091 -76 127 1094 minecraft:air
+fill -107 128 1059 -76 159 1090 minecraft:air
+fill -107 128 1091 -76 159 1094 minecraft:air
+fill -107 160 1059 -76 191 1090 minecraft:air
+fill -107 160 1091 -76 191 1094 minecraft:air
+fill -107 192 1059 -76 223 1090 minecraft:air
+fill -107 192 1091 -76 223 1094 minecraft:air
+fill -107 224 1059 -76 229 1090 minecraft:air
+fill -107 224 1091 -76 229 1094 minecraft:air
+fill -75 0 1059 -72 31 1090 minecraft:air
+fill -75 0 1091 -72 31 1094 minecraft:air
+fill -75 32 1059 -72 63 1090 minecraft:air
+fill -75 32 1091 -72 63 1094 minecraft:air
+fill -75 64 1059 -72 95 1090 minecraft:air
+fill -75 64 1091 -72 95 1094 minecraft:air
+fill -75 96 1059 -72 127 1090 minecraft:air
+fill -75 96 1091 -72 127 1094 minecraft:air
+fill -75 128 1059 -72 159 1090 minecraft:air
+fill -75 128 1091 -72 159 1094 minecraft:air
+fill -75 160 1059 -72 191 1090 minecraft:air
+fill -75 160 1091 -72 191 1094 minecraft:air
+fill -75 192 1059 -72 223 1090 minecraft:air
+fill -75 192 1091 -72 223 1094 minecraft:air
+fill -75 224 1059 -72 229 1090 minecraft:air
+fill -75 224 1091 -72 229 1094 minecraft:air
+
+kill @e[type=!minecraft:player,x=-107,y=0,z=1059,dx=35,dy=229,dz=35]

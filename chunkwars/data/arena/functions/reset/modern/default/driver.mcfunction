@@ -4,24 +4,24 @@
 #>Clean 
 #>----------------------
 
-function arena:reset/modern/default/clean
+function arena:reset/modern/default/clean/driver
 
 # Clean again after a tick, to ensure that any drops are also cleared
 
-schedule function arena:reset/modern/default/clean 2t
+schedule function arena:reset/modern/default/clean/entities 101t
 
 #>----------------------
 #>Build
 #>----------------------
 
-function utility:waterstop/enable
+schedule function utility:waterstop/enable 102t
 
-schedule function arena:reset/modern/default/build_overworld 4t
+schedule function arena:reset/modern/default/build_overworld 103t
 
-schedule function utility:waterstop/disable 2s
+schedule function utility:waterstop/disable 230t
 
 #>----------------------
 #>Paint
 #>----------------------
 
-schedule function arena:reset/modern/default/paint 12t
+schedule function arena:reset/modern/default/paint/driver 230t
