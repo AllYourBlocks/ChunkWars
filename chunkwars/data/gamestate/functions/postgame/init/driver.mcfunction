@@ -5,6 +5,9 @@ tag @a remove Ingame
 time set noon
 gamerule doDaylightCycle false
 
+clear @a
+effect clear @a
+
 #TODO: debug for restarting
 tellraw ffaen {"text":"Click here to reset the map","color":"red","clickEvent":{"action":"suggest_command","value":"/function arena:reset/modern/default/driver"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function arena:reset/modern/default/driver"}}}
 tellraw Blocks {"text":"Click here to reset the map","color":"red","clickEvent":{"action":"suggest_command","value":"/function arena:reset/modern/default/driver"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function arena:reset/modern/default/driver"}}}
