@@ -6,6 +6,8 @@ execute as @a run gamemode adventure @s
 clear @a
 effect clear @a
 
+time set noon
+
 execute as @a run function utility:player/trigger
 
 tag @a[tag=Turn] remove Turn
@@ -14,6 +16,8 @@ tag @a[tag=YellowCaptain] remove YellowCaptain
 tag @a[tag=GreenCaptain] remove GreenCaptain
 tag @a[tag=RedCaptain] remove RedCaptain
 tag @a[tag=Captain] remove Captain
+tag @a[tag=Teleported] remove Teleported
+tag @a[tag=Ingame] remove Ingame
 
 scoreboard players set $stage gamestate 0
 

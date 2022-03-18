@@ -1,4 +1,4 @@
-team join Red @s
+team join Red
 
 execute if score $stage gamestate matches 0 run function teleports:lobby/house/red/driver
 execute if score $stage gamestate matches 1 run function teleports:sumo/red/driver
