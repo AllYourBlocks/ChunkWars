@@ -2,6 +2,9 @@ scoreboard players set $teams gamestate 2
 
 function signs:lobby/gamestate/teams/update/driver
 
+# reset the sumo
+function lobby:reset/sumo/driver
+
 tag @s add MassUpdater
 
 execute as @e[type=marker,tag=GamestateMapSize] at @s run function signs:lobby/gamestate/map_size/update/driver

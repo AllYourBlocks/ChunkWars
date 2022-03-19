@@ -2,10 +2,6 @@ execute if score $teams gamestate matches 2 run scoreboard players set $map_size
 execute if score $teams gamestate matches 4 run scoreboard players set $map_size_4teams gamestate 1
 
 function signs:lobby/gamestate/map_size/update/driver
-
-# reset the sumo
-function lobby:reset/sumo/driver
-
 # special case if we did select an invalid variation, set back to regular!
 execute if score $map_nether_and_end map_variation matches 1 run scoreboard players set $map_nether_and_end map_variation 0
 
