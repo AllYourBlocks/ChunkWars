@@ -1,1 +1,1 @@
-setblock -22 20 53 minecraft:lever[powered=false,face=wall,facing=west]
+setblock -23 20 51 minecraft:lever[powered=false,face=wall,facing=west]
