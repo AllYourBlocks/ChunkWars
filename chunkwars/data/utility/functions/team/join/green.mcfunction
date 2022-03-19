@@ -1,4 +1,5 @@
 team join Green
+scoreboard players set @s team 4
 
 execute if score $stage gamestate matches 0 run function teleports:lobby/house/green/driver
 execute if score $stage gamestate matches 1 run function teleports:sumo/green/driver
