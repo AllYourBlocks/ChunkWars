@@ -145,7 +145,7 @@ team modify Yellow color yellow
 #define score_holder $yellow_ready
 
 #define objective timer
-#define score_holder $count_stage
+#define score_holder $count_state
 #define score_holder $countdown
 
 
