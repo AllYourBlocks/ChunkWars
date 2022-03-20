@@ -6,6 +6,9 @@ execute as @a run gamemode adventure @s
 clear @a
 effect clear @a
 
+experience set @a 0 levels
+experience set @a 0 points
+
 time set noon
 
 execute as @a run function utility:player/trigger
