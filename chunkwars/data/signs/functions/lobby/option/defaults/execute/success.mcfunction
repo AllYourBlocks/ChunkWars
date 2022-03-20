@@ -23,11 +23,12 @@ scoreboard players set $anvil option 0
 scoreboard players set $map_size_2teams gamestate 0
 scoreboard players set $map_size_4teams gamestate 0
 
+scoreboard players set $map_nether map_variation 0
+scoreboard players set $map_end map_variation 0
 scoreboard players set $map_bridges map_variation 0
-scoreboard players set $map_condensed map_variation 0
-scoreboard players set $map_nether_and_end map_variation 0
-scoreboard players set $map_random map_variation 0
 scoreboard players set $map_remixed map_variation 0
+scoreboard players set $map_random map_variation 0
+scoreboard players set $map_condensed map_variation 0
 
 scoreboard players set $teams gamestate 2
 

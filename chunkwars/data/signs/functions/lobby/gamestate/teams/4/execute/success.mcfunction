@@ -6,7 +6,8 @@ function signs:lobby/gamestate/teams/update/driver
 function lobby:reset/sumo/driver
 
 # special case if we did select an invalid variation, set back to regular!
-execute if score $map_nether_and_end map_variation matches 1 run scoreboard players set $map_nether_and_end map_variation 0
+execute if score $map_nether map_variation matches 1 run scoreboard players set $map_nether map_variation 0
+execute if score $map_end map_variation matches 1 run scoreboard players set $map_end map_variation 0
 
 tag @s add MassUpdater
 

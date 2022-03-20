@@ -49,7 +49,8 @@ execute unless score $anvil option matches -2147483648..2147483647 run scoreboar
 scoreboard objectives add map_variation dummy
 execute unless score $map_bridges map_variation matches -2147483648..2147483647 run scoreboard players set $map_bridges map_variation 0
 execute unless score $map_condensed map_variation matches -2147483648..2147483647 run scoreboard players set $map_condensed map_variation 0
-execute unless score $map_nether_and_end map_variation matches -2147483648..2147483647 run scoreboard players set $map_nether_and_end map_variation 0
+execute unless score $map_nether map_variation matches -2147483648..2147483647 run scoreboard players set $map_nether map_variation 0
+execute unless score $map_end map_variation matches -2147483648..2147483647 run scoreboard players set $map_end map_variation 0
 execute unless score $map_random map_variation matches -2147483648..2147483647 run scoreboard players set $map_random map_variation 0
 execute unless score $map_remixed map_variation matches -2147483648..2147483647 run scoreboard players set $map_remixed map_variation 0
 
@@ -132,7 +133,8 @@ team modify Yellow color yellow
 #define objective map_variation
 #define score_holder $map_remixed
 #define score_holder $map_random
-#define score_holder $map_nether_and_end
+#define score_holder $map_nether
+#define score_holder $map_end
 #define score_holder $map_condensed
 #define score_holder $map_bridges
 

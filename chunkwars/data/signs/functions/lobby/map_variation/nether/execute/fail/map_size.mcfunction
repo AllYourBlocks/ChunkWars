@@ -1,0 +1,1 @@
+tellraw @s {"text":"You can only play this in the 6x6 arena","color":"#82becb"}
