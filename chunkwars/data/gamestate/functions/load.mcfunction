@@ -31,12 +31,12 @@ execute unless score $tnt option matches -2147483648..2147483647 run scoreboard 
 execute unless score $spawn_eggs option matches -2147483648..2147483647 run scoreboard players set $spawn_eggs option 0
 execute unless score $respawn option matches -2147483648..2147483647 run scoreboard players set $respawn option 1
 execute unless score $regeneration option matches -2147483648..2147483647 run scoreboard players set $regeneration option 1
+execute unless score $one_shot option matches -2147483648..2147483647 run scoreboard players set $one_shot option 1
 execute unless score $redstone option matches -2147483648..2147483647 run scoreboard players set $redstone option 0
 execute unless score $potions option matches -2147483648..2147483647 run scoreboard players set $potions option 0
 execute unless score $keep_inventory option matches -2147483648..2147483647 run scoreboard players set $keep_inventory option 1
 execute unless score $iron_gear option matches -2147483648..2147483647 run scoreboard players set $iron_gear option 0
 execute unless score $jukebox option matches -2147483648..2147483647 run scoreboard players set $jukebox option 0
-execute unless score $infested option matches -2147483648..2147483647 run scoreboard players set $infested option 0
 execute unless score $halloween option matches -2147483648..2147483647 run scoreboard players set $halloween option 0
 execute unless score $enchanted_apples option matches -2147483648..2147483647 run scoreboard players set $enchanted_apples option 0
 execute unless score $ender_pearls option matches -2147483648..2147483647 run scoreboard players set $ender_pearls option 0
@@ -47,6 +47,7 @@ execute unless score $bonus_chest option matches -2147483648..2147483647 run sco
 execute unless score $anvil option matches -2147483648..2147483647 run scoreboard players set $anvil option 0
 
 scoreboard objectives add map_variation dummy
+execute unless score $map_infested map_variation matches -2147483648..2147483647 run scoreboard players set $map_infested map_variation 0
 execute unless score $map_bridges map_variation matches -2147483648..2147483647 run scoreboard players set $map_bridges map_variation 0
 execute unless score $map_condensed map_variation matches -2147483648..2147483647 run scoreboard players set $map_condensed map_variation 0
 execute unless score $map_nether map_variation matches -2147483648..2147483647 run scoreboard players set $map_nether map_variation 0
@@ -115,10 +116,10 @@ team modify Yellow color yellow
 #define score_holder $regeneration
 #define score_holder $redstone
 #define score_holder $potions
+#define score_holder $one_shot
 #define score_holder $keep_inventory
 #define score_holder $iron_gear
 #define score_holder $jukebox
-#define score_holder $infested
 #define score_holder $halloween
 #define score_holder $enchanted_apples
 #define score_holder $ender_pearls
@@ -131,6 +132,7 @@ team modify Yellow color yellow
 # Map Options
 
 #define objective map_variation
+#define score_holder $map_infested
 #define score_holder $map_remixed
 #define score_holder $map_random
 #define score_holder $map_nether

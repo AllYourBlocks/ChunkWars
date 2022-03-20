@@ -25,6 +25,4 @@ give @s oak_sign{display:{Name:'{"text":"Option: Redstone"}'},BlockEntityTag:{Co
 
 give @s oak_sign{display:{Name:'{"text":"Option: Troll"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Troll","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/troll/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
-give @s oak_sign{display:{Name:'{"text":"Option: Infested"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Infested","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/infested/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
-
 give @s oak_sign{display:{Name:'{"text":"Option: Jukebox"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Jukebox","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/jukebox/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
