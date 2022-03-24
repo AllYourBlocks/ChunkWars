@@ -1,4 +1,4 @@
-# look for buttons that have been pressed
-function gamestate:selection/tick/buttons/driver
-# now check if someone has been selected
+# check if someone has been selected
 function gamestate:selection/tick/selected/driver
+# check if we can move on
+function gamestate:selection/end_conditions/driver

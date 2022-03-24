@@ -1,4 +1,4 @@
-give @s oak_sign{display:{Name:'{"text":"Team: Start"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Start / Stop","color":"white"}',Text2:'{"text":"Selection","color":"white"}',Text3:'{"text":"","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/team_panel/start/execute/driver"}}',Text4:'{"text":"Right click","color":"yellow"}'}}
+give @s oak_sign{display:{Name:'{"text":"Menu: Start"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Start / Stop","color":"white"}',Text2:'{"text":"Selection","color":"white"}',Text3:'{"text":"","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/team_panel/start/execute/driver"}}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
 give @s oak_sign{display:{Name:'{"text":"Team: Red"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Join the","color":"#ff0000"}',Text2:'{"text":"Red Team","color":"#ff0000"}',Text3:'{"text":"","color":"#ff0000","clickEvent":{"action":"run_command","value":"/function signs:lobby/team_panel/red/execute/driver"}}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
@@ -8,7 +8,7 @@ give @s oak_sign{display:{Name:'{"text":"Team: Blue"}'},BlockEntityTag:{Color:"g
 
 give @s oak_sign{display:{Name:'{"text":"Team: Yellow"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Join the","color":"yellow"}',Text2:'{"text":"Yellow Team","color":"yellow"}',Text3:'{"text":"","color":"yellow","clickEvent":{"action":"run_command","value":"/function signs:lobby/team_panel/yellow/execute/driver"}}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
-give @s oak_sign{display:{Name:'{"text":"Team: Spectator"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Join the","color":"gray"}',Text2:'{"text":"Spectators","color":"gray"}',Text3:'{"text":"","color":"gray","clickEvent":{"action":"run_command","value":"/function signs:lobby/team_panel/spectator/execute/driver"}}',Text4:'{"text":"Right click","color":"yellow"}'}}
+give @s oak_sign{display:{Name:'{"text":"Menu: Spectator"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Join the","color":"gray"}',Text2:'{"text":"Spectators","color":"gray"}',Text3:'{"text":"","color":"gray","clickEvent":{"action":"run_command","value":"/function signs:lobby/team_panel/spectator/execute/driver"}}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
 
 give @s oak_sign{display:{Name:'{"text":"Teleport: Lobby"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Go back to","color":"white"}',Text2:'{"text":"the Lobby","color":"white"}',Text3:'{"text":"","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/team_panel/lobby/execute/driver"}}',Text4:'{"text":"Right click","color":"yellow"}'}}
