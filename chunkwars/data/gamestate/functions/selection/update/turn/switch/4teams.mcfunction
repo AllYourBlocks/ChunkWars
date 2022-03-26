@@ -15,4 +15,3 @@ execute if score $green pick_order = $picking pick_order run tag @a[tag=GreenCap
 execute if score $red pick_order = $picking pick_order run tag @a[tag=RedCaptain] add Turn
 
 execute if entity @a[team=Playing] run function gamestate:selection/update/turn/start
-execute unless entity @a[team=Playing] run function gamestate:houses/init/from_selection
