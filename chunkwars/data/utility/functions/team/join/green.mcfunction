@@ -10,8 +10,8 @@ execute if score $stage gamestate matches 4.. run function teleports:game/house/
 
 execute unless entity @s[tag=GreenCaptain] run tag @s add MessageReceiver
 
-execute if entity @s[tag=MessageReceiver] run tellraw @a[tag=MessageReceiver] {"text":"Welcome to the Green Team","color":"#bdfc00"}
-execute if entity @s[tag=MessageReceiver] run tellraw @a[tag=!MessageReceiver] [{"selector":"@p[tag=MessageReceiver]"},{"text":" joined the Green Team","color":"#bdfc00"}]
+execute if entity @s[tag=MessageReceiver] run tellraw @a[tag=MessageReceiver] {"text":"Welcome to the Green Team","color":"green"}
+execute if entity @s[tag=MessageReceiver] run tellraw @a[tag=!MessageReceiver] [{"selector":"@p[tag=MessageReceiver]"},{"text":" joined the Green Team","color":"green"}]
 
 tag @s remove MessageReceiver
 

@@ -1,2 +1,2 @@
-tellraw @a {"text":"Green Wins!","color":"#bdfc00"}
+tellraw @a {"text":"Green Wins!","color":"green"}
 function gamestate:postgame/init/driver

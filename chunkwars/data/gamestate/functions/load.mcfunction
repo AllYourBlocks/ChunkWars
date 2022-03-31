@@ -92,9 +92,9 @@ team add Yellow
 
 team modify Lobby color gray
 team modify Spectator color gray
-team modify Playing color green
+team modify Playing color white
 team modify Red color red
-team modify Green color dark_green
+team modify Green color green
 team modify Blue color aqua
 team modify Yellow color yellow
 
