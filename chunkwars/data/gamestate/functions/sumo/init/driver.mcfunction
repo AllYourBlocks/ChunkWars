@@ -47,12 +47,13 @@ execute unless score $teams gamestate matches 4 run scoreboard players set $yell
 
 scoreboard players set $picking pick_order 0
 
-scoreboard players set $countdown timer 6
+scoreboard players set $count_sumo_down timer 6
 
-schedule function timers:countdown/sumo/start 1t
-schedule function timers:countdown/sumo/start 1s
-schedule function timers:countdown/sumo/start 2s
-schedule function timers:countdown/sumo/start 3s
-schedule function timers:countdown/sumo/start 4s
+schedule function timers:countdown/sumo/start 1t append
+schedule function timers:countdown/sumo/start 1s append
+schedule function timers:countdown/sumo/start 2s append
+schedule function timers:countdown/sumo/start 3s append
+schedule function timers:countdown/sumo/start 4s append
+schedule function timers:countdown/sumo/start 5s append
 
-schedule function gamestate:sumo/init/start 5s
+schedule function gamestate:sumo/init/start 5s append

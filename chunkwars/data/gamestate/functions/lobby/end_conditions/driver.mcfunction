@@ -1,1 +1,1 @@
-execute if score $count_state timer matches 1 if score $countdown timer matches ..0 run function gamestate:sumo/init/driver
+execute if score $count_state timer matches 2 if score $count_lobby_down timer matches ..0 run function gamestate:sumo/init/driver

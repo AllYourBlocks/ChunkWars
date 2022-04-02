@@ -8,7 +8,7 @@ execute if score $teams gamestate matches 4 run function utility:lever/unready/r
 scoreboard players set $stage gamestate 3
 
 scoreboard players set $count_state timer 0
-scoreboard players set $countdown timer 0
+scoreboard players set $count_lobby_down timer 0
 
 execute as @a[tag=BlueCaptain] run function teleports:lobby/house/blue/driver
 execute as @a[tag=YellowCaptain] run function teleports:lobby/house/yellow/driver

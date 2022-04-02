@@ -62,7 +62,10 @@ execute unless score $red_ready team_ready matches -2147483648..2147483647 run s
 execute unless score $yellow_ready team_ready matches -2147483648..2147483647 run scoreboard players set $yellow_ready team_ready 0
 
 scoreboard objectives add timer dummy
-execute unless score $countdown timer matches -2147483648..2147483647 run scoreboard players set $countdown timer 0
+execute unless score $count_lobby_down timer matches -2147483648..2147483647 run scoreboard players set $count_lobby_down timer 0
+execute unless score $count_sumo_down timer matches -2147483648..2147483647 run scoreboard players set $count_sumo_down timer 0
+execute unless score $count_houses_down timer matches -2147483648..2147483647 run scoreboard players set $count_houses_down timer 0
+execute unless score $count_pregame_down timer matches -2147483648..2147483647 run scoreboard players set $count_pregame_down timer 0
 execute unless score $count_state timer matches -2147483648..2147483647 run scoreboard players set $count_state timer 0
 
 
@@ -150,7 +153,10 @@ team modify Yellow color yellow
 
 #define objective timer
 #define score_holder $count_state
-#define score_holder $countdown
+#define score_holder $count_lobby_down
+#define score_holder $count_sumo_down
+#define score_holder $count_houses_down
+#define score_holder $count_pregame_down
 
 
 #define objective pick_order
