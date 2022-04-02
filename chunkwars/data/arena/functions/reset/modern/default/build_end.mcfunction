@@ -54,3 +54,6 @@ setblock -2 100 1024 minecraft:redstone_block
 fill -2 100 1024 -2 101 1024 minecraft:air
 
 schedule function utility:ai/enable 2s
+
+# mark the end as ready to teleport
+scoreboard players set $end_pasted map_status 2

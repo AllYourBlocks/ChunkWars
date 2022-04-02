@@ -18,8 +18,13 @@ function gamestate:game/init/give_items/driver
 
 gamerule doMobSpawning true
 
+scoreboard players set $blue_nether_pasted map_status 0
+scoreboard players set $yellow_nether_pasted map_status 0
+scoreboard players set $end_pasted map_status 0
+
 #enable mob AI
 execute as @e run data merge entity @s {NoAI:0}
+execute as @e[type=piglin] run data merge entity @s {IsImmuneToZombification:1}
 
 function utility:sign/lock/all
 

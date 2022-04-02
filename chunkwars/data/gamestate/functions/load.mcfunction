@@ -55,6 +55,11 @@ execute unless score $map_end map_variation matches -2147483648..2147483647 run 
 execute unless score $map_random map_variation matches -2147483648..2147483647 run scoreboard players set $map_random map_variation 0
 execute unless score $map_remixed map_variation matches -2147483648..2147483647 run scoreboard players set $map_remixed map_variation 0
 
+scoreboard objectives add map_status dummy
+execute unless score $blue_nether_pasted map_status matches -2147483648..2147483647 run scoreboard players set $blue_nether_pasted map_status 0
+execute unless score $yellow_nether_pasted map_status matches -2147483648..2147483647 run scoreboard players set $yellow_nether_pasted map_status 0
+execute unless score $end_pasted map_status matches -2147483648..2147483647 run scoreboard players set $end_pasted map_status 0
+
 scoreboard objectives add team_ready dummy
 execute unless score $blue_ready team_ready matches -2147483648..2147483647 run scoreboard players set $blue_ready team_ready 0
 execute unless score $green_ready team_ready matches -2147483648..2147483647 run scoreboard players set $green_ready team_ready 0
@@ -142,6 +147,12 @@ team modify Yellow color yellow
 #define score_holder $map_end
 #define score_holder $map_condensed
 #define score_holder $map_bridges
+
+# Map Status
+#define objective map_status
+#define score_holder $blue_nether_pasted
+#define score_holder $yellow_nether_pasted
+#define score_holder $end_pasted
 
 # Teams Ready
 

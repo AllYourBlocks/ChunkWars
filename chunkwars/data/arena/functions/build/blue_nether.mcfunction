@@ -1,0 +1,1 @@
+function arena:reset/modern/default/build_blue_nether

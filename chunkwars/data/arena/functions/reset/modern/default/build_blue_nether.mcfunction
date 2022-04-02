@@ -1,5 +1,7 @@
 #> arena:reset/modern/default/build_blue_nether
 
+scoreboard players set $blue_nether_pasted map_status 1
+
 #>----------------------
 #>Blue Side Load 
 #>----------------------
