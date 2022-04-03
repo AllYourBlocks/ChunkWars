@@ -1,3 +1,9 @@
+#> gamestate:lobby/init/driver
+
+#> this function is partially mirrored to gamestate:selection/breakout
+#> when changing something here, think about doing it there, too!
+#> v v v v v v v v v v v v v v v v v v v v v v v v v v v v v v v v 
+
 execute as @a run function utility:player/reset
 
 time set noon
@@ -17,3 +23,7 @@ difficulty easy
 gamerule doMobSpawning false
 
 schedule function utility:sign/unlock/all 1t
+
+#> ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
+#> this function is partially mirrored to gamestate:selection/breakout
+#> when changing something here, think about doing it there, too!
