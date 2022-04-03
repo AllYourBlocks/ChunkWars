@@ -1,3 +1,5 @@
+#> gamestate:postgame/init/driver
+
 scoreboard players set $stage gamestate 6
 
 execute as @a[team=!Spectator] run function utility:team/join/spectator
