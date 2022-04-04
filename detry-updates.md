@@ -55,46 +55,24 @@ In theory, the game is operational as a 2 teams game, all logic has been moved t
 
      add other nether locations, variables?
 
-* 3) gamestate:postgame/init/driver
-
-     add OP message on how to reset [copy from breakout?]
-
-* 4) gamestate:pregame/init/add_barriers
+* 3) gamestate:pregame/init/add_barriers
 
      barrier locations for red and green
 
-* 5) gamestate:sumo/init/driver
+* 4) gamestate:sumo/init/driver
 
      maybe add breakout for when someone left during countdown
 
-* 6) gamestate:sumo/init/remove_barriers
+* 5) gamestate:sumo/init/remove_barriers
 
      barrier locations for red and green
 
-* 7) teleports:sumo/*/4teams
+### B) Map Changes - Based on Options
 
-     teleport locations for 4 team sumo
-
-### Map Loading - Structure Block Magic
-
-* 8) signs:lobby/gamestate/teams/*/update/1
-
-     load the appropriate lobby variant
-
-* 9) gamestate:houses/init/cleanup_selection
-
-     load other variants of sumo
-
-### C) Map Changes - Based on Options
-
-* 10) **Bonus Chest**
-
-      Place the chest with contents?
-
-* 11) **Halloween**
+* 6) **Halloween**
 
       How do we force the pumpkin head?
 
-* 12) **Infested**
+* 7) **Infested**
 
       Block replace?
