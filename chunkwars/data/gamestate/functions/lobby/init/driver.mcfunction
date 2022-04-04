@@ -1,6 +1,6 @@
 #> gamestate:lobby/init/driver
 
-#> this function is partially mirrored to gamestate:selection/breakout
+#> this function is partially mirrored to breakout:selection
 #> when changing something here, think about doing it there, too!
 #> v v v v v v v v v v v v v v v v v v v v v v v v v v v v v v v v 
 
@@ -25,5 +25,5 @@ gamerule doMobSpawning false
 schedule function utility:sign/unlock/all 1t
 
 #> ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
-#> this function is partially mirrored to gamestate:selection/breakout
+#> this function is partially mirrored to breakout:selection
 #> when changing something here, think about doing it there, too!

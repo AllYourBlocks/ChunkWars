@@ -11,8 +11,8 @@ function utility:sign/lock/all
 
 
 #TODO: debug for breaking out
-tellraw ffaen {"text":"Click here to breakout of team select","color":"gray","clickEvent":{"action":"suggest_command","value":"/function gamestate:selection/breakout"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function gamestate:selection/breakout"}}}
-tellraw Blocks {"text":"Click here to breakout of team select","color":"gray","clickEvent":{"action":"suggest_command","value":"/function gamestate:selection/breakout"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function gamestate:selection/breakout"}}}
+tellraw ffaen {"text":"Click here to breakout of team select","color":"gray","clickEvent":{"action":"suggest_command","value":"/function breakout:selection"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function breakout:selection"}}}
+tellraw Blocks {"text":"Click here to breakout of team select","color":"gray","clickEvent":{"action":"suggest_command","value":"/function breakout:selection"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function breakout:selection"}}}
 #TODO: debug end
 
 tag @a[tag=Captain] remove Captain
