@@ -6,7 +6,7 @@ tag @a[tag=RedCaptain] remove RedCaptain
 tag @a[tag=Captain] remove Captain
 
 # reset the sumo
-function lobby:reset/sumo/driver
+function lobby:rebuild/driver
 
 # unlock signs that deal with player teams, so players can leave their team
 execute as @e[type=marker,tag=GamestateTeams] at @s run function utility:sign/unlock/this

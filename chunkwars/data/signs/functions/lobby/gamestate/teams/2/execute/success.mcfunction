@@ -3,7 +3,7 @@ scoreboard players set $teams gamestate 2
 function signs:lobby/gamestate/teams/update/driver
 
 # reset the sumo
-function lobby:reset/sumo/driver
+function lobby:rebuild/driver
 
 tag @s add MassUpdater
 

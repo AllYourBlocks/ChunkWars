@@ -3,7 +3,7 @@ scoreboard players set $teams gamestate 4
 function signs:lobby/gamestate/teams/update/driver
 
 # reset the sumo
-function lobby:reset/sumo/driver
+function lobby:rebuild/driver
 
 # special case if we did select an invalid variation, set back to regular!
 execute if score $map_nether map_variation matches 1 run scoreboard players set $map_nether map_variation 0
