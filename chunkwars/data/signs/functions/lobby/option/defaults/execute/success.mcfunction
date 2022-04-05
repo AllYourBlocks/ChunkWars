@@ -66,3 +66,5 @@ function signs:lobby/gamestate/teams/update/driver
 tag @s remove MassUpdater
 
 say All options have been reset to default
+
+function lobby:rebuild/driver
