@@ -19,3 +19,5 @@ execute if score $respawn option matches 0 run gamerule doImmediateRespawn false
 execute if score $respawn option matches 1 run gamerule doImmediateRespawn true
 
 execute if score $bonus_chest option matches 1 run function arena:reset/modern/default/build_bonus_chests
+
+execute if score $respawn option matches 0 run schedule function arena:option/respawn/driver 1t
