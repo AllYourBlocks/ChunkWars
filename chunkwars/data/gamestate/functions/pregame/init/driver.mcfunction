@@ -14,8 +14,6 @@ execute as @a[team=Red] run function teleports:game/house/red
 
 execute as @a[team=Spectator] run function teleports:game/center
 
-function gamestate:pregame/init/add_barriers
-
 # mark players as playing and not out yet
 tag @a[team=Yellow] add Ingame
 tag @a[team=Blue] add Ingame

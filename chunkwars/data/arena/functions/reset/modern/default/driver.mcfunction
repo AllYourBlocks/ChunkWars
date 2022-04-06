@@ -25,3 +25,5 @@ schedule function utility:waterstop/disable 230t
 #>----------------------
 
 schedule function arena:reset/modern/default/paint/driver 230t
+
+schedule function arena:reset/modern/default/add_barriers 240t

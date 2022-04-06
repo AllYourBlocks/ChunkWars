@@ -18,9 +18,13 @@ execute if score $regeneration option matches 1 run gamerule naturalRegeneration
 execute if score $respawn option matches 0 run gamerule doImmediateRespawn false
 execute if score $respawn option matches 1 run gamerule doImmediateRespawn true
 
-execute if score $bonus_chest option matches 1 run function arena:reset/modern/default/build_bonus_chests
+execute if score $bonus_chest option matches 1 run function arena:option/bonus_chest/driver
 
 execute if score $enchanting_table option matches 1 run function arena:option/enchanting_table/driver
+
+execute if score $jukebox option matches 1 run function arena:option/jukebox/driver
+
+execute if score $redstone option matches 1 run function arena:option/redstone/driver
 
 execute if score $anvil option matches 1 run function arena:option/anvil/driver
 

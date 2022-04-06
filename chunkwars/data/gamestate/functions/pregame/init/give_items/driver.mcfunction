@@ -11,8 +11,4 @@ execute as @a[tag=Ingame] if score $potions option matches 1 run function gamest
 
 execute as @a[tag=Ingame] if score $spawn_eggs option matches 1 run function gamestate:pregame/init/give_items/spawn_eggs
 
-execute as @a[tag=Ingame] if score $redstone option matches 1 run function gamestate:pregame/init/give_items/redstone
-
 execute as @a[tag=Ingame] if score $troll option matches 1 run function gamestate:pregame/init/give_items/troll
-
-execute as @a[tag=Ingame] if score $jukebox option matches 1 run function gamestate:pregame/init/give_items/jukebox
