@@ -27,7 +27,7 @@ scoreboard objectives add option dummy
 execute unless score $wither_skulls option matches -2147483648..2147483647 run scoreboard players set $wither_skulls option 0
 execute unless score $weather option matches -2147483648..2147483647 run scoreboard players set $weather option 0
 execute unless score $troll option matches -2147483648..2147483647 run scoreboard players set $troll option 0
-execute unless score $tnt option matches -2147483648..2147483647 run scoreboard players set $tnt option 0
+execute unless score $armageddon option matches -2147483648..2147483647 run scoreboard players set $armageddon option 0
 execute unless score $spawn_eggs option matches -2147483648..2147483647 run scoreboard players set $spawn_eggs option 0
 execute unless score $respawn option matches -2147483648..2147483647 run scoreboard players set $respawn option 1
 execute unless score $regeneration option matches -2147483648..2147483647 run scoreboard players set $regeneration option 1
@@ -117,7 +117,7 @@ team modify Yellow color yellow
 #define score_holder $wither_skulls
 #define score_holder $weather
 #define score_holder $troll
-#define score_holder $tnt
+#define score_holder $armageddon
 #define score_holder $spawn_eggs
 #define score_holder $respawn
 #define score_holder $regeneration

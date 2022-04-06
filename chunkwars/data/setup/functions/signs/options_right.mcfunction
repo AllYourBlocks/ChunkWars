@@ -9,7 +9,7 @@ give @s oak_sign{display:{Name:'{"text":"Option: Ender Pearls"}'},BlockEntityTag
 
 give @s oak_sign{display:{Name:'{"text":"Option: Wither Skulls"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Wither Skulls","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/wither_skulls/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
-give @s oak_sign{display:{Name:'{"text":"Option: TNT"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"TNT","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/tnt/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
+give @s oak_sign{display:{Name:'{"text":"Option: Armageddon"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Armageddon","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/armageddon/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
 give @s oak_sign{display:{Name:'{"text":"Option: Potions"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Potions","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/potions/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 

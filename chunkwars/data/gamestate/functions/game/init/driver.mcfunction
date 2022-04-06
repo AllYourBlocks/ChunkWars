@@ -14,8 +14,6 @@ advancement revoke @a everything
 execute if score $daylight_cycle option matches 0 run gamerule doDaylightCycle false
 execute if score $daylight_cycle option matches 1 run gamerule doDaylightCycle true
 
-function gamestate:game/init/give_items/driver
-
 gamerule doMobSpawning true
 
 scoreboard players set $blue_nether_pasted map_status 0
