@@ -12,7 +12,6 @@ scoreboard players set $one_shot option 0
 scoreboard players set $keep_inventory option 1
 scoreboard players set $iron_gear option 0
 scoreboard players set $halloween option 0
-scoreboard players set $enchanted_apples option 0
 scoreboard players set $ender_pearls option 0
 scoreboard players set $enchanting_table option 0
 scoreboard players set $difficulty option 2
@@ -41,7 +40,6 @@ execute as @e[type=marker,tag=OptionBonusChest,limit=1] at @s run function signs
 execute as @e[type=marker,tag=OptionDaylightCycle,limit=1] at @s run function signs:lobby/option/daylight_cycle/update/driver
 execute as @e[type=marker,tag=OptionEnchantingTable,limit=1] at @s run function signs:lobby/option/enchanting_table/update/driver
 execute as @e[type=marker,tag=OptionEnderPearls,limit=1] at @s run function signs:lobby/option/ender_pearls/update/driver
-execute as @e[type=marker,tag=OptionEnchantedApples,limit=1] at @s run function signs:lobby/option/enchanted_apples/update/driver
 execute as @e[type=marker,tag=OptionHalloweenMode,limit=1] at @s run function signs:lobby/option/halloween/update/driver
 execute as @e[type=marker,tag=OptionIronGear,limit=1] at @s run function signs:lobby/option/iron_gear/update/driver
 execute as @e[type=marker,tag=OptionJukebox,limit=1] at @s run function signs:lobby/option/jukebox/update/driver

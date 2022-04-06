@@ -26,9 +26,9 @@ We will need both during the merging period.
   * Redstone lamps over sign block indicate status
 * Difficulty setting has been split into multiple one-click-set signs which update the group when one is clicked
 * Variables, marker names and folders have been aligned to appropriate naming conventions and to contain proper words in the option description
-  * $variables are named in snake_case (e.g. $enchanted_apples)
-  * /folders/ are named in snake_case (e.g. enchanted_apples)
-  * Markers are named in UpperCamelCase (e.g. OptionEnchantedApples)
+  * $variables are named in snake_case (e.g. $bonus_chest)
+  * /folders/ are named in snake_case (e.g. bonus_chest)
+  * Markers are named in UpperCamelCase (e.g. OptionBonusChest)
   * Ingame messages do contain special names so can have Title Case
 * 2 Teams / 4 Teams has been split into 2 radio-like signs
 * gamestate/map_game has been split into 2 radio-like signs, values are "modern" (6x6) and "vintage" (5x5)

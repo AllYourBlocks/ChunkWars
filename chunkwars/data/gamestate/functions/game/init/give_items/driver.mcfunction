@@ -5,8 +5,6 @@ execute as @a[tag=Ingame] if score $wither_skulls option matches 1 run give @s m
 
 execute as @a[tag=Ingame] if score $ender_pearls option matches 1 run give @s minecraft:ender_pearl 1
 
-execute as @a[tag=Ingame] if score $enchanted_apples option matches 1 run function gamestate:game/init/give_items/enchanted_apples
-
 execute as @a[tag=Ingame] if score $tnt option matches 1 run give @s minecraft:tnt 1
 
 execute as @a[tag=Ingame] if score $potions option matches 1 run function gamestate:game/init/give_items/potions
