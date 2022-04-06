@@ -9,10 +9,6 @@ execute as @a[tag=Ingame] if score $armageddon option matches 1 run give @s mine
 
 execute as @a[tag=Ingame] if score $potions option matches 1 run function gamestate:pregame/init/give_items/potions
 
-execute as @a[tag=Ingame] if score $enchanting_table option matches 1 run give @s minecraft:enchanting_table 1
-
-execute as @a[tag=Ingame] if score $anvil option matches 1 run give @s minecraft:anvil 1
-
 execute as @a[tag=Ingame] if score $spawn_eggs option matches 1 run function gamestate:pregame/init/give_items/spawn_eggs
 
 execute as @a[tag=Ingame] if score $redstone option matches 1 run function gamestate:pregame/init/give_items/redstone

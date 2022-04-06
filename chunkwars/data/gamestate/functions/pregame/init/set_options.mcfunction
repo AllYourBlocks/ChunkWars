@@ -20,6 +20,10 @@ execute if score $respawn option matches 1 run gamerule doImmediateRespawn true
 
 execute if score $bonus_chest option matches 1 run function arena:reset/modern/default/build_bonus_chests
 
+execute if score $enchanting_table option matches 1 run function arena:option/enchanting_table/driver
+
+execute if score $anvil option matches 1 run function arena:option/anvil/driver
+
 execute if score $respawn option matches 0 run schedule function arena:option/respawn/driver 1t
 
 schedule function gamestate:pregame/init/give_items/driver 1t
