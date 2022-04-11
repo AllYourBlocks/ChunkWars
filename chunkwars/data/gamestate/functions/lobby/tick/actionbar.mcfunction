@@ -5,6 +5,7 @@
 # 4 - Green
 # 5 - Blue
 # 6 - Yellow
+# 7 - Puzzle
 
 #execute if score @s[scores={team=0}] team matches 0 run title @s actionbar [{"text":""},{"text":"Team: ","color":"#343434"},{"text":"Lobby","color":"dark_gray","bold":true}]
 #execute if score @s[scores={team=1}] team matches 1 run title @s actionbar [{"text":""},{"text":"Team: ","color":"#343434"},{"text":"Spectator","color":"gray","bold":true}]

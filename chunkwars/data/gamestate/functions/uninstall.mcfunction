@@ -17,3 +17,4 @@ team remove Red
 team remove Green
 team remove Blue
 team remove Yellow
+team remove Puzzle

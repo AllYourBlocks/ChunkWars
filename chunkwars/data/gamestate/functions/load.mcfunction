@@ -84,6 +84,7 @@ scoreboard objectives add team dummy
 # 4 - Green
 # 5 - Blue
 # 6 - Yellow
+# 7 - Lobby     - a player jumping around in the puzzle
 
 scoreboard objectives add triggers trigger
 
@@ -96,6 +97,7 @@ team add Red
 team add Green
 team add Blue
 team add Yellow
+team add Puzzle
 
 team modify Lobby color gray
 team modify Spectator color gray
@@ -104,6 +106,7 @@ team modify Red color red
 team modify Green color green
 team modify Blue color aqua
 team modify Yellow color yellow
+team modify Puzzle color gray
 
 # Definitions
 #define objective gamestate
