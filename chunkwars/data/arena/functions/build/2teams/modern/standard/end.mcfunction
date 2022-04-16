@@ -1,4 +1,4 @@
-#> arena:reset/modern/default/build_end
+#> arena:build/2teams/modern/standard/end
 
 #>----------------------
 #>Yellow Side Load 

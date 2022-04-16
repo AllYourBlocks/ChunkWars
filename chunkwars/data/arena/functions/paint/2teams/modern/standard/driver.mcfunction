@@ -1,4 +1,4 @@
-#> arena:reset/modern/default/paint/driver
+#> arena:paint/2teams/modern/standard/driver
 
 #> Paint Yellow Side
 
