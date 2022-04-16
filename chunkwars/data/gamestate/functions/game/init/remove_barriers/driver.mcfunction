@@ -1,9 +1,9 @@
 #yellow (actually blue?)
-fill 81 74 943 83 75 943 minecraft:air
-fill 82 71 945 82 72 945 minecraft:air
+fill 82 74 942 84 75 942 minecraft:air
+fill 83 71 944 83 72 944 minecraft:air
 
 #blue (actually yellow?)
-fill -84 74 1106 -86 75 1106 minecraft:air
-fill -85 71 1104 -85 72 1104 minecraft:air
+fill -83 74 1105 -85 75 1105 minecraft:air
+fill -84 71 1103 -84 72 1103 minecraft:air
 
 #TODO: more maps and more teams

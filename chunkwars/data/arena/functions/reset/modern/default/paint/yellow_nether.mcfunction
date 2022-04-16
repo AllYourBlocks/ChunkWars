@@ -1,3 +1,3 @@
-fill 86 54 1065 71 54 1080 minecraft:yellow_wool replace #minecraft:wool
-fill 86 54 1097 71 54 1112 minecraft:lime_wool replace #minecraft:wool
-fill 54 54 1097 39 54 1112 minecraft:light_blue_wool replace #minecraft:wool
+fill 87 54 1064 72 54 1079 minecraft:yellow_wool replace #minecraft:wool
+fill 87 54 1096 72 54 1111 minecraft:lime_wool replace #minecraft:wool
+fill 55 54 1096 40 54 1111 minecraft:light_blue_wool replace #minecraft:wool
