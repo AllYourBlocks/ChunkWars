@@ -26,4 +26,4 @@ setblock -86 71 1108 minecraft:light_blue_bed[facing=south,part=foot]
 fill -83 71 1107 -84 71 1107 minecraft:light_blue_carpet
 
 # Spawning the blue bed drops a yellow bed, so we clear that up
-kill @e[type=minecraft:item,x=-86,y=71,z=1109,distance=..3]
+kill @e[type=minecraft:item,x=-85,y=71,z=1108,distance=..3]
