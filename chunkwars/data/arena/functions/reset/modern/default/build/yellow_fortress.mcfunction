@@ -1,3 +1,3 @@
-setblock 63 53 1089 minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:arena/fortress", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-setblock 63 52 1089 minecraft:redstone_block
-fill 63 52 1089 63 53 1089 minecraft:air
+setblock 64 53 1088 minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:arena/fortress", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
+setblock 64 52 1088 minecraft:redstone_block
+fill 64 52 1088 64 53 1088 minecraft:air
