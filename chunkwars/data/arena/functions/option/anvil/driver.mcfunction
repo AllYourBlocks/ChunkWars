@@ -2,6 +2,6 @@
 #> this place anvils in the currently active arena
 
 # yellow anvil
-setblock 80 71 942 minecraft:anvil[facing=north]
+setblock 81 71 941 minecraft:anvil[facing=north]
 # blue anvil
-setblock -83 71 1107 minecraft:anvil[facing=south]
+setblock -82 71 1106 minecraft:anvil[facing=south]

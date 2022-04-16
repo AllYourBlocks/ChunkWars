@@ -21,8 +21,8 @@ fill 39 54 1065 86 54 1112 minecraft:lime_wool replace minecraft:white_wool
 
 #> Paint Blue Home Chunk Specific Blocks
 fill -84 71 1110 -87 71 1108 minecraft:air
-setblock -87 71 1110 minecraft:light_blue_bed[facing=south,part=head]
-setblock -87 71 1109 minecraft:light_blue_bed[facing=south,part=foot]
+setblock -86 71 1109 minecraft:light_blue_bed[facing=south,part=head]
+setblock -86 71 1108 minecraft:light_blue_bed[facing=south,part=foot]
 fill -84 71 1108 -85 71 1108 minecraft:light_blue_carpet
 
 # Spawning the blue bed drops a yellow bed, so we clear that up
