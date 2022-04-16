@@ -9,17 +9,17 @@ import java.io.PrintWriter;
 public class ChunkFiles {
 
     public static void main(String... args) {
-        final int start_x = -105;
+        final int start_x = -104;
         final int start_y = 0;
-        final int start_z = 921;
+        final int start_z = 920;
 
-        final int end_x = 102;
+        final int end_x = 103;
         final int end_y = 229;
-        final int end_z = 1128;
+        final int end_z = 1127;
 
         final int MAX_CHUNK_SIZE = 32; // the max distance we want to go in any direction at any time
 
-        final int sections = 3; // we have 3 chunks in each cardinal direction
+        final int sections = 3; // we have 3 "chunks" in each cardinal direction
 
         final int center_x = start_x + ((end_x - start_x) / 2);
         final int center_z = start_z + ((end_z - start_z) / 2);
