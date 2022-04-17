@@ -10,5 +10,6 @@
 # 0 70 7168 - 4 teams vintage standard
 # 0 70 8192 - 4 teams vintage condensed
 
-execute if score $teams gamestate matches 2 run function arena:reset/2teams/modern/standard/driver
+execute if score $teams gamestate matches 2 if score $map_size_2teams gamestate matches 0 if score $map_condensed map_variation matches 0 run function arena:reset/2teams/modern/standard/driver
+execute if score $teams gamestate matches 2 if score $map_size_2teams gamestate matches 0 unless score $map_condensed map_variation matches 0 run function arena:reset/2teams/modern/condensed/driver
 execute if score $teams gamestate matches 4 run function arena:reset/4teams/modern/standard/driver

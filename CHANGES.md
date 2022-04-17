@@ -3,7 +3,7 @@
 ---
 
 1) New Features
-* 4 team arena is implemented, modern size, standard variant
+* 4 team arena is implemented, modern size, standard and condensed variant
   * all currently implemented block based options are also working:
     anvil, bonus chest, enchanting table, jukebox, redstone, respawn
   * all player based options should work, have not been tested

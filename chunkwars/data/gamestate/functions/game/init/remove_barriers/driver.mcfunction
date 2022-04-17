@@ -1,9 +1,6 @@
-#yellow (actually blue?)
-fill 82 74 942 84 75 942 minecraft:air
-fill 83 71 944 83 72 944 minecraft:air
+execute if score $teams gamestate matches 2 if score $map_size_2teams gamestate matches 0 if score $map_condensed map_variation matches 0 run function arena:clean/2teams/modern/standard/remove_barriers
+execute if score $teams gamestate matches 2 if score $map_size_2teams gamestate matches 0 unless score $map_condensed map_variation matches 0 run function arena:clean/2teams/modern/condensed/remove_barriers
 
-#blue (actually yellow?)
-fill -83 74 1105 -85 75 1105 minecraft:air
-fill -84 71 1103 -84 72 1103 minecraft:air
+execute unless score $teams gamestate matches 2 if score $map_size_2teams gamestate matches 0 if score $map_condensed map_variation matches 0 run function arena:clean/4teams/modern/standard/remove_barriers
 
 #TODO: more maps and more teams

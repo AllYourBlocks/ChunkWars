@@ -1,0 +1,5 @@
+execute if score $blue_nether_pasted map_status matches 0 if block -50 73 2031 minecraft:nether_portal run function arena:build/blue_nether
+execute if score $yellow_nether_pasted map_status matches 0 if block 49 73 2064 minecraft:nether_portal run function arena:build/yellow_nether
+
+execute if score $end_pasted map_status matches 0 if block -14 59 2099 minecraft:end_portal_frame[eye=true] if block -13 59 2100 minecraft:end_portal_frame[eye=true] if block -12 59 2099 minecraft:end_portal_frame[eye=true] if block -13 59 2098 minecraft:end_portal_frame[eye=true] run function arena:build/end
+execute if score $end_pasted map_status matches 0 if block 13 59 1996 minecraft:end_portal_frame[eye=true] if block 12 59 1995 minecraft:end_portal_frame[eye=true] if block 11 59 1996 minecraft:end_portal_frame[eye=true] if block 12 59 1997 minecraft:end_portal_frame[eye=true] run function arena:build/end
