@@ -7,4 +7,5 @@ execute as @a at @s run playsound minecraft:entity.ender_dragon.ambient master @
 # second, build the end, with 2 seconds delay
 execute if score $teams gamestate matches 2 if score $map_size_2teams gamestate matches 0 if score $map_condensed map_variation matches 0 run schedule function arena:build/2teams/modern/standard/end 2s
 execute if score $teams gamestate matches 2 if score $map_size_2teams gamestate matches 0 unless score $map_condensed map_variation matches 0 run schedule function arena:build/2teams/modern/condensed/end 2s
-execute unless score $teams gamestate matches 2 run schedule function arena:build/4teams/modern/standard/end 2s
+execute unless score $teams gamestate matches 2 if score $map_condensed map_variation matches 0 run schedule function arena:build/4teams/modern/standard/end 2s
+execute unless score $teams gamestate matches 2 unless score $map_condensed map_variation matches 0 run schedule function arena:build/4teams/modern/condensed/end 2s

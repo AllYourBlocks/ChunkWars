@@ -1,0 +1,6 @@
+#>arena:generation/4teams/modern/condensed
+
+execute if score $end_pasted map_status matches 0 if block -51 59 6131 minecraft:end_portal_frame[eye=true] if block -52 59 6130 minecraft:end_portal_frame[eye=true] if block -53 59 6131 minecraft:end_portal_frame[eye=true] if block -52 59 6132 minecraft:end_portal_frame[eye=true] run function arena:build/end
+execute if score $end_pasted map_status matches 0 if block 12 59 6093 minecraft:end_portal_frame[eye=true] if block 13 59 6092 minecraft:end_portal_frame[eye=true] if block 12 59 6091 minecraft:end_portal_frame[eye=true] if block 11 59 6092 minecraft:end_portal_frame[eye=true] run function arena:build/end
+execute if score $end_pasted map_status matches 0 if block 50 59 6156 minecraft:end_portal_frame[eye=true] if block 51 59 6157 minecraft:end_portal_frame[eye=true] if block 52 59 6156 minecraft:end_portal_frame[eye=true] if block 51 59 6155 minecraft:end_portal_frame[eye=true] run function arena:build/end
+execute if score $end_pasted map_status matches 0 if block -13 59 6194 minecraft:end_portal_frame[eye=true] if block -14 59 6195 minecraft:end_portal_frame[eye=true] if block -13 59 6196 minecraft:end_portal_frame[eye=true] if block -12 59 6195 minecraft:end_portal_frame[eye=true] run function arena:build/end
