@@ -10,8 +10,7 @@ execute unless score $stage gamestate matches -2147483648..2147483647 run scoreb
 # $stage 6 - postgame (banter and reset)
 execute unless score $teams gamestate matches -2147483648..2147483647 run scoreboard players set $teams gamestate 2
 
-execute unless score $map_size_2teams gamestate matches -2147483648..2147483647 run scoreboard players set $map_size_2teams gamestate 0
-execute unless score $map_size_4teams gamestate matches -2147483648..2147483647 run scoreboard players set $map_size_4teams gamestate 0
+execute unless score $map_size gamestate matches -2147483648..2147483647 run scoreboard players set $map_size gamestate 0
 
 scoreboard objectives add pick_order dummy
 # 0 - first; 1 - second; 2 - third; 3 - fourth
@@ -111,8 +110,7 @@ team modify Puzzle color gray
 #define objective gamestate
 #define score_holder $stage
 #define score_holder $teams
-#define score_holder $map_size_2teams
-#define score_holder $map_size_4teams
+#define score_holder $map_size
 
 # Options
 #define objective option
