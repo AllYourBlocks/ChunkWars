@@ -52,7 +52,6 @@ execute unless score $map_condensed map_variation matches -2147483648..214748364
 execute unless score $map_nether map_variation matches -2147483648..2147483647 run scoreboard players set $map_nether map_variation 0
 execute unless score $map_end map_variation matches -2147483648..2147483647 run scoreboard players set $map_end map_variation 0
 execute unless score $map_random map_variation matches -2147483648..2147483647 run scoreboard players set $map_random map_variation 0
-execute unless score $map_remixed map_variation matches -2147483648..2147483647 run scoreboard players set $map_remixed map_variation 0
 
 scoreboard objectives add map_status dummy
 execute unless score $blue_nether_pasted map_status matches -2147483648..2147483647 run scoreboard players set $blue_nether_pasted map_status 0
@@ -142,7 +141,6 @@ team modify Puzzle color gray
 
 #define objective map_variation
 #define score_holder $map_infested
-#define score_holder $map_remixed
 #define score_holder $map_random
 #define score_holder $map_nether
 #define score_holder $map_end
