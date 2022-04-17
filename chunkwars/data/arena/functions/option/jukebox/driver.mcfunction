@@ -1,11 +1,7 @@
 #> arena:option/jukebox/driver
 #> this place jukeboxes and chests in the currently active arena
 
-# yellow stack
-setblock 85 74 940 minecraft:jukebox
-setblock 85 75 940 minecraft:chest[facing=west]
-# blue stack
-setblock -86 74 1107 minecraft:jukebox
-setblock -86 75 1107 minecraft:chest[facing=east]
-
-schedule function arena:option/jukebox/fill 10t
+execute if score $teams gamestate matches 2 if score $map_size_2teams gamestate matches 0 run schedule function arena:option/jukebox/2teams/modern/driver 5t
+execute if score $teams gamestate matches 2 unless score $map_size_2teams gamestate matches 0 run schedule function arena:option/jukebox/2teams/vintage/driver 5t
+execute unless score $teams gamestate matches 2 if score $map_size_4teams gamestate matches 0 run schedule function arena:option/jukebox/4teams/modern/driver 5t
+execute unless score $teams gamestate matches 2 unless score $map_size_4teams gamestate matches 0 run schedule function arena:option/jukebox/4teams/vintage/driver 5t

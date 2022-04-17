@@ -6,7 +6,7 @@ execute if score $stage gamestate matches 1 run function teleports:sumo/yellow/d
 execute if score $stage gamestate matches 2 unless entity @s[tag=YellowCaptain] run function teleports:lobby/house/yellow/driver
 execute if score $stage gamestate matches 2 if entity @s[tag=YellowCaptain] run function teleports:selection/yellow/driver
 execute if score $stage gamestate matches 3 run function teleports:lobby/house/yellow/driver
-execute if score $stage gamestate matches 4.. run function teleports:game/house/yellow
+execute if score $stage gamestate matches 4.. run function teleports:game/house/yellow/driver
 
 execute unless entity @s[tag=YellowCaptain] run tag @s add MessageReceiver
 

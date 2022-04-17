@@ -1,4 +1,5 @@
-tellraw @a {"text":"Both Teams are ready","bold":true,"color":"gold"}
+execute if score $teams gamestate matches 2 run tellraw @a {"text":"Both Teams are ready","bold":true,"color":"gold"}
+execute unless score $teams gamestate matches 2 run tellraw @a {"text":"All Teams are ready","bold":true,"color":"gold"}
 
 schedule function timers:countdown/houses/ready 1t append
 schedule function timers:countdown/houses/ready 1s append

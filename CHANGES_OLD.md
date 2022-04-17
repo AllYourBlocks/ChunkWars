@@ -1,3 +1,10 @@
+# ChangeLog v0.5.7
+**Puzzle Status**
+---
+
+1) Changes
+* Puzzle players have their own scoreboard team to separate them from lobby players
+
 # ChangeLog v0.5.6 (2022-04-09)
 **All the Options!**
 ---

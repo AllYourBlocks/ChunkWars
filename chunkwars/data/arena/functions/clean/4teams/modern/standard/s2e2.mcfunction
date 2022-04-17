@@ -1,0 +1,34 @@
+fill 69 0 5189 100 31 5220 minecraft:air
+fill 69 0 5221 100 31 5223 minecraft:air
+fill 69 32 5189 100 63 5220 minecraft:air
+fill 69 32 5221 100 63 5223 minecraft:air
+fill 69 64 5189 100 95 5220 minecraft:air
+fill 69 64 5221 100 95 5223 minecraft:air
+fill 69 96 5189 100 127 5220 minecraft:air
+fill 69 96 5221 100 127 5223 minecraft:air
+fill 69 128 5189 100 159 5220 minecraft:air
+fill 69 128 5221 100 159 5223 minecraft:air
+fill 69 160 5189 100 191 5220 minecraft:air
+fill 69 160 5221 100 191 5223 minecraft:air
+fill 69 192 5189 100 223 5220 minecraft:air
+fill 69 192 5221 100 223 5223 minecraft:air
+fill 69 224 5189 100 229 5220 minecraft:air
+fill 69 224 5221 100 229 5223 minecraft:air
+fill 101 0 5189 103 31 5220 minecraft:air
+fill 101 0 5221 103 31 5223 minecraft:air
+fill 101 32 5189 103 63 5220 minecraft:air
+fill 101 32 5221 103 63 5223 minecraft:air
+fill 101 64 5189 103 95 5220 minecraft:air
+fill 101 64 5221 103 95 5223 minecraft:air
+fill 101 96 5189 103 127 5220 minecraft:air
+fill 101 96 5221 103 127 5223 minecraft:air
+fill 101 128 5189 103 159 5220 minecraft:air
+fill 101 128 5221 103 159 5223 minecraft:air
+fill 101 160 5189 103 191 5220 minecraft:air
+fill 101 160 5221 103 191 5223 minecraft:air
+fill 101 192 5189 103 223 5220 minecraft:air
+fill 101 192 5221 103 223 5223 minecraft:air
+fill 101 224 5189 103 229 5220 minecraft:air
+fill 101 224 5221 103 229 5223 minecraft:air
+
+kill @e[type=!minecraft:player,x=69,y=0,z=5189,dx=34,dy=229,dz=34]

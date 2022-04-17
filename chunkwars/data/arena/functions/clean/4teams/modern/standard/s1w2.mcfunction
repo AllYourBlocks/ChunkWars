@@ -1,0 +1,34 @@
+fill -106 0 5154 -75 31 5185 minecraft:air
+fill -106 0 5186 -75 31 5189 minecraft:air
+fill -106 32 5154 -75 63 5185 minecraft:air
+fill -106 32 5186 -75 63 5189 minecraft:air
+fill -106 64 5154 -75 95 5185 minecraft:air
+fill -106 64 5186 -75 95 5189 minecraft:air
+fill -106 96 5154 -75 127 5185 minecraft:air
+fill -106 96 5186 -75 127 5189 minecraft:air
+fill -106 128 5154 -75 159 5185 minecraft:air
+fill -106 128 5186 -75 159 5189 minecraft:air
+fill -106 160 5154 -75 191 5185 minecraft:air
+fill -106 160 5186 -75 191 5189 minecraft:air
+fill -106 192 5154 -75 223 5185 minecraft:air
+fill -106 192 5186 -75 223 5189 minecraft:air
+fill -106 224 5154 -75 229 5185 minecraft:air
+fill -106 224 5186 -75 229 5189 minecraft:air
+fill -74 0 5154 -71 31 5185 minecraft:air
+fill -74 0 5186 -71 31 5189 minecraft:air
+fill -74 32 5154 -71 63 5185 minecraft:air
+fill -74 32 5186 -71 63 5189 minecraft:air
+fill -74 64 5154 -71 95 5185 minecraft:air
+fill -74 64 5186 -71 95 5189 minecraft:air
+fill -74 96 5154 -71 127 5185 minecraft:air
+fill -74 96 5186 -71 127 5189 minecraft:air
+fill -74 128 5154 -71 159 5185 minecraft:air
+fill -74 128 5186 -71 159 5189 minecraft:air
+fill -74 160 5154 -71 191 5185 minecraft:air
+fill -74 160 5186 -71 191 5189 minecraft:air
+fill -74 192 5154 -71 223 5185 minecraft:air
+fill -74 192 5186 -71 223 5189 minecraft:air
+fill -74 224 5154 -71 229 5185 minecraft:air
+fill -74 224 5186 -71 229 5189 minecraft:air
+
+kill @e[type=!minecraft:player,x=-106,y=0,z=5154,dx=35,dy=229,dz=35]

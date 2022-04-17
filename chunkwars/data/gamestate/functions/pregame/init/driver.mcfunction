@@ -7,10 +7,10 @@ execute as @a[team=Lobby] run function utility:team/join/spectator
 execute as @a run spawnpoint @s -1 100 -1025 0
 
 # teleport players to their spawn
-execute as @a[team=Yellow] run function teleports:game/house/yellow
-execute as @a[team=Blue] run function teleports:game/house/blue
-execute as @a[team=Green] run function teleports:game/house/green
-execute as @a[team=Red] run function teleports:game/house/red
+execute as @a[team=Yellow] run function teleports:game/house/yellow/driver
+execute as @a[team=Blue] run function teleports:game/house/blue/driver
+execute as @a[team=Green] run function teleports:game/house/green/driver
+execute as @a[team=Red] run function teleports:game/house/red/driver
 
 execute as @a[team=Spectator] run function teleports:game/center
 
