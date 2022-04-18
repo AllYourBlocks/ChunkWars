@@ -5,6 +5,6 @@ function signs:lobby/map_variation/condensed/update/driver
 
 tag @s add MassUpdater
 
-function signs:lobby/map_variation/update/driver
+function signs:lobby/map_variation/update
 
 tag @s remove MassUpdater

@@ -54,11 +54,11 @@ execute as @e[type=marker,tag=OptionArmageddon,limit=1] at @s run function signs
 execute as @e[type=marker,tag=OptionWeather,limit=1] at @s run function signs:lobby/option/weather/update/driver
 execute as @e[type=marker,tag=OptionWitherSkulls,limit=1] at @s run function signs:lobby/option/wither_skulls/update/driver
 
-function signs:lobby/option/difficulty/update/driver
+function signs:lobby/option/difficulty/update
 
-function signs:lobby/gamestate/map_size/update/driver
-function signs:lobby/map_variation/update/driver
-function signs:lobby/gamestate/teams/update/driver
+function signs:lobby/gamestate/map_size/update
+function signs:lobby/map_variation/update
+function signs:lobby/gamestate/teams/update
 
 tag @s remove MassUpdater
 
