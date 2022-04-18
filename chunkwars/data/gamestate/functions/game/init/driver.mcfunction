@@ -1,6 +1,6 @@
 scoreboard players set $stage gamestate 5
 
-function gamestate:game/init/remove_barriers/driver
+function arena:init/driver
 
 execute as @a at @s run playsound minecraft:entity.ender_dragon.ambient master @a ~ ~5 ~
 
