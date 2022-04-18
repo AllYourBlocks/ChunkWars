@@ -20,7 +20,6 @@ scoreboard players set $bonus_chest option 0
 scoreboard players set $anvil option 0
 
 scoreboard players set $map_size gamestate 0
-scoreboard players set $map_size gamestate 0
 
 scoreboard players set $map_infested map_variation 0
 scoreboard players set $map_nether map_variation 0
