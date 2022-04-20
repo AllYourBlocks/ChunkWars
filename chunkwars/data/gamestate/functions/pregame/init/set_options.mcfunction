@@ -30,4 +30,6 @@ execute if score $anvil option matches 1 run function arena:option/anvil/driver
 
 execute if score $respawn option matches 0 run schedule function arena:option/respawn/driver 1t
 
+execute if score $map_infested map_variation matches 1 run schedule function arena:option/infested/driver 1s
+
 schedule function gamestate:pregame/init/give_items/driver 1t
