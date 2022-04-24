@@ -1,3 +1,7 @@
+fill -1 -64 5119 30 -33 5150 minecraft:air
+fill -1 -64 5151 30 -33 5154 minecraft:air
+fill -1 -32 5119 30 -1 5150 minecraft:air
+fill -1 -32 5151 30 -1 5154 minecraft:air
 fill -1 0 5119 30 31 5150 minecraft:air
 fill -1 0 5151 30 31 5154 minecraft:air
 fill -1 32 5119 30 63 5150 minecraft:air
@@ -14,6 +18,10 @@ fill -1 192 5119 30 223 5150 minecraft:air
 fill -1 192 5151 30 223 5154 minecraft:air
 fill -1 224 5119 30 229 5150 minecraft:air
 fill -1 224 5151 30 229 5154 minecraft:air
+fill 31 -64 5119 34 -33 5150 minecraft:air
+fill 31 -64 5151 34 -33 5154 minecraft:air
+fill 31 -32 5119 34 -1 5150 minecraft:air
+fill 31 -32 5151 34 -1 5154 minecraft:air
 fill 31 0 5119 34 31 5150 minecraft:air
 fill 31 0 5151 34 31 5154 minecraft:air
 fill 31 32 5119 34 63 5150 minecraft:air
@@ -31,4 +39,4 @@ fill 31 192 5151 34 223 5154 minecraft:air
 fill 31 224 5119 34 229 5150 minecraft:air
 fill 31 224 5151 34 229 5154 minecraft:air
 
-kill @e[type=!minecraft:player,x=-1,y=0,z=5119,dx=35,dy=229,dz=35]
+kill @e[type=!minecraft:player,x=-1,y=-64,z=5119,dx=35,dy=293,dz=35]

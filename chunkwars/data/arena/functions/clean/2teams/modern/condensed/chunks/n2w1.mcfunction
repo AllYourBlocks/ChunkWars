@@ -1,10 +1,12 @@
-fill -48 0 1976 -24 31 2000 minecraft:air
-fill -48 32 1976 -24 63 2000 minecraft:air
-fill -48 64 1976 -24 95 2000 minecraft:air
-fill -48 96 1976 -24 127 2000 minecraft:air
-fill -48 128 1976 -24 159 2000 minecraft:air
-fill -48 160 1976 -24 191 2000 minecraft:air
-fill -48 192 1976 -24 223 2000 minecraft:air
-fill -48 224 1976 -24 229 2000 minecraft:air
+fill -49 -64 1975 -25 -33 1999 minecraft:air
+fill -49 -32 1975 -25 -1 1999 minecraft:air
+fill -49 0 1975 -25 31 1999 minecraft:air
+fill -49 32 1975 -25 63 1999 minecraft:air
+fill -49 64 1975 -25 95 1999 minecraft:air
+fill -49 96 1975 -25 127 1999 minecraft:air
+fill -49 128 1975 -25 159 1999 minecraft:air
+fill -49 160 1975 -25 191 1999 minecraft:air
+fill -49 192 1975 -25 223 1999 minecraft:air
+fill -49 224 1975 -25 229 1999 minecraft:air
 
-kill @e[type=!minecraft:player,x=-48,y=0,z=1976,dx=24,dy=229,dz=24]
+kill @e[type=!minecraft:player,x=-49,y=-64,z=1975,dx=24,dy=293,dz=24]

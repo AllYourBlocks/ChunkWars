@@ -1,3 +1,7 @@
+fill -36 -64 918 -5 -33 949 minecraft:air
+fill -36 -64 950 -5 -33 953 minecraft:air
+fill -36 -32 918 -5 -1 949 minecraft:air
+fill -36 -32 950 -5 -1 953 minecraft:air
 fill -36 0 918 -5 31 949 minecraft:air
 fill -36 0 950 -5 31 953 minecraft:air
 fill -36 32 918 -5 63 949 minecraft:air
@@ -14,6 +18,10 @@ fill -36 192 918 -5 223 949 minecraft:air
 fill -36 192 950 -5 223 953 minecraft:air
 fill -36 224 918 -5 229 949 minecraft:air
 fill -36 224 950 -5 229 953 minecraft:air
+fill -4 -64 918 -1 -33 949 minecraft:air
+fill -4 -64 950 -1 -33 953 minecraft:air
+fill -4 -32 918 -1 -1 949 minecraft:air
+fill -4 -32 950 -1 -1 953 minecraft:air
 fill -4 0 918 -1 31 949 minecraft:air
 fill -4 0 950 -1 31 953 minecraft:air
 fill -4 32 918 -1 63 949 minecraft:air
@@ -31,4 +39,4 @@ fill -4 192 950 -1 223 953 minecraft:air
 fill -4 224 918 -1 229 949 minecraft:air
 fill -4 224 950 -1 229 953 minecraft:air
 
-kill @e[type=!minecraft:player,x=-36,y=0,z=918,dx=35,dy=229,dz=35]
+kill @e[type=!minecraft:player,x=-36,y=-64,z=918,dx=35,dy=293,dz=35]

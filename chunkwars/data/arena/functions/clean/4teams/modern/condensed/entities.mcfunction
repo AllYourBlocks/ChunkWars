@@ -1,1 +1,1 @@
-kill @e[type=!minecraft:player,x=-104,y=0,z=6060,dx=207,dy=229,dz=207]
+kill @e[type=!minecraft:player,x=-72,y=-64,z=6072,dx=143,dy=293,dz=144]

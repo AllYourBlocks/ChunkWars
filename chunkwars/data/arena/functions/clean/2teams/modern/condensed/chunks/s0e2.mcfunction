@@ -1,10 +1,12 @@
-fill 48 0 2048 72 31 2072 minecraft:air
-fill 48 32 2048 72 63 2072 minecraft:air
-fill 48 64 2048 72 95 2072 minecraft:air
-fill 48 96 2048 72 127 2072 minecraft:air
-fill 48 128 2048 72 159 2072 minecraft:air
-fill 48 160 2048 72 191 2072 minecraft:air
-fill 48 192 2048 72 223 2072 minecraft:air
-fill 48 224 2048 72 229 2072 minecraft:air
+fill 47 -64 2047 71 -33 2071 minecraft:air
+fill 47 -32 2047 71 -1 2071 minecraft:air
+fill 47 0 2047 71 31 2071 minecraft:air
+fill 47 32 2047 71 63 2071 minecraft:air
+fill 47 64 2047 71 95 2071 minecraft:air
+fill 47 96 2047 71 127 2071 minecraft:air
+fill 47 128 2047 71 159 2071 minecraft:air
+fill 47 160 2047 71 191 2071 minecraft:air
+fill 47 192 2047 71 223 2071 minecraft:air
+fill 47 224 2047 71 229 2071 minecraft:air
 
-kill @e[type=!minecraft:player,x=48,y=0,z=2048,dx=24,dy=229,dz=24]
+kill @e[type=!minecraft:player,x=47,y=-64,z=2047,dx=24,dy=293,dz=24]
