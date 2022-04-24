@@ -10,7 +10,7 @@ fill -50 74 6093 -50 75 6091 minecraft:barrier
 
 #yellow
 fill 51 71 6096 51 72 6096 minecraft:barrier
-fill 50 74 6094 52 75 6094 minecraft:barrier
+fill 50 74 6094 39 75 6094 minecraft:barrier
 
 #green
 fill 47 71 6195 47 72 6195 minecraft:barrier
