@@ -21,7 +21,7 @@ fill 40 41 1064 87 41 1111 minecraft:lime_wool replace minecraft:white_wool
 
 #> Paint Blue Home Chunk Specific Blocks
 
-fill 82 58 940 83 58 940 minecraft:air
+fill 85 58 938 85 58 939 minecraft:air
 setblock 85 58 938 minecraft:light_blue_bed[facing=north,part=head]
 setblock 85 58 939 minecraft:light_blue_bed[facing=north,part=foot]
 

@@ -27,3 +27,10 @@ execute as @e[type=piglin] run data merge entity @s {IsImmuneToZombification:1}
 function utility:sign/lock/all
 
 #forceload remove -88 936 87 1111
+#forceload remove -88 1960 87 2135
+#forceload remove -88 2984 87 3159
+#forceload remove -88 4008 87 4183
+#forceload remove -88 5032 87 5207
+#forceload remove -88 6056 87 6231
+#forceload remove -88 7080 87 7255
+#forceload remove -88 8104 87 8279

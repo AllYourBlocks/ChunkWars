@@ -4,10 +4,10 @@
 
 fill 87 41 5032 8 41 5111 minecraft:light_blue_wool replace #minecraft:wool
 
-fill 82 58 5036 83 58 5036 minecraft:air
+fill 85 58 5034 85 58 5035 minecraft:air
 
-setblock 85 58 5034 minecraft:light_blue_bed[facing=north,part=foot] replace
-setblock 85 58 5035 minecraft:light_blue_bed[facing=north,part=head] replace
+setblock 85 58 5034 minecraft:light_blue_bed[facing=north,part=head] replace
+setblock 85 58 5035 minecraft:light_blue_bed[facing=north,part=foot] replace
 
 fill 82 58 5036 83 58 5036 minecraft:light_blue_carpet replace #minecraft:carpets
 

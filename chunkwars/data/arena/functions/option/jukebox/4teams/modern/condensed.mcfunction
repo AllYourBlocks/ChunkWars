@@ -11,7 +11,7 @@ setblock -54 61 6195 minecraft:jukebox
 setblock -54 62 6195 minecraft:chest[facing=east]
 
 # green stack
-setblock -52 62 6090 minecraft:jukebox
+setblock -52 61 6090 minecraft:jukebox
 setblock -52 62 6090 minecraft:chest[facing=south]
 
 schedule function arena:option/jukebox/4teams/modern/fill_condensed 10t

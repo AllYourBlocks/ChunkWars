@@ -15,4 +15,4 @@ setblock -51 59 6090 minecraft:redstone_wall_torch[facing=south]
 setblock -51 58 6090 minecraft:chest[facing=south]
 
 
-schedule function arena:option/redstone/4teams/modern/fill_standard 2t
+schedule function arena:option/redstone/4teams/modern/fill_condensed 2t

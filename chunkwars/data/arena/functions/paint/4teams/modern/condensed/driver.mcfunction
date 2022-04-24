@@ -19,7 +19,7 @@ fill -56 41 6135 -9 41 6088 minecraft:lime_wool replace #minecraft:wool
 
 # blue
 
-fill 50 58 6092 51 58 6092 air
+fill 53 58 6090 53 58 6091 air
 setblock 53 58 6090 minecraft:light_blue_bed[facing=north,part=head]
 setblock 53 58 6091 minecraft:light_blue_bed[facing=north,part=foot]
 
