@@ -23,3 +23,5 @@ tag @s[tag=RedCaptain] remove RedCaptain
 tag @s[tag=Captain] remove Captain
 tag @s[tag=Teleported] remove Teleported
 tag @s[tag=Ingame] remove Ingame
+
+attribute @s generic.attack_damage base set 2.0
