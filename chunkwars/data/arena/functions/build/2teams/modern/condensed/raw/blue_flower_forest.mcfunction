@@ -1,3 +1,3 @@
-setblock -1 53 2111 minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "CLOCKWISE_180", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:arena/flower_forest", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-setblock -1 52 2111 minecraft:redstone_block
-fill -1 52 2111 -1 53 2111 minecraft:air
+setblock 0 53 1984 minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:arena/flower_forest", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
+setblock 0 52 1984 minecraft:redstone_block
+fill 0 52 1984 0 53 1984 minecraft:air
