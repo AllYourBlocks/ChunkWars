@@ -1,7 +1,7 @@
 #> arena:build/2teams/modern/standard/end
 
 #>----------------------
-#>Yellow Side Load 
+#>Blue Side Load 
 #>----------------------
 
 # Row 3 (lower)
@@ -28,7 +28,7 @@ fill 0 87 1024 0 88 1024 minecraft:air
 
 
 #>----------------------
-#>Blue Side Load 
+#>Yellow Side Load 
 #>----------------------
 
 # Row 3 (lower)

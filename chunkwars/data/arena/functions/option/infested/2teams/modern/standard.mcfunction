@@ -1,5 +1,123 @@
 
 
+
+fill 87 43 936 -88 43 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
+fill 87 43 936 -88 43 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
+fill 87 43 936 -88 43 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
+fill 87 43 936 -88 43 1111 minecraft:infested_deepslate replace minecraft:deepslate
+fill 87 43 936 -88 43 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
+fill 87 43 936 -88 43 1111 minecraft:infested_stone replace minecraft:stone
+fill 87 43 936 -88 43 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
+
+
+fill 87 44 936 -88 44 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
+fill 87 44 936 -88 44 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
+fill 87 44 936 -88 44 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
+fill 87 44 936 -88 44 1111 minecraft:infested_deepslate replace minecraft:deepslate
+fill 87 44 936 -88 44 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
+fill 87 44 936 -88 44 1111 minecraft:infested_stone replace minecraft:stone
+fill 87 44 936 -88 44 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
+
+
+fill 87 45 936 -88 45 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
+fill 87 45 936 -88 45 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
+fill 87 45 936 -88 45 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
+fill 87 45 936 -88 45 1111 minecraft:infested_deepslate replace minecraft:deepslate
+fill 87 45 936 -88 45 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
+fill 87 45 936 -88 45 1111 minecraft:infested_stone replace minecraft:stone
+fill 87 45 936 -88 45 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
+
+
+fill 87 46 936 -88 46 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
+fill 87 46 936 -88 46 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
+fill 87 46 936 -88 46 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
+fill 87 46 936 -88 46 1111 minecraft:infested_deepslate replace minecraft:deepslate
+fill 87 46 936 -88 46 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
+fill 87 46 936 -88 46 1111 minecraft:infested_stone replace minecraft:stone
+fill 87 46 936 -88 46 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
+
+
+fill 87 47 936 -88 47 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
+fill 87 47 936 -88 47 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
+fill 87 47 936 -88 47 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
+fill 87 47 936 -88 47 1111 minecraft:infested_deepslate replace minecraft:deepslate
+fill 87 47 936 -88 47 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
+fill 87 47 936 -88 47 1111 minecraft:infested_stone replace minecraft:stone
+fill 87 47 936 -88 47 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
+
+
+fill 87 48 936 -88 48 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
+fill 87 48 936 -88 48 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
+fill 87 48 936 -88 48 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
+fill 87 48 936 -88 48 1111 minecraft:infested_deepslate replace minecraft:deepslate
+fill 87 48 936 -88 48 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
+fill 87 48 936 -88 48 1111 minecraft:infested_stone replace minecraft:stone
+fill 87 48 936 -88 48 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
+
+
+fill 87 49 936 -88 49 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
+fill 87 49 936 -88 49 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
+fill 87 49 936 -88 49 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
+fill 87 49 936 -88 49 1111 minecraft:infested_deepslate replace minecraft:deepslate
+fill 87 49 936 -88 49 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
+fill 87 49 936 -88 49 1111 minecraft:infested_stone replace minecraft:stone
+fill 87 49 936 -88 49 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
+
+
+fill 87 50 936 -88 50 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
+fill 87 50 936 -88 50 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
+fill 87 50 936 -88 50 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
+fill 87 50 936 -88 50 1111 minecraft:infested_deepslate replace minecraft:deepslate
+fill 87 50 936 -88 50 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
+fill 87 50 936 -88 50 1111 minecraft:infested_stone replace minecraft:stone
+fill 87 50 936 -88 50 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
+
+
+fill 87 51 936 -88 51 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
+fill 87 51 936 -88 51 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
+fill 87 51 936 -88 51 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
+fill 87 51 936 -88 51 1111 minecraft:infested_deepslate replace minecraft:deepslate
+fill 87 51 936 -88 51 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
+fill 87 51 936 -88 51 1111 minecraft:infested_stone replace minecraft:stone
+fill 87 51 936 -88 51 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
+
+
+fill 87 52 936 -88 52 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
+fill 87 52 936 -88 52 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
+fill 87 52 936 -88 52 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
+fill 87 52 936 -88 52 1111 minecraft:infested_deepslate replace minecraft:deepslate
+fill 87 52 936 -88 52 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
+fill 87 52 936 -88 52 1111 minecraft:infested_stone replace minecraft:stone
+fill 87 52 936 -88 52 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
+
+
+fill 87 53 936 -88 53 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
+fill 87 53 936 -88 53 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
+fill 87 53 936 -88 53 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
+fill 87 53 936 -88 53 1111 minecraft:infested_deepslate replace minecraft:deepslate
+fill 87 53 936 -88 53 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
+fill 87 53 936 -88 53 1111 minecraft:infested_stone replace minecraft:stone
+fill 87 53 936 -88 53 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
+
+
+fill 87 54 936 -88 54 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
+fill 87 54 936 -88 54 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
+fill 87 54 936 -88 54 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
+fill 87 54 936 -88 54 1111 minecraft:infested_deepslate replace minecraft:deepslate
+fill 87 54 936 -88 54 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
+fill 87 54 936 -88 54 1111 minecraft:infested_stone replace minecraft:stone
+fill 87 54 936 -88 54 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
+
+
+fill 87 55 936 -88 55 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
+fill 87 55 936 -88 55 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
+fill 87 55 936 -88 55 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
+fill 87 55 936 -88 55 1111 minecraft:infested_deepslate replace minecraft:deepslate
+fill 87 55 936 -88 55 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
+fill 87 55 936 -88 55 1111 minecraft:infested_stone replace minecraft:stone
+fill 87 55 936 -88 55 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
+
+
 fill 87 56 936 -88 56 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
 fill 87 56 936 -88 56 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
 fill 87 56 936 -88 56 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
@@ -153,121 +271,4 @@ fill 87 72 936 -88 72 1111 minecraft:infested_stone replace minecraft:stone
 fill 87 72 936 -88 72 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
 
 
-fill 87 73 936 -88 73 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
-fill 87 73 936 -88 73 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
-fill 87 73 936 -88 73 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
-fill 87 73 936 -88 73 1111 minecraft:infested_deepslate replace minecraft:deepslate
-fill 87 73 936 -88 73 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
-fill 87 73 936 -88 73 1111 minecraft:infested_stone replace minecraft:stone
-fill 87 73 936 -88 73 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
-
-
-fill 87 74 936 -88 74 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
-fill 87 74 936 -88 74 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
-fill 87 74 936 -88 74 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
-fill 87 74 936 -88 74 1111 minecraft:infested_deepslate replace minecraft:deepslate
-fill 87 74 936 -88 74 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
-fill 87 74 936 -88 74 1111 minecraft:infested_stone replace minecraft:stone
-fill 87 74 936 -88 74 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
-
-
-fill 87 75 936 -88 75 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
-fill 87 75 936 -88 75 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
-fill 87 75 936 -88 75 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
-fill 87 75 936 -88 75 1111 minecraft:infested_deepslate replace minecraft:deepslate
-fill 87 75 936 -88 75 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
-fill 87 75 936 -88 75 1111 minecraft:infested_stone replace minecraft:stone
-fill 87 75 936 -88 75 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
-
-
-fill 87 76 936 -88 76 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
-fill 87 76 936 -88 76 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
-fill 87 76 936 -88 76 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
-fill 87 76 936 -88 76 1111 minecraft:infested_deepslate replace minecraft:deepslate
-fill 87 76 936 -88 76 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
-fill 87 76 936 -88 76 1111 minecraft:infested_stone replace minecraft:stone
-fill 87 76 936 -88 76 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
-
-
-fill 87 77 936 -88 77 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
-fill 87 77 936 -88 77 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
-fill 87 77 936 -88 77 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
-fill 87 77 936 -88 77 1111 minecraft:infested_deepslate replace minecraft:deepslate
-fill 87 77 936 -88 77 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
-fill 87 77 936 -88 77 1111 minecraft:infested_stone replace minecraft:stone
-fill 87 77 936 -88 77 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
-
-
-fill 87 78 936 -88 78 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
-fill 87 78 936 -88 78 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
-fill 87 78 936 -88 78 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
-fill 87 78 936 -88 78 1111 minecraft:infested_deepslate replace minecraft:deepslate
-fill 87 78 936 -88 78 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
-fill 87 78 936 -88 78 1111 minecraft:infested_stone replace minecraft:stone
-fill 87 78 936 -88 78 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
-
-
-fill 87 79 936 -88 79 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
-fill 87 79 936 -88 79 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
-fill 87 79 936 -88 79 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
-fill 87 79 936 -88 79 1111 minecraft:infested_deepslate replace minecraft:deepslate
-fill 87 79 936 -88 79 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
-fill 87 79 936 -88 79 1111 minecraft:infested_stone replace minecraft:stone
-fill 87 79 936 -88 79 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
-
-
-fill 87 80 936 -88 80 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
-fill 87 80 936 -88 80 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
-fill 87 80 936 -88 80 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
-fill 87 80 936 -88 80 1111 minecraft:infested_deepslate replace minecraft:deepslate
-fill 87 80 936 -88 80 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
-fill 87 80 936 -88 80 1111 minecraft:infested_stone replace minecraft:stone
-fill 87 80 936 -88 80 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
-
-
-fill 87 81 936 -88 81 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
-fill 87 81 936 -88 81 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
-fill 87 81 936 -88 81 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
-fill 87 81 936 -88 81 1111 minecraft:infested_deepslate replace minecraft:deepslate
-fill 87 81 936 -88 81 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
-fill 87 81 936 -88 81 1111 minecraft:infested_stone replace minecraft:stone
-fill 87 81 936 -88 81 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
-
-
-fill 87 82 936 -88 82 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
-fill 87 82 936 -88 82 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
-fill 87 82 936 -88 82 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
-fill 87 82 936 -88 82 1111 minecraft:infested_deepslate replace minecraft:deepslate
-fill 87 82 936 -88 82 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
-fill 87 82 936 -88 82 1111 minecraft:infested_stone replace minecraft:stone
-fill 87 82 936 -88 82 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
-
-
-fill 87 83 936 -88 83 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
-fill 87 83 936 -88 83 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
-fill 87 83 936 -88 83 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
-fill 87 83 936 -88 83 1111 minecraft:infested_deepslate replace minecraft:deepslate
-fill 87 83 936 -88 83 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
-fill 87 83 936 -88 83 1111 minecraft:infested_stone replace minecraft:stone
-fill 87 83 936 -88 83 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
-
-
-fill 87 84 936 -88 84 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
-fill 87 84 936 -88 84 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
-fill 87 84 936 -88 84 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
-fill 87 84 936 -88 84 1111 minecraft:infested_deepslate replace minecraft:deepslate
-fill 87 84 936 -88 84 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
-fill 87 84 936 -88 84 1111 minecraft:infested_stone replace minecraft:stone
-fill 87 84 936 -88 84 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
-
-
-fill 87 85 936 -88 85 1111 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
-fill 87 85 936 -88 85 1111 minecraft:infested_cobblestone replace minecraft:cobblestone
-fill 87 85 936 -88 85 1111 minecraft:infested_cracked_stone_bricks replace minecraft:cracked_stone_bricks
-fill 87 85 936 -88 85 1111 minecraft:infested_deepslate replace minecraft:deepslate
-fill 87 85 936 -88 85 1111 minecraft:infested_mossy_stone_bricks replace minecraft:mossy_stone_bricks
-fill 87 85 936 -88 85 1111 minecraft:infested_stone replace minecraft:stone
-fill 87 85 936 -88 85 1111 minecraft:infested_stone_bricks replace minecraft:stone_bricks
-
-
-# top height: 85 = cobblestone in the mansion
+# top height: 72 = cobblestone in the mansion

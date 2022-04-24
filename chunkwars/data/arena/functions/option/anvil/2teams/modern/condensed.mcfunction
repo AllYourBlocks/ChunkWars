@@ -1,4 +1,4 @@
-# yellow anvil
-setblock 49 71 1997 minecraft:anvil[facing=north]
 # blue anvil
-setblock -50 71 2098 minecraft:anvil[facing=south]
+setblock 49 58 1997 minecraft:anvil[facing=north]
+# yellow anvil
+setblock -50 58 2098 minecraft:anvil[facing=south]

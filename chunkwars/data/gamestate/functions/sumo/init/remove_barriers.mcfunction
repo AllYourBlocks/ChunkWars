@@ -1,1 +1,1 @@
-fill 12 3 45 -13 10 70 minecraft:air replace minecraft:barrier
+fill 12 -64 45 -13 -57 70 minecraft:air replace minecraft:barrier

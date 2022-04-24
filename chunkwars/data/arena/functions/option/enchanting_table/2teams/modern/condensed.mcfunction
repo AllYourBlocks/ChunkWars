@@ -1,4 +1,4 @@
-# yellow enchanting table
-setblock 49 71 1995 minecraft:enchanting_table
 # blue enchanting table
-setblock -50 71 2100 minecraft:enchanting_table
+setblock 49 58 1995 minecraft:enchanting_table
+# yellow enchanting table
+setblock -50 58 2100 minecraft:enchanting_table

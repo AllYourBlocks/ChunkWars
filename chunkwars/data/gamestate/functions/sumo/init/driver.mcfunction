@@ -2,9 +2,6 @@
 # team_select_check
 
 execute as @a[team=!Spectator] run function utility:team/join/playing
-#TODO this might belong in houses:init
-#setblock 20 20 57 minecraft:lever[powered=false,face=wall,facing=south]
-#setblock -21 20 57 minecraft:lever[powered=false,face=wall,facing=south]
 
 scoreboard players set $stage gamestate 1
 function utility:sign/lock/all
