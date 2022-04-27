@@ -18,12 +18,12 @@ schedule function utility:waterstop/enable 102t
 
 schedule function arena:build/2teams/modern/condensed/overworld 103t
 
-schedule function utility:waterstop/disable 230t
+schedule function utility:waterstop/disable 200t
 
 #>----------------------
 #>Paint
 #>----------------------
 
-schedule function arena:paint/2teams/modern/condensed/driver 230t
+schedule function arena:paint/2teams/modern/condensed/driver 200t
 
-schedule function arena:build/2teams/modern/condensed/add_barriers 240t
+schedule function arena:build/2teams/modern/condensed/add_barriers 210t
