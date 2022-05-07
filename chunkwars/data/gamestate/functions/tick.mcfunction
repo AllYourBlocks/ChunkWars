@@ -7,12 +7,3 @@ execute if score $stage gamestate matches 3 run function gamestate:houses/tick/d
 execute if score $stage gamestate matches 4 run function gamestate:pregame/tick/driver
 execute if score $stage gamestate matches 5 run function gamestate:game/tick/driver
 # gamestate 6 has no tick, we just wait for a click or command
- 
-# if a player has a trigger, handle them
-execute as @a if score @s triggers matches 1.. run function utility:player/trigger
-
-# handle players being at the world spawn
-execute as @a[x=-14,y=99,z=-1038,dx=28,dy=3,dz=28] run function utility:player/at_spawn
-
-# prevent lobby players from hurting each other, put lobby people to adventure mode
-function utility:player/lobby_status

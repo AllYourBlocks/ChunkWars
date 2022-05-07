@@ -1,0 +1,1 @@
+scoreboard objectives remove tick_split
