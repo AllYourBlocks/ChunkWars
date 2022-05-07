@@ -17,6 +17,8 @@ scoreboard players set $count_houses_down timer 0
 scoreboard players set $count_sumo_down timer 0
 scoreboard players set $count_pregame_down timer 0
 
+scoreboard players reset @a respawn_status
+
 difficulty easy
 gamerule doMobSpawning false
 

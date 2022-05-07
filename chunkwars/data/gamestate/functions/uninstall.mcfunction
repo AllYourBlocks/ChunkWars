@@ -5,6 +5,7 @@ scoreboard objectives remove timer
 scoreboard objectives remove option
 scoreboard objectives remove map_variation
 scoreboard objectives remove team_ready
+scoreboard objectives remove respawn_status
 
 # Player
 scoreboard objectives remove team

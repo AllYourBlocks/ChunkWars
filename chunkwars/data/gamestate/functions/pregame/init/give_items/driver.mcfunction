@@ -8,7 +8,7 @@ execute as @a[tag=Ingame] if score $ender_pearls option matches 1 run give @s mi
 execute as @a[tag=Ingame] if score $armageddon option matches 1 run give @s minecraft:tnt 64
 execute as @a[tag=Ingame] if score $armageddon option matches 1 run give @s minecraft:flint_and_steel 1
 
-execute as @a[tag=Ingame] if score $one_shot option matches 1 run attribute @s generic.attack_damage base set 2048.0
+execute as @a[tag=Ingame] if score $one_shot option matches 1 run function utility:player/one_shot
 
 execute as @a[tag=Ingame] if score $potions option matches 1 run function gamestate:pregame/init/give_items/potions
 

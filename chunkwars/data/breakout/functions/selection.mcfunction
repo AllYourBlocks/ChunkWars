@@ -10,14 +10,14 @@ execute as @a run function utility:player/reset
 
 scoreboard players set $stage gamestate 0
 
-# not here: function signs:lobby/option/defaults/execute/success
-
 #reset timer variables
 scoreboard players set $count_state timer 0
 scoreboard players set $count_lobby_down timer 0
 scoreboard players set $count_houses_down timer 0
 scoreboard players set $count_sumo_down timer 0
 scoreboard players set $count_pregame_down timer 0
+
+# not here: scoreboard players reset @a respawn_status
 
 # not here: difficulty easy
 # not here: gamerule doMobSpawning false
