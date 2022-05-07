@@ -4,4 +4,6 @@
 
 1) Changes
 * Options Sign Update
-* Add Flint&Steel to TNT Option 
+* Add Flint&Steel to TNT Option
+* Change Troll Items
+ 
