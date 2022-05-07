@@ -12,7 +12,7 @@ give @s oak_sign{display:{Name:'{"text":"Menu: Spectator"}'},BlockEntityTag:{Col
 
 give @s oak_sign{display:{Name:'{"text":"Teleport: Lobby"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Teleport to","color":"white"}',Text2:'{"text":"Lobby","color":"white"}',Text3:'{"text":"","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/team_panel/lobby/execute/driver"}}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
-give @s oak_sign{display:{Name:'{"text":"Teleport: Options"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Teleport to","color":"white"}',Text2:'{"text":"Options Panel","color":"white"}',Text3:'{"text":"","color":"white","clickEvent":{"action":"run_command","value":"/function teleports:lobby/options/driver"}}',Text4:'{"text":"Right click","color":"yellow"}'}}
+give @s oak_sign{display:{Name:'{"text":"Teleport: Options"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Teleport to","color":"white"}',Text2:'{"text":"Options","color":"white"}',Text3:'{"text":"","color":"white","clickEvent":{"action":"run_command","value":"/function teleports:lobby/options/driver"}}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
 give @s oak_sign{display:{Name:'{"text":"Teleport: Puzzle"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Teleport to","color":"white"}',Text2:'{"text":"Puzzle","color":"white"}',Text3:'{"text":"","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/team_panel/puzzle/execute/driver"}}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
