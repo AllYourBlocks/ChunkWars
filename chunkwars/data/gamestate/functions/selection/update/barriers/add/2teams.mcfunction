@@ -1,2 +1,2 @@
-fill 12 -48 54 12 -44 61 minecraft:barrier
-fill -13 -48 54 -13 -44 61 minecraft:barrier
+fill 12 -47 54 12 -43 61 minecraft:barrier
+fill -13 -47 54 -13 -43 61 minecraft:barrier

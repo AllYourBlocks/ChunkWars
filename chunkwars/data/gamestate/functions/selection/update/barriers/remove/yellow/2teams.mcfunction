@@ -1,1 +1,1 @@
-fill 12 -48 54 12 -44 61 minecraft:air
+fill 12 -47 54 12 -43 61 minecraft:air
