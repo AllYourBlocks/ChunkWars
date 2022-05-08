@@ -9,7 +9,7 @@
 
 2) Changes
 * Options Sign Update
-* Add Flint&Steel to TNT Option
+* Add Flint&Steel to Armageddon Option
 * Change Troll Items
 * Set weather to clear at the end of the game
 * Move several things to check only twice a second:
