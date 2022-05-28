@@ -1,6 +1,6 @@
-# ChangeLog v0.6.3
-**Randomness**
+# ChangeLog v0.6.4
+**Chunk cleaning**
 ---
 
 1) Additions
-* Random orientation of chunks!
+* Cleanup of all arenas, including random variants, is done

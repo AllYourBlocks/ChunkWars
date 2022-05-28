@@ -1,1 +1,2 @@
-kill @e[type=!minecraft:player,x=-72,y=-64,z=1976,dx=143,dy=293,dz=143]
+#> arena:clean/2teams/modern/condensed/entities
+kill @e[type=!minecraft:player,x=-72,y=-64,z=1976,dx=144,dy=500,dz=144]
