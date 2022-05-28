@@ -9,6 +9,9 @@ fill 55 41 2056 24 41 2087 minecraft:light_blue_wool replace #minecraft:wool
 # blue danger
 fill -24 41 1992 -9 41 2023 minecraft:light_blue_wool replace #minecraft:wool
 
+# blue random danger
+fill -40 41 2007 -25 41 1992 minecraft:light_blue_wool replace #minecraft:wool
+
 #> Paint Yellow Side
 
 # yellow home
@@ -18,9 +21,14 @@ fill -56 41 2039 -25 41 2008 minecraft:yellow_wool replace #minecraft:wool
 # yellow danger
 fill 8 41 2072 23 41 2103 minecraft:yellow_wool replace #minecraft:wool
 
+# yellow random danger
+fill 24 41 2103 39 41 2088 minecraft:yellow_wool replace #minecraft:wool
+
 #> Paint Lime Diagonals
 fill 24 41 2072 39 41 2087 minecraft:lime_wool replace #minecraft:wool
 fill -25 41 2023 -40 41 2008 minecraft:lime_wool replace #minecraft:wool
+fill 55 41 2088 40 41 2103 minecraft:lime_wool replace #minecraft:wool
+fill -41 41 2007 -56 41 1992 minecraft:lime_wool replace #minecraft:wool
 
 #> Paint Blue Home Chunk Specific Blocks
 

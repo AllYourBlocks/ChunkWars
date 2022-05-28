@@ -70,7 +70,39 @@ execute unless score $count_houses_down timer matches -2147483648..2147483647 ru
 execute unless score $count_pregame_down timer matches -2147483648..2147483647 run scoreboard players set $count_pregame_down timer 0
 execute unless score $count_state timer matches -2147483648..2147483647 run scoreboard players set $count_state timer 0
 
+scoreboard objectives add random dummy
+scoreboard objectives add chunk_position dummy
 
+scoreboard objectives add integers dummy
+execute unless score $int_max integers matches -2147483648..2147483647 run scoreboard players set $int_max integers 2147483647
+execute unless score $int_1 integers matches -2147483648..2147483647 run scoreboard players set $int_1 integers 1
+execute unless score $int_2 integers matches -2147483648..2147483647 run scoreboard players set $int_2 integers 2
+execute unless score $int_3 integers matches -2147483648..2147483647 run scoreboard players set $int_3 integers 3
+execute unless score $int_4 integers matches -2147483648..2147483647 run scoreboard players set $int_4 integers 4
+execute unless score $int_5 integers matches -2147483648..2147483647 run scoreboard players set $int_5 integers 5
+execute unless score $int_6 integers matches -2147483648..2147483647 run scoreboard players set $int_6 integers 6
+execute unless score $int_7 integers matches -2147483648..2147483647 run scoreboard players set $int_7 integers 7
+execute unless score $int_8 integers matches -2147483648..2147483647 run scoreboard players set $int_8 integers 8
+execute unless score $int_9 integers matches -2147483648..2147483647 run scoreboard players set $int_9 integers 9
+execute unless score $int_10 integers matches -2147483648..2147483647 run scoreboard players set $int_10 integers 10
+execute unless score $int_11 integers matches -2147483648..2147483647 run scoreboard players set $int_11 integers 11
+execute unless score $int_12 integers matches -2147483648..2147483647 run scoreboard players set $int_12 integers 12
+execute unless score $int_13 integers matches -2147483648..2147483647 run scoreboard players set $int_13 integers 13
+execute unless score $int_14 integers matches -2147483648..2147483647 run scoreboard players set $int_14 integers 14
+execute unless score $int_15 integers matches -2147483648..2147483647 run scoreboard players set $int_15 integers 15
+
+execute unless score $int_31 integers matches -2147483648..2147483647 run scoreboard players set $int_31 integers 31
+execute unless score $int_63 integers matches -2147483648..2147483647 run scoreboard players set $int_63 integers 63
+execute unless score $int_127 integers matches -2147483648..2147483647 run scoreboard players set $int_127 integers 127
+execute unless score $int_255 integers matches -2147483648..2147483647 run scoreboard players set $int_255 integers 255
+execute unless score $int_511 integers matches -2147483648..2147483647 run scoreboard players set $int_511 integers 511
+execute unless score $int_1023 integers matches -2147483648..2147483647 run scoreboard players set $int_1023 integers 1023
+execute unless score $int_2047 integers matches -2147483648..2147483647 run scoreboard players set $int_2047 integers 2047
+execute unless score $int_4095 integers matches -2147483648..2147483647 run scoreboard players set $int_4095 integers 4095
+execute unless score $int_8191 integers matches -2147483648..2147483647 run scoreboard players set $int_8191 integers 8191
+execute unless score $int_16383 integers matches -2147483648..2147483647 run scoreboard players set $int_16383 integers 16383
+execute unless score $int_32767 integers matches -2147483648..2147483647 run scoreboard players set $int_32767 integers 32767
+execute unless score $int_65535 integers matches -2147483648..2147483647 run scoreboard players set $int_65535 integers 65535
 
 
 # Player
@@ -137,6 +169,24 @@ team modify Puzzle color gray
 #define score_holder $daylight_cycle
 #define score_holder $bonus_chest
 #define score_holder $anvil
+
+# Integers
+
+#define score_holder $int_max
+#define score_holder $int_2
+#define score_holder $int_3
+#define score_holder $int_4
+#define score_holder $int_5
+#define score_holder $int_6
+#define score_holder $int_7
+#define score_holder $int_8
+#define score_holder $int_9
+#define score_holder $int_10
+#define score_holder $int_11
+#define score_holder $int_12
+#define score_holder $int_13
+#define score_holder $int_14
+#define score_holder $int_15
 
 # Map Options
 

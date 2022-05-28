@@ -32,4 +32,6 @@ execute if score $respawn option matches 0 run schedule function arena:option/re
 
 execute if score $map_infested map_variation matches 1 run schedule function arena:option/infested/driver 1s
 
+execute if score $map_random map_variation matches 1 run schedule function arena:option/random/driver 21t
+
 schedule function gamestate:pregame/init/give_items/driver 1t
