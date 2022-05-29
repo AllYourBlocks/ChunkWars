@@ -1,3 +1,5 @@
+tellraw @a {"text":"Randomising Arena...","color":"gold","bold":true}
+
 scoreboard players set jungle chunk_position -1
 scoreboard players set flower_forest chunk_position -1
 scoreboard players set village chunk_position -1

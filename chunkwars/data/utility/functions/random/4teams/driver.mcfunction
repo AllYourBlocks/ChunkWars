@@ -1,3 +1,5 @@
+tellraw @a {"text":"Randomising Arena...","color":"gold","bold":true}
+
 scoreboard objectives remove chunk_position
 scoreboard objectives add chunk_position dummy
 
