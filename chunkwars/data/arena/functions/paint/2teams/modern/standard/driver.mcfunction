@@ -16,8 +16,8 @@ fill -88 41 983 -73 41 968 minecraft:yellow_wool replace #minecraft:wool
 
 #> Paint Lime Diagonals
 
-fill -88 41 936 -41 41 983 minecraft:lime_wool replace minecraft:white_wool
-fill 40 41 1064 87 41 1111 minecraft:lime_wool replace minecraft:white_wool
+#fill -88 41 936 -41 41 983 minecraft:lime_wool replace minecraft:white_wool
+#fill 40 41 1064 87 41 1111 minecraft:lime_wool replace minecraft:white_wool
 
 #> Paint Blue Home Chunk Specific Blocks
 
