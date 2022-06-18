@@ -15,4 +15,4 @@ schedule function timers:countdown/lobby/team_select 8s append
 schedule function timers:countdown/lobby/team_select 9s append
 schedule function timers:countdown/lobby/team_select 10s append
 
-scoreboard players set $count_state timer 2
+scoreboard players set $count_state_lobby timer 2

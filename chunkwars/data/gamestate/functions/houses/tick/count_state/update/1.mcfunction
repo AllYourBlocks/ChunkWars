@@ -11,4 +11,4 @@
 #forceload add -88 7080 87 7255
 #forceload add -88 8104 87 8279
 
-scoreboard players set $count_state timer 1
+scoreboard players set $count_state_houses timer 1

@@ -1,3 +1,6 @@
+scoreboard players set $count_state_lobby timer 0
+scoreboard players set $count_state_houses timer 0
+
 function utility:lever/unready/blue/driver
 function utility:lever/unready/yellow/driver
 execute if score $teams gamestate matches 4 run function utility:lever/unready/green/driver

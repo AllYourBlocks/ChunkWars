@@ -2,6 +2,11 @@
 
 scoreboard players set $stage gamestate 6
 
+scoreboard players set $count_state_lobby timer 0
+scoreboard players set $count_state_sumo timer 0
+scoreboard players set $count_state_houses timer 0
+scoreboard players set $count_state_pregame timer 0
+
 execute as @a[team=!Spectator] run function utility:team/join/spectator
 tag @a remove Ingame
 time set noon

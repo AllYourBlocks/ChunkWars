@@ -1,1 +1,1 @@
-scoreboard players set $count_state timer 1
+scoreboard players set $count_state_lobby timer 1

@@ -6,6 +6,8 @@ execute as @a[team=!Spectator] run function utility:team/join/playing
 scoreboard players set $stage gamestate 1
 function utility:sign/lock/all
 
+scoreboard players set $count_state_lobby timer 0
+scoreboard players set $count_state_sumo timer 0
 
 #TODO: debug for breaking out
 tellraw ffaen {"text":"Click here to breakout of team select","color":"gray","clickEvent":{"action":"suggest_command","value":"/function breakout:selection"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function breakout:selection"}}}

@@ -15,4 +15,4 @@ schedule function timers:countdown/houses/ready 8s append
 schedule function timers:countdown/houses/ready 9s append
 schedule function timers:countdown/houses/ready 10s append
 
-scoreboard players set $count_state timer 2
+scoreboard players set $count_state_houses timer 2

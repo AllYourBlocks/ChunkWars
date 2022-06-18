@@ -1,5 +1,8 @@
 scoreboard players set $stage gamestate 4
 
+scoreboard players set $count_state_houses timer 0
+scoreboard players set $count_state_pregame timer 0
+
 # deal with players who haven't joined a team
 execute as @a[team=Lobby] run function utility:team/join/spectator
 

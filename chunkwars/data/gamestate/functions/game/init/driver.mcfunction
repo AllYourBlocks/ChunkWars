@@ -2,6 +2,8 @@ scoreboard players set $stage gamestate 5
 
 function arena:init/driver
 
+scoreboard players set $count_state_pregame timer 0
+
 execute as @a at @s run playsound minecraft:entity.ender_dragon.ambient master @a ~ ~5 ~
 
 gamemode survival @a[team=Blue]
