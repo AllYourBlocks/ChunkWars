@@ -1,3 +1,5 @@
+#> gamestate:game/tick/player/eliminated
+
 tag @s add eliminated
 
 tellraw @a ["",{"selector":"@a[tag=eliminated]"},{"text":" has been eliminated","color":"gold"}]

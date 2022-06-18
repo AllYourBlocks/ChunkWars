@@ -1,3 +1,5 @@
+#> gamestate:houses/tick/count_state/update/2
+
 execute if score $teams gamestate matches 2 run tellraw @a {"text":"Both Teams are ready","bold":true,"color":"gold"}
 execute unless score $teams gamestate matches 2 run tellraw @a {"text":"All Teams are ready","bold":true,"color":"gold"}
 
