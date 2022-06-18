@@ -17,6 +17,7 @@ scoreboard players set $enchanting_table option 0
 scoreboard players set $difficulty option 2
 scoreboard players set $daylight_cycle option 1
 scoreboard players set $bonus_chest option 0
+scoreboard players set $adventure_mode option 0
 scoreboard players set $anvil option 0
 
 scoreboard players set $map_size gamestate 0

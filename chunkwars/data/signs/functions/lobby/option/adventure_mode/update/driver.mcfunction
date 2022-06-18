@@ -1,0 +1,2 @@
+execute if score $adventure_mode option matches 0 run function signs:lobby/option/adventure_mode/update/0
+execute if score $adventure_mode option matches 1 run function signs:lobby/option/adventure_mode/update/1

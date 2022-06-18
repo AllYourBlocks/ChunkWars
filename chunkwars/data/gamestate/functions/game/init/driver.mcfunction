@@ -6,10 +6,15 @@ scoreboard players set $count_state_pregame timer 0
 
 execute as @a at @s run playsound minecraft:entity.ender_dragon.ambient master @a ~ ~5 ~
 
-gamemode survival @a[team=Blue]
-gamemode survival @a[team=Yellow]
-gamemode survival @a[team=Red]
-gamemode survival @a[team=Green]
+execute unless score $adventure_mode option matches 1 run gamemode survival @a[team=Blue]
+execute unless score $adventure_mode option matches 1 run gamemode survival @a[team=Yellow]
+execute unless score $adventure_mode option matches 1 run gamemode survival @a[team=Red]
+execute unless score $adventure_mode option matches 1 run gamemode survival @a[team=Green]
+
+execute if score $adventure_mode option matches 1 run gamemode adventure @a[team=Blue]
+execute if score $adventure_mode option matches 1 run gamemode adventure @a[team=Yellow]
+execute if score $adventure_mode option matches 1 run gamemode adventure @a[team=Red]
+execute if score $adventure_mode option matches 1 run gamemode adventure @a[team=Green]
 
 advancement revoke @a everything
 
