@@ -1,3 +1,11 @@
+# ChangeLog v0.6.6
+**Badland Mansion**
+---
+
+1) Changes
+* Swap woodland mansion and badland positions
+
+---
 # ChangeLog v0.6.5
 **Adventure Mode**
 ---
