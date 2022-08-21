@@ -9,7 +9,7 @@ fill 85 58 5034 85 58 5035 minecraft:air
 setblock 85 58 5034 minecraft:light_blue_bed[facing=north,part=head] replace
 setblock 85 58 5035 minecraft:light_blue_bed[facing=north,part=foot] replace
 
-fill 82 58 5036 83 58 5036 minecraft:light_blue_carpet replace #minecraft:carpets
+fill 82 58 5036 83 58 5036 minecraft:light_blue_carpet replace #minecraft:wool_carpets
 
 kill @e[type=minecraft:item,x=85,y=58,z=5034,distance=..3]
 
@@ -22,7 +22,7 @@ fill 84 58 5205 85 58 5205 minecraft:air
 setblock 84 58 5205 red_bed[facing=east,part=foot] replace
 setblock 85 58 5205 red_bed[facing=east,part=head] replace
 
-fill 83 58 5202 83 58 5203 minecraft:red_carpet replace #minecraft:carpets
+fill 83 58 5202 83 58 5203 minecraft:red_carpet replace #minecraft:wool_carpets
 
 kill @e[type=minecraft:item,x=85,y=58,z=5205,distance=..3]
 
@@ -39,6 +39,6 @@ fill -85 58 5034 -86 58 5034 minecraft:air
 setblock -85 58 5034 lime_bed[facing=west,part=foot] replace
 setblock -86 58 5034 lime_bed[facing=west,part=head] replace
 
-fill -84 58 5037 -84 58 5036 minecraft:lime_carpet replace #minecraft:carpets
+fill -84 58 5037 -84 58 5036 minecraft:lime_carpet replace #minecraft:wool_carpets
 
 kill @e[type=minecraft:item,x=-86,y=58,z=5034,distance=..3]

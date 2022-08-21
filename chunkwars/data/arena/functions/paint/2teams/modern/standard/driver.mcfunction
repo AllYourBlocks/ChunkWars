@@ -25,7 +25,7 @@ fill 85 58 938 85 58 939 minecraft:air
 setblock 85 58 938 minecraft:light_blue_bed[facing=north,part=head]
 setblock 85 58 939 minecraft:light_blue_bed[facing=north,part=foot]
 
-fill 82 58 940 83 58 940 minecraft:light_blue_carpet replace #minecraft:carpets
+fill 82 58 940 83 58 940 minecraft:light_blue_carpet replace #minecraft:wool_carpets
 
 # Spawning the blue bed drops a yellow bed, so we clear that up
 kill @e[type=minecraft:item,x=82,y=58,z=940,distance=..3]
