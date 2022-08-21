@@ -3,6 +3,8 @@ tag @a[tag=BlueCaptain] add Captain
 tag @a[tag=RedCaptain] add Captain
 tag @a[tag=GreenCaptain] add Captain
 
+clear @a[tag=Captain]
+
 scoreboard players set $count_state_sumo timer 0
 
 effect give @a[tag=Captain] minecraft:resistance 5 10
