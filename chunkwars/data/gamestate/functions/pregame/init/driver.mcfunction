@@ -38,7 +38,7 @@ effect give @a[team=Red] minecraft:regeneration 20 0 true
 time set 23459
 
 function gamestate:pregame/init/set_options
-execute if score $map_random gamestate matches 0 run function gamestate:pregame/init/spawn_chunks
+execute unless score $map_random gamestate matches 1 run function gamestate:pregame/init/spawn_chunks
 function gamestate:pregame/init/set_timer
 
 function signs:lobby/team_panel/update/driver
