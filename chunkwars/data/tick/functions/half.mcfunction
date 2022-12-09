@@ -17,3 +17,6 @@ execute as @a[x=-14,y=99,z=-1038,dx=28,dy=3,dz=28] run function utility:player/a
 
 # prevent lobby players from hurting each other, put lobby people to adventure mode
 function utility:player/lobby_status
+
+# do things to the environment
+function arena:environment/driver

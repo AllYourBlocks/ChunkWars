@@ -1,8 +1,5 @@
 # keep mobs alive and well
 function gamestate:game/tick/mobs
-# do things to the environment
-# TODO: implement environment functions
-#function arena:environment/driver
 # check if a player needs an update
 function gamestate:game/tick/player/driver
 # check if a chunk can be spawned
