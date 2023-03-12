@@ -1,9 +1,7 @@
-# ChangeLog v0.6.8
-**New Folders Who Dis**
+# ChangeLog v0.7.0
+**Vintage Arenas and Configurability**
 ---
 
-1) Fixes
-* Remove nether in current modern arenas
-
-2) Changes
-* Arena Chunks are moved to "modern_arena", vintage will have its own folder
+1) Additions
+* All Vintage Arenas are implemented, build and reset mechanism has been tested, random has not
+* Configurability via configurable "Ram Array" - both for random and regular arenas

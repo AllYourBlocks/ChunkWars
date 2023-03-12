@@ -1,6 +1,6 @@
 #> arena:build/2teams/modern/standard/random/driver
 
-function utility:random/2teams/driver
+function utility:random/2teams/modern/driver
 
 function arena:clean/2teams/modern/standard/random
 

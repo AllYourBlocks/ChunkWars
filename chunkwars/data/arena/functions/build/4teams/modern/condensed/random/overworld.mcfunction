@@ -4,6 +4,10 @@ summon marker 0 40 6144 {Tags:["paste_blue"]}
 summon marker 31 40 6175 {Tags:["paste_yellow"]}
 summon marker 31 40 6144 {Tags:["paste_red"]}
 summon marker 0 40 6175 {Tags:["paste_green"]}
+summon marker 0 40 6144 {Tags:["read_blue"]}
+summon marker 31 40 6175 {Tags:["read_yellow"]}
+summon marker 31 40 6144 {Tags:["read_red"]}
+summon marker 0 40 6175 {Tags:["read_green"]}
 
 #> update check location
 
@@ -12,21 +16,15 @@ scoreboard players operation current random = desert chunk_position
 # move the markers to structure block paste position
 function arena:build/4teams/modern/condensed/random/move_structure_marker
 
-execute as @e[tag=paste_yellow] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "CLOCKWISE_180", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/desert", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_yellow] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_yellow] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
+execute as @e[tag=read_yellow] at @s run function teleports:ram/4teams/modern/desert
+execute as @e[tag=read_blue] at @s run function teleports:ram/4teams/modern/desert
+execute as @e[tag=read_red] at @s run function teleports:ram/4teams/modern/desert
+execute as @e[tag=read_green] at @s run function teleports:ram/4teams/modern/desert
 
-execute as @e[tag=paste_blue] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/desert", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_blue] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_blue] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
-
-execute as @e[tag=paste_green] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "COUNTERCLOCKWISE_90", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/desert", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_green] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_green] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
-
-execute as @e[tag=paste_red] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "CLOCKWISE_90", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/desert", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_red] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_red] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
+function arena:build/common/based_on_marker_blue
+function arena:build/common/based_on_marker_yellow
+function arena:build/common/based_on_marker_green
+function arena:build/common/based_on_marker_red
 
 #> reposition markers to center
 execute as @e[tag=paste_blue] at @s run tp @s 0 40 6144
@@ -41,21 +39,15 @@ scoreboard players operation current random = flower_forest chunk_position
 # move the markers to structure block paste position
 function arena:build/4teams/modern/condensed/random/move_structure_marker
 
-execute as @e[tag=paste_yellow] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "CLOCKWISE_180", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/flower_forest", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_yellow] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_yellow] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
+execute as @e[tag=read_yellow] at @s run function teleports:ram/4teams/modern/flower_forest
+execute as @e[tag=read_blue] at @s run function teleports:ram/4teams/modern/flower_forest
+execute as @e[tag=read_red] at @s run function teleports:ram/4teams/modern/flower_forest
+execute as @e[tag=read_green] at @s run function teleports:ram/4teams/modern/flower_forest
 
-execute as @e[tag=paste_blue] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/flower_forest", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_blue] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_blue] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
-
-execute as @e[tag=paste_green] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "COUNTERCLOCKWISE_90", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/flower_forest", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_green] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_green] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
-
-execute as @e[tag=paste_red] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "CLOCKWISE_90", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/flower_forest", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_red] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_red] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
+function arena:build/common/based_on_marker_blue
+function arena:build/common/based_on_marker_yellow
+function arena:build/common/based_on_marker_green
+function arena:build/common/based_on_marker_red
 
 #> reposition markers to center
 execute as @e[tag=paste_blue] at @s run tp @s 0 40 6144
@@ -70,21 +62,15 @@ scoreboard players operation current random = fortress chunk_position
 # move the markers to structure block paste position
 function arena:build/4teams/modern/condensed/random/move_structure_marker
 
-execute as @e[tag=paste_yellow] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "CLOCKWISE_180", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/fortress", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_yellow] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_yellow] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
+execute as @e[tag=read_yellow] at @s run function teleports:ram/4teams/modern/fortress
+execute as @e[tag=read_blue] at @s run function teleports:ram/4teams/modern/fortress
+execute as @e[tag=read_red] at @s run function teleports:ram/4teams/modern/fortress
+execute as @e[tag=read_green] at @s run function teleports:ram/4teams/modern/fortress
 
-execute as @e[tag=paste_blue] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/fortress", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_blue] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_blue] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
-
-execute as @e[tag=paste_green] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "COUNTERCLOCKWISE_90", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/fortress", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_green] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_green] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
-
-execute as @e[tag=paste_red] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "CLOCKWISE_90", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/fortress", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_red] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_red] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
+function arena:build/common/based_on_marker_blue
+function arena:build/common/based_on_marker_yellow
+function arena:build/common/based_on_marker_green
+function arena:build/common/based_on_marker_red
 
 #> reposition markers to center
 execute as @e[tag=paste_blue] at @s run tp @s 0 40 6144
@@ -99,21 +85,15 @@ scoreboard players operation current random = jungle chunk_position
 # move the markers to structure block paste position
 function arena:build/4teams/modern/condensed/random/move_structure_marker
 
-execute as @e[tag=paste_yellow] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "CLOCKWISE_180", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/jungle", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_yellow] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_yellow] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
+execute as @e[tag=read_yellow] at @s run function teleports:ram/4teams/modern/jungle
+execute as @e[tag=read_blue] at @s run function teleports:ram/4teams/modern/jungle
+execute as @e[tag=read_red] at @s run function teleports:ram/4teams/modern/jungle
+execute as @e[tag=read_green] at @s run function teleports:ram/4teams/modern/jungle
 
-execute as @e[tag=paste_blue] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/jungle", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_blue] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_blue] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
-
-execute as @e[tag=paste_green] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "COUNTERCLOCKWISE_90", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/jungle", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_green] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_green] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
-
-execute as @e[tag=paste_red] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "CLOCKWISE_90", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/jungle", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_red] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_red] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
+function arena:build/common/based_on_marker_blue
+function arena:build/common/based_on_marker_yellow
+function arena:build/common/based_on_marker_green
+function arena:build/common/based_on_marker_red
 
 #> reposition markers to center
 execute as @e[tag=paste_blue] at @s run tp @s 0 40 6144
@@ -128,21 +108,15 @@ scoreboard players operation current random = mansion chunk_position
 # move the markers to structure block paste position
 function arena:build/4teams/modern/condensed/random/move_structure_marker
 
-execute as @e[tag=paste_yellow] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "CLOCKWISE_180", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/mansion", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_yellow] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_yellow] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
+execute as @e[tag=read_yellow] at @s run function teleports:ram/4teams/modern/mansion
+execute as @e[tag=read_blue] at @s run function teleports:ram/4teams/modern/mansion
+execute as @e[tag=read_red] at @s run function teleports:ram/4teams/modern/mansion
+execute as @e[tag=read_green] at @s run function teleports:ram/4teams/modern/mansion
 
-execute as @e[tag=paste_blue] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/mansion", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_blue] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_blue] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
-
-execute as @e[tag=paste_green] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "COUNTERCLOCKWISE_90", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/mansion", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_green] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_green] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
-
-execute as @e[tag=paste_red] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "CLOCKWISE_90", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/mansion", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_red] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_red] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
+function arena:build/common/based_on_marker_blue
+function arena:build/common/based_on_marker_yellow
+function arena:build/common/based_on_marker_green
+function arena:build/common/based_on_marker_red
 
 #> reposition markers to center
 execute as @e[tag=paste_blue] at @s run tp @s 0 40 6144
@@ -157,21 +131,15 @@ scoreboard players operation current random = pillager chunk_position
 # move the markers to structure block paste position
 function arena:build/4teams/modern/condensed/random/move_structure_marker
 
-execute as @e[tag=paste_yellow] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "CLOCKWISE_180", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/pillager", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_yellow] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_yellow] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
+execute as @e[tag=read_yellow] at @s run function teleports:ram/4teams/modern/pillager
+execute as @e[tag=read_blue] at @s run function teleports:ram/4teams/modern/pillager
+execute as @e[tag=read_red] at @s run function teleports:ram/4teams/modern/pillager
+execute as @e[tag=read_green] at @s run function teleports:ram/4teams/modern/pillager
 
-execute as @e[tag=paste_blue] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/pillager", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_blue] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_blue] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
-
-execute as @e[tag=paste_green] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "COUNTERCLOCKWISE_90", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/pillager", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_green] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_green] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
-
-execute as @e[tag=paste_red] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "CLOCKWISE_90", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/pillager", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_red] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_red] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
+function arena:build/common/based_on_marker_blue
+function arena:build/common/based_on_marker_yellow
+function arena:build/common/based_on_marker_green
+function arena:build/common/based_on_marker_red
 
 #> reposition markers to center
 execute as @e[tag=paste_blue] at @s run tp @s 0 40 6144
@@ -186,21 +154,15 @@ scoreboard players operation current random = village chunk_position
 # move the markers to structure block paste position
 function arena:build/4teams/modern/condensed/random/move_structure_marker
 
-execute as @e[tag=paste_yellow] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "CLOCKWISE_180", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/village", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_yellow] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_yellow] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
+execute as @e[tag=read_yellow] at @s run function teleports:ram/4teams/modern/village
+execute as @e[tag=read_blue] at @s run function teleports:ram/4teams/modern/village
+execute as @e[tag=read_red] at @s run function teleports:ram/4teams/modern/village
+execute as @e[tag=read_green] at @s run function teleports:ram/4teams/modern/village
 
-execute as @e[tag=paste_blue] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "NONE", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/village", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_blue] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_blue] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
-
-execute as @e[tag=paste_green] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "COUNTERCLOCKWISE_90", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/village", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_green] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_green] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
-
-execute as @e[tag=paste_red] at @s run setblock ~ ~ ~ minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "CLOCKWISE_90", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/village", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-execute as @e[tag=paste_red] at @s run setblock ~ ~-1 ~ minecraft:redstone_block
-execute as @e[tag=paste_red] at @s run fill ~ ~ ~ ~ ~-1 ~ minecraft:air
+function arena:build/common/based_on_marker_blue
+function arena:build/common/based_on_marker_yellow
+function arena:build/common/based_on_marker_green
+function arena:build/common/based_on_marker_red
 
 #> reposition markers to center
 execute as @e[tag=paste_blue] at @s run tp @s 0 40 6144
@@ -214,3 +176,7 @@ kill @e[tag=paste_blue]
 kill @e[tag=paste_yellow]
 kill @e[tag=paste_green]
 kill @e[tag=paste_red]
+kill @e[tag=read_blue]
+kill @e[tag=read_yellow]
+kill @e[tag=read_green]
+kill @e[tag=read_red]

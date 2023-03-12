@@ -1,3 +1,4 @@
-setblock -17 40 2015 minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "CLOCKWISE_180", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/bastion", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-setblock -17 39 2015 minecraft:redstone_block
-fill -17 39 2015 -17 40 2015 minecraft:air
+execute as @e[tag=paste_yellow] at @s run tp @s 47 39 2111
+execute as @e[tag=read_yellow] at @s run function teleports:ram/2teams/modern/bastion
+
+function arena:build/common/based_on_marker_yellow

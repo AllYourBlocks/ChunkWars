@@ -1,3 +1,4 @@
-setblock -48 40 6143 minecraft:structure_block[mode=load]{metadata: "", mirror: "NONE", ignoreEntities: 0b, powered: 0b, seed: 0L, author: "Blocks", rotation: "COUNTERCLOCKWISE_90", posX: 0, mode: "LOAD", posY: 1, sizeX: 32, posZ: 0, integrity: 1.0f, showair: 0b, name: "chunkwars:modern_arena/pillager", sizeY: 48, sizeZ: 32, showboundingbox: 1b}
-setblock -48 39 6143 minecraft:redstone_block
-fill -48 39 6143 -48 40 6143 minecraft:air
+execute as @e[tag=paste_green] at @s run tp @s -48 39 6143
+execute as @e[tag=read_green] at @s run function teleports:ram/4teams/modern/pillager
+
+function arena:build/common/based_on_marker_green
