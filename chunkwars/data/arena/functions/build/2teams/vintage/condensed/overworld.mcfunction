@@ -18,7 +18,7 @@ schedule function arena:build/2teams/vintage/condensed/raw/yellow_mushroom 30t
 schedule function arena:build/2teams/vintage/condensed/raw/yellow_desert 32t
 schedule function arena:build/2teams/vintage/condensed/raw/yellow_swamp 34t
 
-schedule function arena:build/2teams/vintage/condensed/raw/yellow_mountain 40t
+schedule function arena:build/2teams/vintage/condensed/raw/yellow_extreme_hills 40t
 schedule function arena:build/2teams/vintage/condensed/raw/yellow_ice_plains 42t
 schedule function arena:build/2teams/vintage/condensed/raw/yellow_ocean 44t
 schedule function arena:build/2teams/vintage/condensed/raw/yellow_nether 46t
@@ -29,7 +29,7 @@ schedule function arena:build/2teams/vintage/condensed/raw/end 50t
 schedule function arena:build/2teams/vintage/condensed/raw/blue_fortress 52t
 schedule function arena:build/2teams/vintage/condensed/raw/yellow_fortress 52t
 
-schedule function arena:build/2teams/vintage/condensed/raw/blue_mountain 60t
+schedule function arena:build/2teams/vintage/condensed/raw/blue_extreme_hills 60t
 schedule function arena:build/2teams/vintage/condensed/raw/blue_ice_plains 62t
 schedule function arena:build/2teams/vintage/condensed/raw/blue_ocean 64t
 schedule function arena:build/2teams/vintage/condensed/raw/blue_nether 66t

@@ -13,7 +13,7 @@ summon marker -140 69 9070 {Tags:["paste_yellow"]}
 
 function arena:build/2teams/modern/standard/raw/yellow_fortress
 function arena:build/2teams/modern/standard/raw/yellow_nether
-function arena:build/2teams/modern/standard/raw/yellow_bastion
+function arena:build/2teams/modern/standard/raw/blue_bastion
 
 function arena:paint/2teams/modern/standard/yellow_nether
 
