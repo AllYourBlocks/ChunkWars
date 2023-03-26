@@ -29,6 +29,18 @@ gamerule doMobSpawning false
 
 schedule function utility:sign/unlock/all 1t
 
+kill @e[tag=reader]
+kill @e[tag=paster]
+
+summon marker -123 69 9094 {Tags:["paste_blue","paster"]}
+summon marker -123 69 9094 {Tags:["paste_yellow","paster"]}
+summon marker -123 69 9094 {Tags:["paste_red","paster"]}
+summon marker -123 69 9094 {Tags:["paste_green","paster"]}
+summon marker -123 69 9094 {Tags:["read_blue","reader"]}
+summon marker -123 69 9094 {Tags:["read_yellow","reader"]}
+summon marker -123 69 9094 {Tags:["read_red","reader"]}
+summon marker -123 69 9094 {Tags:["read_green","reader"]}
+
 #> ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
 #> this function is partially mirrored to breakout:selection
 #> when changing something here, think about doing it there, too!

@@ -8,7 +8,7 @@ scoreboard players operation random random %= $int_max integers
 # random score "random" now is a random number between 0 and max_int
 
 scoreboard players operation flower_forest random = random random
-scoreboard players operation flower_forest random %= $int_15 integers
+scoreboard players operation flower_forest random %= $int_11 integers
 
 scoreboard players add depth_flower_forest random 1
 

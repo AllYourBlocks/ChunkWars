@@ -37,13 +37,13 @@ schedule function arena:clean/4teams/modern/condensed/chunks/65 36t
 schedule function arena:clean/4teams/modern/condensed/chunks/76 36t
 schedule function arena:clean/4teams/modern/condensed/chunks/87 36t
 schedule function arena:clean/4teams/modern/condensed/chunks/00 41t
-schedule function arena:clean/4teams/modern/condensed/chunks/11 41t
+#schedule function arena:clean/4teams/modern/condensed/chunks/11 41t
 schedule function arena:clean/4teams/modern/condensed/chunks/22 41t
 schedule function arena:clean/4teams/modern/condensed/chunks/33 41t
 schedule function arena:clean/4teams/modern/condensed/chunks/44 41t
 schedule function arena:clean/4teams/modern/condensed/chunks/55 41t
 schedule function arena:clean/4teams/modern/condensed/chunks/66 41t
-schedule function arena:clean/4teams/modern/condensed/chunks/77 41t
+#schedule function arena:clean/4teams/modern/condensed/chunks/77 41t
 schedule function arena:clean/4teams/modern/condensed/chunks/88 41t
 schedule function arena:clean/4teams/modern/condensed/chunks/01 46t
 schedule function arena:clean/4teams/modern/condensed/chunks/12 46t

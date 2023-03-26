@@ -79,7 +79,7 @@ schedule function arena:clean/4teams/modern/standard/chunks/a9 56t
 schedule function arena:clean/4teams/modern/standard/chunks/ba 56t
 schedule function arena:clean/4teams/modern/standard/chunks/cb 56t
 schedule function arena:clean/4teams/modern/standard/chunks/00 61t
-schedule function arena:clean/4teams/modern/standard/chunks/11 61t
+#schedule function arena:clean/4teams/modern/standard/chunks/11 61t
 schedule function arena:clean/4teams/modern/standard/chunks/22 61t
 schedule function arena:clean/4teams/modern/standard/chunks/33 61t
 schedule function arena:clean/4teams/modern/standard/chunks/44 61t
@@ -89,7 +89,7 @@ schedule function arena:clean/4teams/modern/standard/chunks/77 61t
 schedule function arena:clean/4teams/modern/standard/chunks/88 61t
 schedule function arena:clean/4teams/modern/standard/chunks/99 61t
 schedule function arena:clean/4teams/modern/standard/chunks/aa 61t
-schedule function arena:clean/4teams/modern/standard/chunks/bb 61t
+#schedule function arena:clean/4teams/modern/standard/chunks/bb 61t
 schedule function arena:clean/4teams/modern/standard/chunks/cc 61t
 schedule function arena:clean/4teams/modern/standard/chunks/01 66t
 schedule function arena:clean/4teams/modern/standard/chunks/12 66t

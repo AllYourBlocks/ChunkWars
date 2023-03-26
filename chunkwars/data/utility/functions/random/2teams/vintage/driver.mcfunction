@@ -45,3 +45,15 @@ scoreboard players set depth_nether random 0
 scoreboard players set check_badlands random 1
 function utility:random/2teams/vintage/badlands
 scoreboard players set depth_badlands random 0
+
+scoreboard players set check_jungle random 0
+scoreboard players set check_flower_forest random 0
+scoreboard players set check_village random 0
+scoreboard players set check_desert random 0
+scoreboard players set check_swamp random 0
+scoreboard players set check_ocean random 0
+scoreboard players set check_ice_spikes random 0
+scoreboard players set check_mushroom random 0
+scoreboard players set check_mansion random 0
+scoreboard players set check_nether random 0
+scoreboard players set check_badlands random 0

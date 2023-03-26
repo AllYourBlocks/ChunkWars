@@ -53,7 +53,7 @@ setblock 31 88 5120 minecraft:structure_block[mode=load]{metadata: "", mirror: "
 setblock 31 87 5120 minecraft:redstone_block
 fill 31 87 5120 31 88 5120 minecraft:air
 
-schedule function utility:ai/enable 2s
+#schedule function utility:ai/enable 2s
 
 # mark the end as ready to teleport
 scoreboard players set $end_pasted map_status 2

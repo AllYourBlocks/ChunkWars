@@ -44,8 +44,8 @@ schedule function arena:clean/2teams/vintage/condensed/chunks/14 46t
 schedule function arena:clean/2teams/vintage/condensed/chunks/25 46t
 schedule function arena:clean/2teams/vintage/condensed/chunks/36 46t
 schedule function arena:clean/2teams/vintage/condensed/chunks/04 51t
-schedule function arena:clean/2teams/vintage/condensed/chunks/15 51t
+#schedule function arena:clean/2teams/vintage/condensed/chunks/15 51t
 schedule function arena:clean/2teams/vintage/condensed/chunks/26 51t
-#schedule function arena:clean/2teams/vintage/condensed/chunks/05 56t
+schedule function arena:clean/2teams/vintage/condensed/chunks/05 56t
 schedule function arena:clean/2teams/vintage/condensed/chunks/16 56t
 schedule function arena:clean/2teams/vintage/condensed/chunks/06 61t

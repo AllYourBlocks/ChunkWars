@@ -1,4 +1,4 @@
-#> arena:reset/2teams/modern/standard/driver
+#> arena:reset/2teams/modern/standard
  
 #>----------------------
 #>Clean 

@@ -8,7 +8,7 @@ scoreboard players operation random random %= $int_max integers
 # random score "random" now is a random number between 0 and max_int
 
 scoreboard players operation ice_spikes random = random random
-scoreboard players operation ice_spikes random %= $int_15 integers
+scoreboard players operation ice_spikes random %= $int_11 integers
 
 scoreboard players add depth_ice_spikes random 1
 
