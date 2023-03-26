@@ -1,3 +1,5 @@
+#> utility:player/assign_team
+
 # 0 - Lobby
 # 1 - Spectator
 # 2 - Playing

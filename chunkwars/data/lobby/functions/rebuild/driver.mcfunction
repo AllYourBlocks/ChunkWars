@@ -1,3 +1,5 @@
+#> lobby:rebuild/driver
+
 function utility:waterstop/enable
 
 # first, remove blocks

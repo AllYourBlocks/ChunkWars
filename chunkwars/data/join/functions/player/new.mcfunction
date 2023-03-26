@@ -1,3 +1,5 @@
+#> join:player/new
+
 tellraw @s {"text":"Welcome to Chunk Wars!","color":"gold"}
 
 # Defaults

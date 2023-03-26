@@ -1,3 +1,4 @@
+#> utility:team/join/lobby
 
 # whatever team we belong to, unready it!
 execute if score @s team matches 3 run function utility:lever/unready/red/driver

@@ -1,3 +1,5 @@
+#> utility:player/reset
+
 # reset a player to the state they joined in
 
 tp @s -1 100 -1025

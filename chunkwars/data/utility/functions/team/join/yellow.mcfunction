@@ -1,3 +1,5 @@
+#> utility:team/join/yellow
+
 team join Yellow
 scoreboard players set @s team 6
 

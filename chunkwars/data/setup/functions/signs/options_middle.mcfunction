@@ -1,3 +1,5 @@
+#> setup:signs/options_middle
+
 give @s oak_sign{display:{Name:'{"text":"Option: Difficulty Peaceful"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Peaceful","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/difficulty/peaceful/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
 give @s oak_sign{display:{Name:'{"text":"Option: Difficulty Easy"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Easy","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/difficulty/easy/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}

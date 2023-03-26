@@ -1,3 +1,5 @@
+#> timers:countdown/team_selection/ready
+
 scoreboard players remove $count_lobby_down timer 1
 
 execute if score $count_lobby_down timer matches 1..5 as @a at @s run playsound minecraft:block.dispenser.dispense master @a ~ ~ ~

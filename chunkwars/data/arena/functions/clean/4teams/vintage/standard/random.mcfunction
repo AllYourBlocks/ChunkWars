@@ -1,4 +1,4 @@
-#> arena:clean/4teams/vintage/standard/driver
+#> arena:clean/4teams/vintage/standard/random
 
 schedule function arena:clean/4teams/vintage/standard/chunks/a0 1t
 schedule function arena:clean/4teams/vintage/standard/chunks/90 6t

@@ -1,3 +1,5 @@
+#> main:uninstall
+
 # Main uninstall
 scoreboard objectives remove datapack_init
 

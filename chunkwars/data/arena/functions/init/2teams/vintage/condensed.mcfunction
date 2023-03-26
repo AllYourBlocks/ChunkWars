@@ -1,3 +1,5 @@
+#> arena:init/2teams/vintage/condensed
+
 #> remove yellow house barriers
 
 fill -33 57 4128 -33 58 4128 minecraft:air

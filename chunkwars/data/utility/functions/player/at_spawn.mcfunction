@@ -1,3 +1,5 @@
+#> utility:player/at_spawn
+
 # someone is at spawn!
 
 # allow them to trigger (again)

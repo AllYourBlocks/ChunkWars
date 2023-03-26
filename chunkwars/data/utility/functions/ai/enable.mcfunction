@@ -1,3 +1,5 @@
+#> utility:ai/enable
+
 execute if entity @s as @e[distance=..250] run data merge entity @s {NoAI:0}
 execute if entity @s as @e[type=piglin,distance=..250] run data merge entity @s {IsImmuneToZombification:1}
 

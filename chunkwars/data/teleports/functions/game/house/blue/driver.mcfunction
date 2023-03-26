@@ -1,3 +1,5 @@
+#> teleports:game/house/blue/driver
+
 # 2 teams - modern
 execute if score $teams gamestate matches 2 if score $map_size gamestate matches 0 run function teleports:game/house/blue/2teams/modern/driver
 # 2 teams - vintage

@@ -1,3 +1,5 @@
+#> utility:random/2teams/vintage/driver
+
 tellraw @a {"text":"Randomising Arena...","color":"gold","bold":true}
 
 # clear the random scoreboard

@@ -1,3 +1,4 @@
+#> arena:init/4teams/modern/standard
 
 #> remove yellow house barriers
 

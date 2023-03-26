@@ -1,3 +1,5 @@
+#> main:load
+
 scoreboard objectives add datapack_init dummy
 scoreboard players set $ready datapack_init 0
 

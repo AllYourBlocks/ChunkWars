@@ -6,4 +6,4 @@ function arena:clean/2teams/modern/condensed/random
 
 schedule function arena:build/2teams/modern/condensed/random/overworld 100t
 
-schedule function arena:paint/2teams/modern/condensed/driver 110t
+schedule function arena:paint/2teams/modern/condensed/overworld 110t

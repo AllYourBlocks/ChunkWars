@@ -1,3 +1,5 @@
+#> utility:ai/disable
+
 execute if entity @s as @e[distance=..250] run data merge entity @s {NoAI:1}
 
 execute unless entity @s if score $teams gamestate matches 2 if score $map_size gamestate matches 0 if score $map_condensed map_variation matches 0 run execute as @e[x=-160.5,y=-48,z=864.5,dx=320,dy=200,dz=320] run data merge entity @s {NoAI:1}

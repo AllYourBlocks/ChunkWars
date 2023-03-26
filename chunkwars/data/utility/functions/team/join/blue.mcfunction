@@ -1,3 +1,5 @@
+#> utility:team/join/blue
+
 team join Blue
 scoreboard players set @s team 5
 

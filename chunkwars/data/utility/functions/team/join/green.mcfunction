@@ -1,3 +1,5 @@
+#> utility:team/join/green
+
 team join Green
 scoreboard players set @s team 4
 

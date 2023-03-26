@@ -1,3 +1,5 @@
+#> setup:signs/map_variation
+
 give @s oak_sign{display:{Name:'{"text":"Option: Map - Nether"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Nether","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/map_variation/nether/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 give @s oak_sign{display:{Name:'{"text":"Option: Map - End"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"End","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/map_variation/end/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 give @s oak_sign{display:{Name:'{"text":"Option: Map - Bridges"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Bridges","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/map_variation/bridges/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}

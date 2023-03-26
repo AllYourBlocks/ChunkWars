@@ -1,4 +1,4 @@
-#> arena:clean/4teams/vintage/condensed/driver
+#> arena:clean/4teams/vintage/condensed/random
 
 # blue jungle leaves
 fill 24 63 8152 25 70 8167 air

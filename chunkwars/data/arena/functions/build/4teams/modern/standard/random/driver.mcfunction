@@ -6,4 +6,4 @@ function arena:clean/4teams/modern/standard/random
 
 schedule function arena:build/4teams/modern/standard/random/overworld 125t
 
-schedule function arena:paint/4teams/modern/standard/driver 135t
+schedule function arena:paint/4teams/modern/standard 135t

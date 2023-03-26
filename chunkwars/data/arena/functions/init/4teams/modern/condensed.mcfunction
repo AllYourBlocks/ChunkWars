@@ -1,4 +1,4 @@
-#>arena:init/4teams/modern/condensed
+#> arena:init/4teams/modern/condensed
 
 #> remove yellow house barriers
 

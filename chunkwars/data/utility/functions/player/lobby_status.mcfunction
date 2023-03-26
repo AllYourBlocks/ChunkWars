@@ -1,3 +1,5 @@
+#> utility:player/lobby_status
+
 effect give @a[tag=!Ingame,tag=!Captain,team=!Puzzle] minecraft:saturation 19 0 true
 effect give @a[tag=!Ingame,tag=!Captain] minecraft:weakness 5 99 true
 

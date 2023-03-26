@@ -1,3 +1,5 @@
+#> utility:sign/unlock/all
+
 execute as @e[type=marker,tag=Option] at @s run function utility:sign/unlock/this
 
 execute as @e[type=marker,tag=GamestateMapSize] at @s run function utility:sign/unlock/this

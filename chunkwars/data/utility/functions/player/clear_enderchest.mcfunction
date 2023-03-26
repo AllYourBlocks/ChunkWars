@@ -1,3 +1,5 @@
+#> utility:player/clear_enderchest
+
 item replace entity @s enderchest.0 with minecraft:air
 item replace entity @s enderchest.1 with minecraft:air
 item replace entity @s enderchest.2 with minecraft:air

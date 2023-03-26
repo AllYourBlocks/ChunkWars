@@ -1,3 +1,4 @@
+#> setup:signs/options_right
 
 give @s oak_sign{display:{Name:'{"text":"Option: Keep Inventory"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Keep Inventory","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/keep_inventory/execute/driver"}}',Text2:'{"text":"ON","color":"#bdfc00"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 

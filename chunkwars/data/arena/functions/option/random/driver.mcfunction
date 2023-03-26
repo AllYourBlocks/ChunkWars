@@ -1,4 +1,5 @@
 #> arena:option/random/driver
+
 #> randomize the arena
 
 execute if score $teams gamestate matches 2 if score $map_size gamestate matches 0 if score $map_condensed map_variation matches 0 run schedule function arena:build/2teams/modern/standard/random/driver 5t

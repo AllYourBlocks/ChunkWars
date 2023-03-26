@@ -1,3 +1,5 @@
+#> setup:signs/main_menu
+
 give @s oak_sign{display:{Name:'{"text":"Menu: Start"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Start / Stop","color":"white"}',Text2:'{"text":"Selection","color":"white"}',Text3:'{"text":"","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/team_panel/start/execute/driver"}}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
 give @s oak_sign{display:{Name:'{"text":"Team: Red"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Join the","color":"#ff0000"}',Text2:'{"text":"Red Team","color":"#ff0000"}',Text3:'{"text":"","color":"#ff0000","clickEvent":{"action":"run_command","value":"/function signs:lobby/team_panel/red/execute/driver"}}',Text4:'{"text":"Right click","color":"yellow"}'}}

@@ -1,4 +1,4 @@
-#> arena:reset/4teams/modern/condensed/driver
+#> arena:reset/4teams/modern/condensed
 
 #>----------------------
 #>Clean 
@@ -24,6 +24,6 @@ schedule function utility:waterstop/disable 210t
 #>Paint
 #>----------------------
 
-schedule function arena:paint/4teams/modern/condensed/driver 210t
+schedule function arena:paint/4teams/modern/condensed 210t
 
 schedule function arena:build/4teams/modern/condensed/add_barriers 220t

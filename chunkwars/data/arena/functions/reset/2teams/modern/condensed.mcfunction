@@ -24,6 +24,6 @@ schedule function utility:waterstop/disable 180t
 #>Paint
 #>----------------------
 
-schedule function arena:paint/2teams/modern/condensed/driver 180t
+schedule function arena:paint/2teams/modern/condensed/overworld 180t
 
 schedule function arena:build/2teams/modern/condensed/add_barriers 190t

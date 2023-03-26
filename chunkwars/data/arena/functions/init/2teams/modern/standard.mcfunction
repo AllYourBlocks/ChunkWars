@@ -1,13 +1,14 @@
-
-#> remove blue house barriers
-
-fill 82 61 942 84 62 942 minecraft:air
-fill 83 58 944 83 59 944 minecraft:air
+#> arena:init/2teams/modern/standard
 
 #> remove yellow house barriers
 
 fill -83 61 1105 -85 62 1105 minecraft:air
 fill -84 58 1103 -84 59 1103 minecraft:air
+
+#> remove blue house barriers
+
+fill 82 61 942 84 62 942 minecraft:air
+fill 83 58 944 83 59 944 minecraft:air
 
 #> populate beehives
 

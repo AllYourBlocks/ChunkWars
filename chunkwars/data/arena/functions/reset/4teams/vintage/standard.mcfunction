@@ -1,4 +1,4 @@
-#> arena:reset/4teams/vintage/standard/driver
+#> arena:reset/4teams/vintage/standard
 
 #>----------------------
 #>Clean 
@@ -24,6 +24,6 @@ schedule function utility:waterstop/disable 250t
 #>Paint
 #>----------------------
 
-schedule function arena:paint/4teams/vintage/standard/driver 250t
+schedule function arena:paint/4teams/vintage/standard 250t
 
 schedule function arena:build/4teams/vintage/standard/add_barriers 260t

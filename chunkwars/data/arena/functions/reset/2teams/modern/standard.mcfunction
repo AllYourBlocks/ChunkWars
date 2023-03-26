@@ -24,6 +24,6 @@ schedule function utility:waterstop/disable 220t
 #>Paint
 #>----------------------
 
-schedule function arena:paint/2teams/modern/standard/driver 220t
+schedule function arena:paint/2teams/modern/standard/overworld 220t
 
 schedule function arena:build/2teams/modern/standard/add_barriers 230t

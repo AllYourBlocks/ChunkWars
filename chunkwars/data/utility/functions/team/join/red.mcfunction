@@ -1,3 +1,5 @@
+#> utility:team/join/red
+
 team join Red
 scoreboard players set @s team 3
 

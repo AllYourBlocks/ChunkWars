@@ -1,4 +1,4 @@
-
+#> utility:team/join/spectator
 
 scoreboard players set @s team 1
 team join Spectator @s
