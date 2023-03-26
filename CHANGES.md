@@ -13,3 +13,6 @@
   Furthermore, they will not be identified by their team color but by their orientation in degrees.
   Notable exceptions are home and end chunks as they will not be changed or moved.
 * Condensed arenas (in random mode) now clean specific areas on the home chunk that would not be reached by the cleanup
+
+3) Additions
+* Implement Nether-Water-Removal for all actual nether chunks as soon as they are generated

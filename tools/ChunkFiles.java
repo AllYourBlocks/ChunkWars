@@ -94,7 +94,7 @@ public class ChunkFiles {
 
         }
         pw.println();
-        pw.println("kill @e[type=!minecraft:player,x=" + start_x + ",y=" + start_y + ",z=" + start_z +
+        pw.println("kill @e[type=!player,x=" + start_x + ",y=" + start_y + ",z=" + start_z +
                 ",dx=" + (end_x - start_x) +",dy=" + (end_y - start_y) + ",dz=" + (end_z - start_z) + "]");
 
         pw.close();

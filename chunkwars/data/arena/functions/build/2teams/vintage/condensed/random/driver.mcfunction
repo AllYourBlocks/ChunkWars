@@ -1,7 +1,5 @@
 #> arena:build/2teams/vintage/condensed/random/driver
 
-#>TODO implement correct chunk names
-
 function utility:random/2teams/vintage/driver
 
 function arena:clean/2teams/vintage/condensed/random

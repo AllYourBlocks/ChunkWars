@@ -4,8 +4,8 @@ function utility:waterstop/enable
 fill -13 -64 45 12 -40 70 minecraft:air
 
 # then kill everything twice
-kill @e[type=!minecraft:player,type=!marker,x=-13,y=-64,z=45,dx=25,dy=24,dz=25]
-kill @e[type=!minecraft:player,type=!marker,x=-13,y=-64,z=45,dx=25,dy=24,dz=25]
+kill @e[type=!player,type=!marker,x=-13,y=-64,z=45,dx=25,dy=24,dz=25]
+kill @e[type=!player,type=!marker,x=-13,y=-64,z=45,dx=25,dy=24,dz=25]
 
 # paste sumo and selection structure blocks
 execute unless score $teams gamestate matches 4 run function lobby:rebuild/2teams

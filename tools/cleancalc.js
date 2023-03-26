@@ -26,4 +26,4 @@ for (let x = start_x; x < end_x; x += MAX_CHUNK_SIZE) {
 
 }
 
-console.log(`kill @e[type=!minecraft:player,x=${start_x},y=${start_y},z=${start_z},dx=${end_x-start_x},dy=${end_y-start_y},dz=${end_z-start_z}]`)
+console.log(`kill @e[type=!player,x=${start_x},y=${start_y},z=${start_z},dx=${end_x-start_x},dy=${end_y-start_y},dz=${end_z-start_z}]`)
