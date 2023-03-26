@@ -1,5 +1,11 @@
 #> arena:clean/2teams/vintage/condensed/random
 
+# blue jungle overhang
+fill 24 63 4056 25 70 4071 air
+
+# yellow jungle overhang
+fill -25 63 4135 -26 70 4120 air
+
 schedule function arena:clean/2teams/vintage/condensed/chunks/60 1t
 schedule function arena:clean/2teams/vintage/condensed/chunks/50 6t
 schedule function arena:clean/2teams/vintage/condensed/chunks/61 6t

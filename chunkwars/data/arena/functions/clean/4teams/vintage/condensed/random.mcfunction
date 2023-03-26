@@ -1,5 +1,18 @@
 #> arena:clean/4teams/vintage/condensed/driver
 
+# blue jungle leaves
+fill 24 63 8152 25 70 8167 air
+
+# red jungle leaves
+fill 39 63 8216 24 70 8217 air
+
+# yellow jungle leaves
+fill -25 63 8231 -26 70 8216 air
+
+# green jungle leaves
+fill -40 63 8167 -25 70 8166 air
+
+
 schedule function arena:clean/4teams/vintage/condensed/chunks/60 1t
 schedule function arena:clean/4teams/vintage/condensed/chunks/50 6t
 schedule function arena:clean/4teams/vintage/condensed/chunks/61 6t

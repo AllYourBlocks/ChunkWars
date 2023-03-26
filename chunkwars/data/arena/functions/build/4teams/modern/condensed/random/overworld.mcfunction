@@ -2,18 +2,15 @@
 
 function arena:build/4teams/modern/condensed/end
 
-execute as @e[tag=read_blue] run tp 0 39 6144
-execute as @e[tag=read_yellow] run tp 31 39 6175
-execute as @e[tag=read_red] run tp 31 39 6144
-execute as @e[tag=read_green] run tp 0 39 6175
-execute as @e[tag=paste_blue] run tp 0 39 6144
-execute as @e[tag=paste_yellow] run tp 31 39 6175
-execute as @e[tag=paste_red] run tp 31 39 6144
-execute as @e[tag=paste_green] run tp 0 39 6175
+#> reposition markers to center
+execute as @e[tag=paste_blue] at @s run tp @s 0 39 6144
+execute as @e[tag=paste_yellow] at @s run tp @s 31 39 6175
+execute as @e[tag=paste_red] at @s run tp @s 31 39 6144
+execute as @e[tag=paste_green] at @s run tp @s 0 39 6175
 
 #> update check location
 
-scoreboard players operation current random = desert chunk_position
+scoreboard players operation current random = pos3 chunk_position
 
 # move the markers to structure block paste position
 function arena:build/4teams/modern/condensed/random/move_structure_marker
@@ -36,7 +33,7 @@ execute as @e[tag=paste_green] at @s run tp @s 0 39 6175
 
 #> update check location
 
-scoreboard players operation current random = flower_forest chunk_position
+scoreboard players operation current random = pos5 chunk_position
 
 # move the markers to structure block paste position
 function arena:build/4teams/modern/condensed/random/move_structure_marker
@@ -59,7 +56,7 @@ execute as @e[tag=paste_green] at @s run tp @s 0 39 6175
 
 #> update check location
 
-scoreboard players operation current random = fortress chunk_position
+scoreboard players operation current random = pos1 chunk_position
 
 # move the markers to structure block paste position
 function arena:build/4teams/modern/condensed/random/move_structure_marker
@@ -82,7 +79,7 @@ execute as @e[tag=paste_green] at @s run tp @s 0 39 6175
 
 #> update check location
 
-scoreboard players operation current random = jungle chunk_position
+scoreboard players operation current random = pos2 chunk_position
 
 # move the markers to structure block paste position
 function arena:build/4teams/modern/condensed/random/move_structure_marker
@@ -105,7 +102,7 @@ execute as @e[tag=paste_green] at @s run tp @s 0 39 6175
 
 #> update check location
 
-scoreboard players operation current random = mansion chunk_position
+scoreboard players operation current random = pos4 chunk_position
 
 # move the markers to structure block paste position
 function arena:build/4teams/modern/condensed/random/move_structure_marker
@@ -128,7 +125,7 @@ execute as @e[tag=paste_green] at @s run tp @s 0 39 6175
 
 #> update check location
 
-scoreboard players operation current random = pillager chunk_position
+scoreboard players operation current random = pos6 chunk_position
 
 # move the markers to structure block paste position
 function arena:build/4teams/modern/condensed/random/move_structure_marker
@@ -151,7 +148,7 @@ execute as @e[tag=paste_green] at @s run tp @s 0 39 6175
 
 #> update check location
 
-scoreboard players operation current random = village chunk_position
+scoreboard players operation current random = pos0 chunk_position
 
 # move the markers to structure block paste position
 function arena:build/4teams/modern/condensed/random/move_structure_marker
