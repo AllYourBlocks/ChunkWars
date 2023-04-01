@@ -4,8 +4,6 @@ give @s oak_sign{display:{Name:'{"text":"Option: Keep Inventory"}'},BlockEntityT
 
 give @s oak_sign{display:{Name:'{"text":"Option: Bonus Chest"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Bonus Chest","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/bonus_chest/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
-give @s oak_sign{display:{Name:'{"text":"Option: Adventure Mode"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Adventure Mode","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/adventure_mode/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
-
 give @s oak_sign{display:{Name:'{"text":"Option: Iron Gear"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Iron Gear","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/iron_gear/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
 give @s oak_sign{display:{Name:'{"text":"Option: Ender Pearls"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Ender Pearls","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/ender_pearls/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}

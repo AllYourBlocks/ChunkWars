@@ -42,7 +42,6 @@ execute unless score $enchanting_table option matches -2147483648..2147483647 ru
 execute unless score $difficulty option matches -2147483648..2147483647 run scoreboard players set $difficulty option 2
 execute unless score $daylight_cycle option matches -2147483648..2147483647 run scoreboard players set $daylight_cycle option 1
 execute unless score $bonus_chest option matches -2147483648..2147483647 run scoreboard players set $bonus_chest option 0
-execute unless score $adventure_mode option matches -2147483648..2147483647 run scoreboard players set $adventure_mode option 0
 execute unless score $anvil option matches -2147483648..2147483647 run scoreboard players set $anvil option 0
 
 scoreboard objectives add map_variation dummy
