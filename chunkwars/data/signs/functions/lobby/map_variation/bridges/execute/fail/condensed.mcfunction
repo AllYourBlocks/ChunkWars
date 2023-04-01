@@ -1,1 +1,0 @@
-tellraw @s {"text":"This option cannot be used together with \"Condensed\"","color":"#82becb"}

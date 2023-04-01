@@ -1,1 +1,0 @@
-tellraw @s {"text":"This option cannot be used together with \"Bridges\"","color":"#82becb"}
