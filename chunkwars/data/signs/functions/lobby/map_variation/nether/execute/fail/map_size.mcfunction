@@ -1,1 +1,1 @@
-tellraw @s {"text":"You can only play this in the Modern Arena","color":"#82becb"}
+tellraw @s {"text":"You can only toggle this in the Modern Arena","color":"#82becb"}

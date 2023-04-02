@@ -5,10 +5,6 @@ function signs:lobby/gamestate/teams/update
 # reset the sumo
 function lobby:rebuild/driver
 
-# special case if we did select an invalid variation, set back to regular!
-execute if score $map_nether map_variation matches 1 run scoreboard players set $map_nether map_variation 0
-execute if score $map_end map_variation matches 1 run scoreboard players set $map_end map_variation 0
-
 tag @s add MassUpdater
 
 execute as @e[type=marker,tag=GamestateMapSize,limit=1] at @s run function signs:lobby/gamestate/map_size/update

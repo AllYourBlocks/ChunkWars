@@ -1,6 +1,7 @@
 scoreboard players set $map_size gamestate 1
 
 function signs:lobby/gamestate/map_size/update
+
 # special case if we did select an invalid variation, set back to regular!
 execute if score $map_nether map_variation matches 1 run scoreboard players set $map_nether map_variation 0
 execute if score $map_end map_variation matches 1 run scoreboard players set $map_end map_variation 0
