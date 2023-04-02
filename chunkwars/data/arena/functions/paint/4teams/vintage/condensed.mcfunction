@@ -4,13 +4,9 @@
 
 fill 8 41 8183 39 42 8152 minecraft:light_blue_wool replace #minecraft:wool
 
-fill 31 61 8155 37 61 8156 minecraft:light_blue_wool replace #minecraft:wool
-
 #> Paint Red Corner
 
 fill 8 41 8200 39 42 8231 minecraft:red_wool replace #minecraft:wool
-
-fill 36 61 8223 35 61 8229 minecraft:red_wool replace #minecraft:wool
 
 #> Paint Yellow Corner
 
@@ -20,39 +16,34 @@ fill -9 41 8200 -40 42 8231 minecraft:yellow_wool replace #minecraft:wool
 
 fill -9 41 8183 -40 42 8152 minecraft:lime_wool replace #minecraft:wool
 
-fill -36 61 8160 -37 61 8154 minecraft:lime_wool replace #minecraft:wool
 
-#> Paint Blue Home Chunk Specific Blocks
+#> Blue Home Chunk
 
-# blue
+setblock 37 57 8154 minecraft:air
+setblock 37 57 8154 minecraft:light_blue_bed[facing=north,part=head] replace
+setblock 37 57 8155 minecraft:light_blue_bed[facing=north,part=foot] replace
 
-#fill 53 58 6090 53 58 6091 air
-#setblock 53 58 6090 minecraft:light_blue_bed[facing=north,part=head]
-#setblock 53 58 6091 minecraft:light_blue_bed[facing=north,part=foot]
+#> Red Home Chunk
 
-#fill 50 58 6092 51 58 6092 minecraft:light_blue_carpet replace #minecraft:wool_carpets
+setblock 37 57 8229 minecraft:air
+setblock 37 57 8229 red_bed[facing=east,part=head] replace
+setblock 36 57 8229 red_bed[facing=east,part=foot] replace
 
-# Spawning the blue bed drops a yellow bed, so we clear that up
-#kill @e[type=minecraft:item,x=53,y=58,z=6090,distance=..3]
+#> Yellow Home Chunk
 
-# green
+setblock -38 57 8229 minecraft:air
+setblock -38 57 8229 yellow_bed[facing=south,part=head] replace
+setblock -38 57 8228 yellow_bed[facing=south,part=foot] replace
 
-#fill -54 58 6090 -53 58 6090 air
-#setblock -54 58 6090 minecraft:lime_bed[facing=west,part=head]
-#setblock -53 58 6090 minecraft:lime_bed[facing=west,part=foot]
+#> Green Home Chunk
 
-#fill -52 58 6093 -52 58 6092 minecraft:lime_carpet replace #minecraft:wool_carpets
+setblock -38 57 8154 minecraft:air
+setblock -38 57 8154 lime_bed[facing=west,part=head] replace
+setblock -37 57 8154 lime_bed[facing=west,part=foot] replace
 
-# Spawning the green bed drops a yellow bed, so we clear that up
-#kill @e[type=minecraft:item,x=-54,y=58,z=6090,distance=..3]
+#> Move markers back to protect from unloading
 
-# red
-
-#fill 53 58 6197 52 58 6197 air
-#setblock 53 58 6197 minecraft:red_bed[facing=east,part=head]
-#setblock 52 58 6197 minecraft:red_bed[facing=east,part=foot]
-
-#fill 51 58 6194 51 58 6195 minecraft:red_carpet replace #minecraft:wool_carpets
-
-# Spawning the red bed drops a yellow bed, so we clear that up
-#kill @e[type=minecraft:item,x=53,y=58,z=6195,distance=..3]
+execute as @e[tag=paste_blue] run tp -140 69 9070
+execute as @e[tag=paste_yellow] run tp -140 69 9070
+execute as @e[tag=paste_green] run tp -140 69 9070
+execute as @e[tag=paste_red] run tp -140 69 9070

@@ -54,6 +54,8 @@ execute unless score $map_random map_variation matches -2147483648..2147483647 r
 scoreboard objectives add map_status dummy
 execute unless score $blue_nether_pasted map_status matches -2147483648..2147483647 run scoreboard players set $blue_nether_pasted map_status 0
 execute unless score $yellow_nether_pasted map_status matches -2147483648..2147483647 run scoreboard players set $yellow_nether_pasted map_status 0
+execute unless score $green_nether_pasted map_status matches -2147483648..2147483647 run scoreboard players set $green_nether_pasted map_status 0
+execute unless score $red_nether_pasted map_status matches -2147483648..2147483647 run scoreboard players set redw_nether_pasted map_status 0
 execute unless score $end_pasted map_status matches -2147483648..2147483647 run scoreboard players set $end_pasted map_status 0
 
 scoreboard objectives add team_ready dummy
@@ -203,6 +205,8 @@ team modify Puzzle color gray
 #define objective map_status
 #define score_holder $blue_nether_pasted
 #define score_holder $yellow_nether_pasted
+#define score_holder $green_nether_pasted
+#define score_holder $red_nether_pasted
 #define score_holder $end_pasted
 
 # Teams Ready

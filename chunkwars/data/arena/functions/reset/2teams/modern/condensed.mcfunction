@@ -20,6 +20,6 @@ schedule function arena:build/2teams/modern/condensed/overworld 84t
 #>Paint
 #>----------------------
 
-schedule function arena:paint/2teams/modern/condensed/overworld 180t
+schedule function arena:paint/2teams/modern/condensed 180t
 
 schedule function arena:build/2teams/modern/condensed/add_barriers 190t

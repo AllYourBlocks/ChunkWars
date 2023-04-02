@@ -20,6 +20,8 @@ gamerule doMobSpawning true
 
 scoreboard players set $blue_nether_pasted map_status 0
 scoreboard players set $yellow_nether_pasted map_status 0
+scoreboard players set $green_nether_pasted map_status 0
+scoreboard players set $red_nether_pasted map_status 0
 scoreboard players set $end_pasted map_status 0
 
 #enable mob AI

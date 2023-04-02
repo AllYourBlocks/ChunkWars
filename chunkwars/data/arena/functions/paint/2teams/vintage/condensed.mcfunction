@@ -14,25 +14,26 @@ fill -24 42 4135 -9 41 4088 minecraft:yellow_wool replace #minecraft:wool
 fill 7 41 4104 -8 42 4135 minecraft:yellow_wool replace #minecraft:wool
 fill 8 41 4135 23 42 4119 minecraft:yellow_wool replace #minecraft:wool
 
+#> Paint White Diagonals
+fill 24 41 2072 39 41 2087 minecraft:white_wool replace #minecraft:wool
+fill -25 41 2023 -40 41 2008 minecraft:white_wool replace #minecraft:wool
+fill 55 41 2088 40 41 2103 minecraft:white_wool replace #minecraft:wool
+fill -41 41 2007 -56 41 1992 minecraft:white_wool replace #minecraft:wool
 
 
+#> Blue Home Chunk
 
-#> Paint Lime Diagonals
-#fill 24 41 2072 39 41 2087 minecraft:lime_wool replace #minecraft:wool
-#fill -25 41 2023 -40 41 2008 minecraft:lime_wool replace #minecraft:wool
-#fill 55 41 2088 40 41 2103 minecraft:lime_wool replace #minecraft:wool
-#fill -41 41 2007 -56 41 1992 minecraft:lime_wool replace #minecraft:wool
+setblock 37 57 4058 minecraft:air
+setblock 37 57 4058 minecraft:light_blue_bed[facing=north,part=head] replace
+setblock 37 57 4059 minecraft:light_blue_bed[facing=north,part=foot] replace
 
-#> Paint Blue Home Chunk Specific Blocks
+#> Yellow Home Chunk
 
-fill 31 61 4059 37 61 4060 minecraft:light_blue_wool replace #minecraft:wool
+setblock -38 57 4133 minecraft:air
+setblock -38 57 4133 minecraft:yellow_bed[facing=south,part=head] replace
+setblock -38 57 4132 minecraft:yellow_bed[facing=south,part=foot] replace
 
-#fill 53 58 1994 53 58 1995 minecraft:air
+#> Move markers back to protect from unloading
 
-#setblock 53 58 1994 minecraft:light_blue_bed[facing=north,part=head]
-#setblock 53 58 1995 minecraft:light_blue_bed[facing=north,part=foot]
-
-#fill 50 58 1996 51 58 1996 minecraft:light_blue_carpet replace #minecraft:wool_carpets
-
-# Spawning the blue bed drops a yellow bed, so we clear that up
-#kill @e[type=minecraft:item,x=50,y=58,z=1994,distance=..3]
+execute as @e[tag=paste_blue] run tp -140 69 9070
+execute as @e[tag=paste_yellow] run tp -140 69 9070

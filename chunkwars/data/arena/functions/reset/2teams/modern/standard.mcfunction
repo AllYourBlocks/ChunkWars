@@ -20,6 +20,6 @@ schedule function arena:build/2teams/modern/standard/overworld 123t
 #>Paint
 #>----------------------
 
-schedule function arena:paint/2teams/modern/standard/overworld 220t
+schedule function arena:paint/2teams/modern/standard 220t
 
 schedule function arena:build/2teams/modern/standard/add_barriers 230t
