@@ -14,11 +14,7 @@ schedule function arena:clean/2teams/vintage/condensed/entities 81t
 #>Build
 #>----------------------
 
-schedule function utility:waterstop/enable 82t
-
 schedule function arena:build/2teams/vintage/condensed/overworld 83t
-
-schedule function utility:waterstop/disable 180t
 
 #>----------------------
 #>Paint

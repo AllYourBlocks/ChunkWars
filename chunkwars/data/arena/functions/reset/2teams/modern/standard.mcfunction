@@ -14,11 +14,7 @@ schedule function arena:clean/2teams/modern/standard/entities 121t
 #>Build
 #>----------------------
 
-schedule function utility:waterstop/enable 122t
-
 schedule function arena:build/2teams/modern/standard/overworld 123t
-
-schedule function utility:waterstop/disable 220t
 
 #>----------------------
 #>Paint
