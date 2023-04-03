@@ -26,7 +26,7 @@ scoreboard objectives add option dummy
 execute unless score $wither_skulls option matches -2147483648..2147483647 run scoreboard players set $wither_skulls option 0
 execute unless score $weather option matches -2147483648..2147483647 run scoreboard players set $weather option 0
 execute unless score $troll option matches -2147483648..2147483647 run scoreboard players set $troll option 0
-execute unless score $armageddon option matches -2147483648..2147483647 run scoreboard players set $armageddon option 0
+execute unless score $tnt option matches -2147483648..2147483647 run scoreboard players set $tnt option 0
 execute unless score $spawn_eggs option matches -2147483648..2147483647 run scoreboard players set $spawn_eggs option 0
 execute unless score $respawn option matches -2147483648..2147483647 run scoreboard players set $respawn option 1
 execute unless score $regeneration option matches -2147483648..2147483647 run scoreboard players set $regeneration option 1
@@ -42,6 +42,7 @@ execute unless score $enchanting_table option matches -2147483648..2147483647 ru
 execute unless score $difficulty option matches -2147483648..2147483647 run scoreboard players set $difficulty option 2
 execute unless score $daylight_cycle option matches -2147483648..2147483647 run scoreboard players set $daylight_cycle option 1
 execute unless score $bonus_chest option matches -2147483648..2147483647 run scoreboard players set $bonus_chest option 0
+execute unless score $bed_status option matches -2147483648..2147483647 run scoreboard players set $bed_status option 0
 execute unless score $anvil option matches -2147483648..2147483647 run scoreboard players set $anvil option 0
 
 scoreboard objectives add map_variation dummy
@@ -55,8 +56,12 @@ scoreboard objectives add map_status dummy
 execute unless score $blue_nether_pasted map_status matches -2147483648..2147483647 run scoreboard players set $blue_nether_pasted map_status 0
 execute unless score $yellow_nether_pasted map_status matches -2147483648..2147483647 run scoreboard players set $yellow_nether_pasted map_status 0
 execute unless score $green_nether_pasted map_status matches -2147483648..2147483647 run scoreboard players set $green_nether_pasted map_status 0
-execute unless score $red_nether_pasted map_status matches -2147483648..2147483647 run scoreboard players set redw_nether_pasted map_status 0
+execute unless score $red_nether_pasted map_status matches -2147483648..2147483647 run scoreboard players set $red_nether_pasted map_status 0
 execute unless score $end_pasted map_status matches -2147483648..2147483647 run scoreboard players set $end_pasted map_status 0
+execute unless score $blue_bed_broken map_status matches -2147483648..2147483647 run scoreboard players set $blue_bed_broken map_status 0
+execute unless score $yellow_bed_broken map_status matches -2147483648..2147483647 run scoreboard players set $yellow_bed_broken map_status 0
+execute unless score $green_bed_broken map_status matches -2147483648..2147483647 run scoreboard players set $green_bed_broken map_status 0
+execute unless score $red_bed_broken map_status matches -2147483648..2147483647 run scoreboard players set $red_bed_broken map_status 0
 
 scoreboard objectives add team_ready dummy
 execute unless score $blue_ready team_ready matches -2147483648..2147483647 run scoreboard players set $blue_ready team_ready 0
@@ -156,7 +161,7 @@ team modify Puzzle color gray
 #define score_holder $wither_skulls
 #define score_holder $weather
 #define score_holder $troll
-#define score_holder $armageddon
+#define score_holder $tnt
 #define score_holder $spawn_eggs
 #define score_holder $respawn
 #define score_holder $regeneration
@@ -172,6 +177,7 @@ team modify Puzzle color gray
 #define score_holder $difficulty
 #define score_holder $daylight_cycle
 #define score_holder $bonus_chest
+#define score_holder $bed_status
 #define score_holder $anvil
 
 # Integers
@@ -208,6 +214,10 @@ team modify Puzzle color gray
 #define score_holder $green_nether_pasted
 #define score_holder $red_nether_pasted
 #define score_holder $end_pasted
+#define score_holder $blue_bed_broken
+#define score_holder $yellow_bed_broken
+#define score_holder $green_bed_broken
+#define score_holder $red_bed_broken
 
 # Teams Ready
 

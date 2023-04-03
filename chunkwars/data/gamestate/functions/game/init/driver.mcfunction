@@ -23,6 +23,10 @@ scoreboard players set $yellow_nether_pasted map_status 0
 scoreboard players set $green_nether_pasted map_status 0
 scoreboard players set $red_nether_pasted map_status 0
 scoreboard players set $end_pasted map_status 0
+scoreboard players set $blue_bed_broken map_status 0
+scoreboard players set $yellow_bed_broken map_status 0
+scoreboard players set $green_bed_broken map_status 0
+scoreboard players set $red_bed_broken map_status 0
 
 #enable mob AI
 execute as @e run data merge entity @s {NoAI:0}

@@ -1,4 +1,4 @@
-#> arena:paint/4teams/vintage/condensed
+#> arena:events/4teams/vintage/condensed
 
 #> Paint Blue Corner
 

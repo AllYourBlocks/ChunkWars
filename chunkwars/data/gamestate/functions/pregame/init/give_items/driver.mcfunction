@@ -5,8 +5,8 @@ execute as @a[tag=Ingame] if score $wither_skulls option matches 1 run give @s m
 
 execute as @a[tag=Ingame] if score $ender_pearls option matches 1 run give @s minecraft:ender_pearl 16
 
-execute as @a[tag=Ingame] if score $armageddon option matches 1 run give @s minecraft:tnt 64
-execute as @a[tag=Ingame] if score $armageddon option matches 1 run give @s minecraft:flint_and_steel 1
+execute as @a[tag=Ingame] if score $tnt option matches 1 run give @s minecraft:tnt 64
+execute as @a[tag=Ingame] if score $tnt option matches 1 run give @s minecraft:flint_and_steel 1
 
 execute as @a[tag=Ingame] if score $one_shot option matches 1 run function utility:player/one_shot
 

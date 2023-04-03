@@ -1,4 +1,4 @@
-#> arena:paint/2teams/modern/standard
+#> arena:events/2teams/modern/standard
 
 #> Paint Blue Side
 fill -56 41 936 87 41 951 minecraft:light_blue_wool replace #minecraft:wool
@@ -18,12 +18,6 @@ fill -88 41 936 -73 41 951 minecraft:white_wool replace #minecraft:wool
 fill -56 41 968 -41 41 983 minecraft:white_wool replace #minecraft:wool
 fill 40 41 1064 55 41 1079 minecraft:white_wool replace #minecraft:wool
 fill 71 41 1096 86 41 1111 minecraft:white_wool replace #minecraft:wool
-
-#> Yellow Home Chunk
-
-setblock -54 58 6197 minecraft:air
-setblock -70 57 3141 minecraft:yellow_bed[facing=south,part=head]
-setblock -70 57 3140 minecraft:yellow_bed[facing=south,part=foot]
 
 
 #> Blue Home Chunk

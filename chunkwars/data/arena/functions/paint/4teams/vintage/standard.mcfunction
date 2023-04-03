@@ -1,4 +1,4 @@
-#> arena:paint/4teams/vintage/standard
+#> arena:events/4teams/vintage/standard
 
 #> Paint Blue Corner
 

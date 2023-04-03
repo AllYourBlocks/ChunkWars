@@ -2,7 +2,7 @@ scoreboard players set $wither_skulls option 0
 scoreboard players set $weather option 0
 scoreboard players set $jukebox option 0
 scoreboard players set $troll option 0
-scoreboard players set $armageddon option 0
+scoreboard players set $tnt option 0
 scoreboard players set $spawn_eggs option 0
 scoreboard players set $respawn option 1
 scoreboard players set $regeneration option 1
@@ -17,6 +17,7 @@ scoreboard players set $enchanting_table option 0
 scoreboard players set $difficulty option 2
 scoreboard players set $daylight_cycle option 1
 scoreboard players set $bonus_chest option 0
+scoreboard players set $bed_status option 0
 scoreboard players set $anvil option 0
 
 scoreboard players set $map_size gamestate 0
@@ -33,6 +34,7 @@ scoreboard players set $teams gamestate 2
 tag @s add MassUpdater
 
 execute as @e[type=marker,tag=OptionAnvil,limit=1] at @s run function signs:lobby/option/anvil/update/driver
+execute as @e[type=marker,tag=OptionBedStatus,limit=1] at @s run function signs:lobby/option/bed_status/update/driver
 execute as @e[type=marker,tag=OptionBonusChest,limit=1] at @s run function signs:lobby/option/bonus_chest/update/driver
 execute as @e[type=marker,tag=OptionDaylightCycle,limit=1] at @s run function signs:lobby/option/daylight_cycle/update/driver
 execute as @e[type=marker,tag=OptionEnchantingTable,limit=1] at @s run function signs:lobby/option/enchanting_table/update/driver
@@ -48,7 +50,7 @@ execute as @e[type=marker,tag=OptionRegeneration,limit=1] at @s run function sig
 execute as @e[type=marker,tag=OptionRespawn,limit=1] at @s run function signs:lobby/option/respawn/update/driver
 execute as @e[type=marker,tag=OptionSpawnEggs,limit=1] at @s run function signs:lobby/option/spawn_eggs/update/driver
 execute as @e[type=marker,tag=OptionTroll,limit=1] at @s run function signs:lobby/option/troll/update/driver
-execute as @e[type=marker,tag=OptionArmageddon,limit=1] at @s run function signs:lobby/option/armageddon/update/driver
+execute as @e[type=marker,tag=OptionTNT,limit=1] at @s run function signs:lobby/option/tnt/update/driver
 execute as @e[type=marker,tag=OptionWeather,limit=1] at @s run function signs:lobby/option/weather/update/driver
 execute as @e[type=marker,tag=OptionWitherSkulls,limit=1] at @s run function signs:lobby/option/wither_skulls/update/driver
 
