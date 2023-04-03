@@ -1,3 +1,3 @@
 #> gamestate:game/tick/events
 
-function arena:events/driver
+execute if score $bed_status option matches 1 run function arena:events/driver
