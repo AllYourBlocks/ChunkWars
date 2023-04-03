@@ -63,3 +63,6 @@ tag @s remove MassUpdater
 say All options have been reset to default
 
 function lobby:rebuild/driver
+
+schedule function signs:lobby/option/defaults/lamp_on 5t
+schedule function signs:lobby/option/defaults/lamp_off 20t
