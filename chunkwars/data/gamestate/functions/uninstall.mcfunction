@@ -18,6 +18,9 @@ scoreboard objectives remove break_yellow_bed
 scoreboard objectives remove break_red_bed
 scoreboard objectives remove break_green_bed
 
+scoreboard objectives remove nether_reached
+scoreboard objectives remove end_reached
+
 # Player
 scoreboard objectives remove team
 scoreboard objectives remove cage

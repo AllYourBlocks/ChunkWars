@@ -22,6 +22,18 @@ scoreboard players set $count_houses_down timer 0
 scoreboard players set $count_sumo_down timer 0
 scoreboard players set $count_pregame_down timer 0
 
+scoreboard players reset @a place_blue_bed
+scoreboard players reset @a place_yellow_bed
+scoreboard players reset @a place_red_bed
+scoreboard players reset @a place_green_bed
+scoreboard players reset @a break_blue_bed
+scoreboard players reset @a break_yellow_bed
+scoreboard players reset @a break_red_bed
+scoreboard players reset @a break_green_bed
+
+scoreboard players reset @a nether_reached
+scoreboard players reset @a end_reached
+
 scoreboard players reset @a respawn_status
 
 difficulty easy

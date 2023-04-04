@@ -91,6 +91,9 @@ scoreboard objectives add break_yellow_bed minecraft.mined:minecraft.yellow_bed
 scoreboard objectives add break_red_bed minecraft.mined:minecraft.red_bed
 scoreboard objectives add break_green_bed minecraft.mined:minecraft.lime_bed
 
+scoreboard objectives add nether_reached dummy
+scoreboard objectives add end_reached dummy
+
 scoreboard objectives add integers dummy
 execute unless score $int_max integers matches -2147483648..2147483647 run scoreboard players set $int_max integers 2147483647
 execute unless score $int_1 integers matches -2147483648..2147483647 run scoreboard players set $int_1 integers 1
