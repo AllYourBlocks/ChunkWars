@@ -1,4 +1,4 @@
-# ChunkWars
+# Chunk Wars
 Chunk Wars is a team-based attack-defend minigame for Minecraft.  You play in an arena of different Chunks, all carefully handcrafted to replicate different Minecraft biomes and structures as closely as possible.
 
 Along with your team you will face everything that vanilla Minecraft can throw at you. Your goal is to work out how best to gear up and use Minecraft's resources in a PvP context - to take out your opponents' bed and be the last team standing.
