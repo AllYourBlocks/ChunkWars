@@ -28,6 +28,24 @@ scoreboard players set $yellow_bed_broken map_status 0
 scoreboard players set $green_bed_broken map_status 0
 scoreboard players set $red_bed_broken map_status 0
 
+scoreboard objectives remove place_blue_bed
+scoreboard objectives remove place_yellow_bed
+scoreboard objectives remove place_red_bed
+scoreboard objectives remove place_green_bed
+scoreboard objectives remove break_blue_bed
+scoreboard objectives remove break_yellow_bed
+scoreboard objectives remove break_red_bed
+scoreboard objectives remove break_green_bed
+
+scoreboard objectives add place_blue_bed minecraft.used:minecraft.light_blue_bed
+scoreboard objectives add place_yellow_bed minecraft.used:minecraft.yellow_bed
+scoreboard objectives add place_red_bed minecraft.used:minecraft.red_bed
+scoreboard objectives add place_green_bed minecraft.used:minecraft.lime_bed
+scoreboard objectives add break_blue_bed minecraft.mined:minecraft.light_blue_bed
+scoreboard objectives add break_yellow_bed minecraft.mined:minecraft.yellow_bed
+scoreboard objectives add break_red_bed minecraft.mined:minecraft.red_bed
+scoreboard objectives add break_green_bed minecraft.mined:minecraft.lime_bed
+
 #enable mob AI
 execute as @e run data merge entity @s {NoAI:0}
 execute as @e[type=piglin] run data merge entity @s {IsImmuneToZombification:1}

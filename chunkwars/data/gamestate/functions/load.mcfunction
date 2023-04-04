@@ -82,6 +82,15 @@ execute unless score $count_state_pregame timer matches -2147483648..2147483647 
 scoreboard objectives add random dummy
 scoreboard objectives add chunk_position dummy
 
+scoreboard objectives add place_blue_bed minecraft.used:minecraft.light_blue_bed
+scoreboard objectives add place_yellow_bed minecraft.used:minecraft.yellow_bed
+scoreboard objectives add place_red_bed minecraft.used:minecraft.red_bed
+scoreboard objectives add place_green_bed minecraft.used:minecraft.lime_bed
+scoreboard objectives add break_blue_bed minecraft.mined:minecraft.light_blue_bed
+scoreboard objectives add break_yellow_bed minecraft.mined:minecraft.yellow_bed
+scoreboard objectives add break_red_bed minecraft.mined:minecraft.red_bed
+scoreboard objectives add break_green_bed minecraft.mined:minecraft.lime_bed
+
 scoreboard objectives add integers dummy
 execute unless score $int_max integers matches -2147483648..2147483647 run scoreboard players set $int_max integers 2147483647
 execute unless score $int_1 integers matches -2147483648..2147483647 run scoreboard players set $int_1 integers 1

@@ -9,6 +9,15 @@ scoreboard objectives remove respawn_status
 scoreboard objectives remove random
 scoreboard objectives remove chunk_position
 
+scoreboard objectives remove place_blue_bed
+scoreboard objectives remove place_yellow_bed
+scoreboard objectives remove place_red_bed
+scoreboard objectives remove place_green_bed
+scoreboard objectives remove break_blue_bed
+scoreboard objectives remove break_yellow_bed
+scoreboard objectives remove break_red_bed
+scoreboard objectives remove break_green_bed
+
 # Player
 scoreboard objectives remove team
 scoreboard objectives remove cage
