@@ -36,3 +36,5 @@ setblock -70 57 3140 minecraft:yellow_bed[facing=south,part=foot]
 
 execute as @e[tag=paste_blue] run tp -140 69 9070
 execute as @e[tag=paste_yellow] run tp -140 69 9070
+
+scoreboard players set loops random 0

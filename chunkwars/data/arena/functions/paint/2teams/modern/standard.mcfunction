@@ -42,3 +42,5 @@ execute as @e[tag=read_blue] run tp -140 69 9070
 execute as @e[tag=read_yellow] run tp -140 69 9070
 execute as @e[tag=paste_blue] run tp -140 69 9070
 execute as @e[tag=paste_yellow] run tp -140 69 9070
+
+scoreboard players set loops random 0

@@ -4,6 +4,10 @@ function utility:random/4teams/modern/driver
 
 function arena:clean/4teams/modern/condensed/random
 
+scoreboard players set loops random -1
+
 schedule function arena:build/4teams/modern/condensed/random/overworld 100t
 
-schedule function arena:paint/4teams/modern/condensed 110t
+schedule function arena:build/4teams/modern/condensed/random/overworld 110t
+
+schedule function arena:paint/4teams/modern/condensed 120t

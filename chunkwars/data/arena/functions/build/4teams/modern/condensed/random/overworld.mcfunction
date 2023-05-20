@@ -170,3 +170,5 @@ execute as @e[tag=paste_red] at @s run tp @s 31 39 6144
 execute as @e[tag=paste_green] at @s run tp @s 0 39 6175
 
 execute unless score $map_end map_variation matches 0 run function arena:build/4teams/modern/condensed/end
+
+scoreboard players set loops random 1

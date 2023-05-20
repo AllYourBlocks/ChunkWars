@@ -116,3 +116,5 @@ function arena:build/common/based_on_marker_green
 function arena:build/common/based_on_marker_red
 
 function arena:build/4teams/vintage/standard/raw/end
+
+scoreboard players set loops random 1

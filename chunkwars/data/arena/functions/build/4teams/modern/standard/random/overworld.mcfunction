@@ -174,3 +174,5 @@ execute as @e[tag=paste_blue] at @s run tp @s 0 39 5120
 execute as @e[tag=paste_yellow] at @s run tp @s 31 39 5151
 execute as @e[tag=paste_red] at @s run tp @s 31 39 5120
 execute as @e[tag=paste_green] at @s run tp @s 0 39 5151
+
+scoreboard players set loops random 1

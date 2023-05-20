@@ -210,3 +210,5 @@ execute as @e[tag=paste_yellow] at @s run tp @s 31 39 2079
 
 execute unless score $map_nether map_variation matches 0 run function arena:build/2teams/modern/condensed/random/every_nether
 execute unless score $map_end map_variation matches 0 run function arena:build/2teams/modern/condensed/end
+
+scoreboard players set loops random 1

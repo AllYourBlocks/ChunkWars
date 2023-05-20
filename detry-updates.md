@@ -21,8 +21,8 @@ We will need both during the merging period.
 ## Changes since pulling
 
 * Minor typographical and design changes
-* Option display has been changed, pending review by Blocks
-  * Indicator Block material will appear under sign block
+* Option display has been changed and updated various times
+  * Indicator Block material behind sign block
   * Redstone lamps over sign block indicate status
 * Difficulty setting has been split into multiple one-click-set signs which update the group when one is clicked
 * Variables, marker names and folders have been aligned to appropriate naming conventions and to contain proper words in the option description
@@ -31,48 +31,26 @@ We will need both during the merging period.
   * Markers are named in UpperCamelCase (e.g. OptionBonusChest)
   * Ingame messages do contain special names so can have Title Case
 * 2 Teams / 4 Teams has been split into 2 radio-like signs
-* gamestate/map_game has been split into 2 radio-like signs, values are "modern" (6x6) and "vintage" (5x5)
-* 9 options have been added (anvil, bonus_chest, halloween, infested, jukebox, redstone, regeneration, respawn, troll)
-* map_game has been renamed to map_size
+* gamestate/map_game has been split into 2 radio-like signs, values are "Modern Arena" (6x6) and "Vintage Arena" (5x5)
+* several options have been added
+* map_game has been renamed to map_size and merged into a single variable
 * map_selection has been renamed to map_variation
-* reset all options to default
+* allow to reset all options to default
 
 ## Implementation status
 
-In theory, the game is operational as a 2 teams game, all logic has been moved to the detry logic, and has to be tested for functionality.
+In theory, the game is operational as a 2 teams game and 4 teams game, all logic has been moved to the detry logic, and has to be tested for functionality.
 
 ## To dos
 
 ### A) Location - Information
 
-* 1) gamestate:game/init/remove_barriers
-
-     barrier locations for red and green
-
-* 2) gamestate:game/tick/ambience
-
-     (removing water in nether)
-
-     add other nether locations, variables?
-
-* 3) gamestate:pregame/init/add_barriers
-
-     barrier locations for red and green
-
-* 4) gamestate:sumo/init/driver
+* 1) gamestate:sumo/init/driver
 
      maybe add breakout for when someone left during countdown
 
-* 5) gamestate:sumo/init/remove_barriers
-
-     barrier locations for red and green
-
 ### B) Map Changes - Based on Options
 
-* 6) **Halloween**
+* 1) **Halloween**
 
       How do we force the pumpkin head?
-
-* 7) **Infested**
-
-      Block replace?
