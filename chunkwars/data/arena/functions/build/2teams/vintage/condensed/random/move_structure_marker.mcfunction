@@ -1,3 +1,5 @@
+#> arena:build/2teams/vintage/condensed/random/move_structure_marker
+
 #> arena:build/2teams/vintage/standard/random/move_structure_marker
 
 #> first, move on x axis, easier logic

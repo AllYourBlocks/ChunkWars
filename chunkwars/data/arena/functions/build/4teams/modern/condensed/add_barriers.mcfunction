@@ -1,3 +1,5 @@
+#> arena:build/4teams/modern/condensed/add_barriers
+
 #>arena:build/4teams/modern/condensed/add_barriers
 
 #yellow

@@ -1,3 +1,5 @@
+#> arena:build/2teams/modern/standard/random/every_nether
+
 #> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s 0 39 1024
 execute as @e[tag=paste_yellow] at @s run tp @s 31 39 1055

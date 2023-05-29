@@ -1,3 +1,5 @@
+#> gamestate:uninstall
+
 # Server
 scoreboard objectives remove gamestate
 scoreboard objectives remove pick_order

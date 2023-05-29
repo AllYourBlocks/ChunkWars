@@ -1,3 +1,5 @@
+#> arena:build/2teams/vintage/standard/raw/180_7
+
 execute as @e[tag=paste_yellow] at @s run tp @s -17 39 3055
 execute as @e[tag=read_yellow] at @s run function teleports:memory/2teams/vintage/7
 

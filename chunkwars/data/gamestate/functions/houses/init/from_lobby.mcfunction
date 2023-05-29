@@ -1,3 +1,5 @@
+#> gamestate:houses/init/from_lobby
+
 scoreboard players set $count_state_lobby timer 0
 scoreboard players set $count_state_houses timer 0
 

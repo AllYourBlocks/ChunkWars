@@ -1,3 +1,5 @@
+#> signs:lobby/option/tnt/execute/driver
+
 execute unless score $stage gamestate matches 0..3 run function signs:lobby/option/tnt/execute/fail
 execute if score $stage gamestate matches 0..3 run function signs:lobby/option/tnt/execute/success
 

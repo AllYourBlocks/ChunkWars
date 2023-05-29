@@ -1,3 +1,5 @@
+#> gamestate:selection/init/driver
+
 tag @a[tag=YellowCaptain] add Captain
 tag @a[tag=BlueCaptain] add Captain
 tag @a[tag=RedCaptain] add Captain

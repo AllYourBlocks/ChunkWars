@@ -1,3 +1,5 @@
+#> gamestate:pregame/init/give_items/potions
+
 # 3:00
 give @s minecraft:potion{Potion:"fire_resistance"} 1
 # 3:00

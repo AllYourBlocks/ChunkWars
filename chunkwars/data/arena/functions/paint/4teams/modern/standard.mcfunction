@@ -1,3 +1,5 @@
+#> arena:paint/4teams/modern/standard
+
 #> arena:events/4teams/modern/standard
 
 #> Paint Blue Corner

@@ -1,3 +1,5 @@
+#> signs:lobby/option/potions/execute/driver
+
 execute unless score $stage gamestate matches 0..3 run function signs:lobby/option/potions/execute/fail
 execute if score $stage gamestate matches 0..3 run function signs:lobby/option/potions/execute/success
 

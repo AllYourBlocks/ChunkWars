@@ -1,3 +1,5 @@
+#> signs:lobby/option/redstone/execute/driver
+
 execute unless score $stage gamestate matches 0..3 run function signs:lobby/option/redstone/execute/fail
 execute if score $stage gamestate matches 0..3 run function signs:lobby/option/redstone/execute/success
 

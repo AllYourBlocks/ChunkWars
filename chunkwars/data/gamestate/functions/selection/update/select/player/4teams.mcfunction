@@ -1,3 +1,5 @@
+#> gamestate:selection/update/select/player/4teams
+
 tag @s add Selected
 
 execute if entity @a[tag=BlueCaptain,tag=Turn] run tellraw @a ["",{"selector":"@p[tag=Selected]"},{"text":" was picked.","color":"aqua"}]

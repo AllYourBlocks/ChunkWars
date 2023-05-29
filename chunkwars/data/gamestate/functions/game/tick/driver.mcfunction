@@ -1,3 +1,5 @@
+#> gamestate:game/tick/driver
+
 # keep mobs alive and well
 function gamestate:game/tick/mobs
 

@@ -1,3 +1,5 @@
+#> setup:signs/selection
+
 #> setup:signs/options_selection
 
 give @s oak_sign{display:{Name:'{"text":"Selection: This Player"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Select Player","color":"gray"}',Text2:'{"text":"\'Playername\'","color":"gray"}',Text3:'{"text":"","color":"gray","clickEvent":{"action":"run_command","value":"/function signs:selection/select/driver"}}',Text4:'{"text":"Right click","color":"yellow"}'}}

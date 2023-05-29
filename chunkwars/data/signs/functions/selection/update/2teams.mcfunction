@@ -1,3 +1,5 @@
+#> signs:selection/update/2teams
+
 data merge block -11 -47 55 {Color:"black",Text1:"{\"text\":\"No Player\"}",Text2:"{\"text\":\"Available\"}",Text4:"{\"text\":\"\"}",GlowingText:0b}
 data merge block -7 -47 55 {Color:"black",Text1:"{\"text\":\"No Player\"}",Text2:"{\"text\":\"Available\"}",Text4:"{\"text\":\"\"}",GlowingText:0b}
 data merge block -3 -47 55 {Color:"black",Text1:"{\"text\":\"No Player\"}",Text2:"{\"text\":\"Available\"}",Text4:"{\"text\":\"\"}",GlowingText:0b}

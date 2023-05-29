@@ -1,3 +1,5 @@
+#> teleports:game/center
+
 #> teleports:game/centre
 
 execute if score $teams gamestate matches 2 if score $map_size gamestate matches 0 if score $map_condensed map_variation matches 0 run tp @s -0.5 77 1024.5

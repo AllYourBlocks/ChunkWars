@@ -1,3 +1,5 @@
+#> signs:lobby/option/difficulty/normal/execute/driver
+
 execute unless score $stage gamestate matches 0..3 run function signs:lobby/option/difficulty/normal/execute/fail
 execute if score $stage gamestate matches 0..3 unless score $difficulty option matches 2 run function signs:lobby/option/difficulty/normal/execute/success
 

@@ -1,3 +1,5 @@
+#> gamestate:pregame/init/set_timer
+
 scoreboard players set $count_state_pregame timer 1
 scoreboard players set $count_pregame_down timer 31
 

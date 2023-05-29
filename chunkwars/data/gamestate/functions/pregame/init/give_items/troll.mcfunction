@@ -1,3 +1,5 @@
+#> gamestate:pregame/init/give_items/troll
+
 give @s minecraft:cobweb 64
 give @s minecraft:bone 64
 give @s minecraft:sponge 64

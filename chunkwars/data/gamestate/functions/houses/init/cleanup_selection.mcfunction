@@ -1,3 +1,5 @@
+#> gamestate:houses/init/cleanup_selection
+
 tag @a[tag=Turn] remove Turn
 tag @a[tag=BlueCaptain] remove BlueCaptain
 tag @a[tag=YellowCaptain] remove YellowCaptain

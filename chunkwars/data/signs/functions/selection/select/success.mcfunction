@@ -1,3 +1,5 @@
+#> signs:selection/select/success
+
 # just in case
 kill @e[type=marker,tag=SelectionMarker]
 summon minecraft:marker ~ ~ ~ {Tags:["SelectionMarker"]}

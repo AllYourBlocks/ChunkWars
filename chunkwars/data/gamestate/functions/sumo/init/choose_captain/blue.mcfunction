@@ -1,3 +1,5 @@
+#> gamestate:sumo/init/choose_captain/blue
+
 tag @s add BlueCaptain
 tag @s add Captain
 

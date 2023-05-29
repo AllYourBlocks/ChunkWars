@@ -1,3 +1,5 @@
+#> gamestate:tick
+
 execute as @a run function utility:player/assign_team
 
 execute if score $stage gamestate matches 0 run function gamestate:lobby/tick/driver

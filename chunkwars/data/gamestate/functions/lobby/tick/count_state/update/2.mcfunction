@@ -1,3 +1,5 @@
+#> gamestate:lobby/tick/count_state/update/2
+
 # we now can count down!
 scoreboard players set $count_lobby_down timer 10
 

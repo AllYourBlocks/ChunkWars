@@ -1,3 +1,5 @@
+#> gamestate:pregame/init/set_options
+
 execute if score $difficulty option matches 0 run difficulty peaceful
 execute if score $difficulty option matches 1 run difficulty easy
 execute if score $difficulty option matches 2 run difficulty normal

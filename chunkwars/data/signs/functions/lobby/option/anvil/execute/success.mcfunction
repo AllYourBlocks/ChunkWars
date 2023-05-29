@@ -1,3 +1,5 @@
+#> signs:lobby/option/anvil/execute/success
+
 scoreboard players add $anvil option 1
 execute if score $anvil option matches 2.. run scoreboard players set $anvil option 0
 

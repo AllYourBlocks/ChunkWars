@@ -1,3 +1,5 @@
+#> gamestate:sumo/update/lost/blue
+
 tellraw @a {"text":"Blue is out!","color":"aqua"}
 
 execute if entity @a[team=Yellow,tag=Captain] run scoreboard players remove $yellow pick_order 1

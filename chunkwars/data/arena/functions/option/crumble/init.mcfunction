@@ -1,3 +1,5 @@
+#> arena:option/crumble/init
+
 scoreboard players reset $crumble gamestate
 kill @e[type=marker,tag=Crumble]
 

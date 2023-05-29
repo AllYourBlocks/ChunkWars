@@ -1,3 +1,5 @@
+#> arena:build/4teams/modern/standard/add_barriers
+
 #yellow
 fill -84 58 5199 -84 59 5199 minecraft:barrier
 fill -83 61 5201 -85 62 5201 minecraft:barrier

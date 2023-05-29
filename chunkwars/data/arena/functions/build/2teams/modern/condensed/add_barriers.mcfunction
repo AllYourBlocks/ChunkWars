@@ -1,3 +1,5 @@
+#> arena:build/2teams/modern/condensed/add_barriers
+
 # yellow
 fill -51 61 2097 -53 62 2097 minecraft:barrier
 fill -52 58 2095 -52 59 2095 minecraft:barrier

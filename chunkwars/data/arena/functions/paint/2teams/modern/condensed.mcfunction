@@ -1,3 +1,5 @@
+#> arena:paint/2teams/modern/condensed
+
 #> arena:events/2teams/modern/condensed
 
 #> Paint Blue Side

@@ -1,3 +1,5 @@
+#> gamestate:houses/tick/update_ready/4teams
+
 execute if block 22 -46 51 minecraft:lever[powered=true] if score $yellow_ready team_ready matches 0 run schedule function utility:team/ready/yellow 1t
 execute if block -23 -46 51 minecraft:lever[powered=true] if score $blue_ready team_ready matches 0 run schedule function utility:team/ready/blue 1t
 execute if block -23 -46 64 minecraft:lever[powered=true] if score $green_ready team_ready matches 0 run schedule function utility:team/ready/green 1t

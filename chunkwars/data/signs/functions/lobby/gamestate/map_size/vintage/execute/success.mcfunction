@@ -1,3 +1,5 @@
+#> signs:lobby/gamestate/map_size/vintage/execute/success
+
 scoreboard players set $map_size gamestate 1
 
 function signs:lobby/gamestate/map_size/update

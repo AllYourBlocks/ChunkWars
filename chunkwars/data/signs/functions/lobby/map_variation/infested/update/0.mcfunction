@@ -1,3 +1,5 @@
+#> signs:lobby/map_variation/infested/update/0
+
 execute unless entity @e[tag=MassUpdater] run say "Infested" Map Variation updated to OFF
 
 function utility:sign/set_lamp/off

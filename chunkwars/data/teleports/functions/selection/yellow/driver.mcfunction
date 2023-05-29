@@ -1,3 +1,5 @@
+#> teleports:selection/yellow/driver
+
 # if we are just regular players, we have been selected. teleport us to the house!
 execute unless score $teams gamestate matches 4 run function teleports:lobby/house/yellow/2teams
 execute if score $teams gamestate matches 4 run function teleports:lobby/house/yellow/4teams

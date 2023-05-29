@@ -1,3 +1,5 @@
+#> arena:build/end
+
 # first, lock the check function so that we don't double this
 scoreboard players set $end_pasted map_status 1
 

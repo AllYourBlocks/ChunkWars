@@ -1,3 +1,5 @@
+#> signs:lobby/team_panel/update/driver
+
 execute at @e[type=marker,tag=TeamPanelStart,limit=1] run function signs:lobby/team_panel/update/start
 
 execute at @e[type=marker,tag=TeamPanelRed,limit=1] run function signs:lobby/team_panel/update/red

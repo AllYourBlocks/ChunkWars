@@ -1,3 +1,5 @@
+#> gamestate:houses/init/from_selection
+
 tellraw @a {"text":"All done.","bold":true,"color":"gold"}
 
 scoreboard players set $count_state_sumo timer 0

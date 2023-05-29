@@ -1,3 +1,5 @@
+#> gamestate:pregame/init/driver
+
 scoreboard players set $stage gamestate 4
 
 scoreboard players set $count_state_houses timer 0

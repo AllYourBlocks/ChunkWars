@@ -1,3 +1,5 @@
+#> signs:lobby/option/redstone/execute/success
+
 scoreboard players add $redstone option 1
 execute if score $redstone option matches 2.. run scoreboard players set $redstone option 0
 

@@ -1,3 +1,5 @@
+#> gamestate:selection/update/turn/start
+
 # we are stating a new turn
 
 # then we establish all barriers, for now

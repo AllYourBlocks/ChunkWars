@@ -1,3 +1,5 @@
+#> gamestate:game/init/driver
+
 scoreboard players set $stage gamestate 5
 
 function arena:init/driver

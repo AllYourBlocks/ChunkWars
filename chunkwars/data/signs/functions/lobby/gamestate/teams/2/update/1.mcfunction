@@ -1,3 +1,5 @@
+#> signs:lobby/gamestate/teams/2/update/1
+
 execute unless entity @e[tag=MassUpdater] run say 2 Teams selected
 
 function utility:sign/set_lamp/on

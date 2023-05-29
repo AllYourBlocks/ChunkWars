@@ -1,3 +1,5 @@
+#> signs:lobby/gamestate/teams/4/execute/success
+
 scoreboard players set $teams gamestate 4
 
 function signs:lobby/gamestate/teams/update

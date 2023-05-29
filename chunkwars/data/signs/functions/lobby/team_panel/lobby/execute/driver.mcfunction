@@ -1,3 +1,5 @@
+#> signs:lobby/team_panel/lobby/execute/driver
+
 # allow to go back to the lobby at all times for now, it should not interfere with anything really
 function signs:lobby/team_panel/lobby/execute/success
 

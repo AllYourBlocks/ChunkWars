@@ -1,3 +1,5 @@
+#> signs:lobby/option/defaults/execute/success
+
 scoreboard players set $wither_skulls option 0
 scoreboard players set $weather option 0
 scoreboard players set $jukebox option 0

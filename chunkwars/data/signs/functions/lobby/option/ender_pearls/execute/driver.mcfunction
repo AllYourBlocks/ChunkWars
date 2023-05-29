@@ -1,3 +1,5 @@
+#> signs:lobby/option/ender_pearls/execute/driver
+
 execute unless score $stage gamestate matches 0..3 run function signs:lobby/option/ender_pearls/execute/fail
 execute if score $stage gamestate matches 0..3 run function signs:lobby/option/ender_pearls/execute/success
 

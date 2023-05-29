@@ -1,3 +1,5 @@
+#> signs:lobby/option/keep_inventory/execute/driver
+
 execute unless score $stage gamestate matches 0..3 run function signs:lobby/option/keep_inventory/execute/fail
 execute if score $stage gamestate matches 0..3 run function signs:lobby/option/keep_inventory/execute/success
 

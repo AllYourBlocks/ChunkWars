@@ -1,3 +1,5 @@
+#> gamestate:selection/update/turn/switch/2teams
+
 scoreboard players add $picking pick_order 1
 execute if score $picking pick_order matches 2.. run scoreboard players set $picking pick_order 0
 

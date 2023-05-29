@@ -1,3 +1,5 @@
+#> arena:build/2teams/modern/standard/add_barriers
+
 #blue
 fill 82 61 942 84 62 942 minecraft:barrier
 fill 83 58 944 83 59 944 minecraft:barrier

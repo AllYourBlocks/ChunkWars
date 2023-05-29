@@ -1,3 +1,5 @@
+#> gamestate:pregame/init/give_items/driver
+
 
 execute as @a[tag=Ingame] if score $iron_gear option matches 1 run function gamestate:pregame/init/give_items/iron_gear
 

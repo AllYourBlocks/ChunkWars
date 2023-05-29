@@ -1,3 +1,5 @@
+#> gamestate:sumo/init/driver
+
 #TODO: maybe check if there is enough players and break out if not
 # team_select_check
 

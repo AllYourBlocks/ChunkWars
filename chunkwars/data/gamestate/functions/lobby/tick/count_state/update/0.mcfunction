@@ -1,3 +1,5 @@
+#> gamestate:lobby/tick/count_state/update/0
+
 # we are resetting / cancelling the team selection process
 schedule clear timers:countdown/lobby/team_select
 

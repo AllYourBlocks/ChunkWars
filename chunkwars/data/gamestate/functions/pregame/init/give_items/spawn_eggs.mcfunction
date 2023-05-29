@@ -1,3 +1,5 @@
+#> gamestate:pregame/init/give_items/spawn_eggs
+
 give @s minecraft:creeper_spawn_egg 1
 give @s minecraft:witch_spawn_egg 1
 give @s minecraft:ghast_spawn_egg 1

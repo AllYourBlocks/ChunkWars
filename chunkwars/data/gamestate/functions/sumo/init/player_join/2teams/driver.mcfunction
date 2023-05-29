@@ -1,3 +1,5 @@
+#> gamestate:sumo/init/player_join/2teams/driver
+
 execute as @r[team=Playing,tag=!Captain,tag=!Teleported] run function gamestate:sumo/init/player_join/2teams/1
 execute as @r[team=Playing,tag=!Captain,tag=!Teleported] run function gamestate:sumo/init/player_join/2teams/2
 execute as @r[team=Playing,tag=!Captain,tag=!Teleported] run function gamestate:sumo/init/player_join/2teams/3

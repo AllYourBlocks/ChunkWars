@@ -1,3 +1,5 @@
+#> gamestate:sumo/update/lost/driver
+
 # remove the captain tag for now so we can easily check for remaining sumo captains
 tag @s remove Captain
 

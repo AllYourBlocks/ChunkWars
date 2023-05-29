@@ -1,3 +1,5 @@
+#> arena:build/2teams/vintage/condensed/add_barriers
+
 #blue
 fill 32 57 4063 32 58 4063 minecraft:barrier
 

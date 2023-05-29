@@ -1,3 +1,5 @@
+#> signs:lobby/map_variation/nether/execute/driver
+
 # regular fail for "wrong stage"
 execute unless score $stage gamestate matches 0..3 run function signs:lobby/map_variation/nether/execute/fail/stage
 # special fail for "not modern arena"

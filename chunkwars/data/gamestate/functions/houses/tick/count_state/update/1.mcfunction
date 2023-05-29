@@ -1,3 +1,5 @@
+#> gamestate:houses/tick/count_state/update/1
+
 # we are doing this the first time, we need to force load the destination map!
 
 # forceload arena (it's async so we need to give it time to load)

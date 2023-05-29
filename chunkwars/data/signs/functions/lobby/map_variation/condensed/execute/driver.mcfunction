@@ -1,3 +1,5 @@
+#> signs:lobby/map_variation/condensed/execute/driver
+
 # regular fail for "wrong stage"
 execute unless score $stage gamestate matches 0..3 run function signs:lobby/map_variation/condensed/execute/fail/stage
 

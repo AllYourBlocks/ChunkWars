@@ -1,3 +1,5 @@
+#> timers:countdown/game/sleep_reminder
+
 title @a[team=Yellow] title {"text":"Game Starts in 10 Seconds","color":"yellow"}
 title @a[team=Blue] title {"text":"Game Starts in 10 Seconds","color":"aqua"}
 title @a[team=Red] title {"text":"Game Starts in 10 Seconds","color":"red"}

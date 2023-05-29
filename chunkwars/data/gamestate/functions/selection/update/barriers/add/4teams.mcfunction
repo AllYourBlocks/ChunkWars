@@ -1,3 +1,5 @@
+#> gamestate:selection/update/barriers/add/4teams
+
 # wall blue/green facing selection area
 fill -13 -47 54 -13 -43 61 minecraft:barrier
 # wall separating blue and green

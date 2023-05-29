@@ -1,3 +1,5 @@
+#> signs:lobby/gamestate/teams/4/execute/driver
+
 execute unless score $stage gamestate matches 0 run function signs:lobby/gamestate/teams/4/execute/fail
 execute if score $stage gamestate matches 0 unless score $teams gamestate matches 4 run function signs:lobby/gamestate/teams/4/execute/success
 

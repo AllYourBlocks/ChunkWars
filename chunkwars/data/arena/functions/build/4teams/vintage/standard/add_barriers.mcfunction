@@ -1,3 +1,5 @@
+#> arena:build/4teams/vintage/standard/add_barriers
+
 #yellow
 fill -65 57 7232 -65 58 7232 minecraft:barrier
 

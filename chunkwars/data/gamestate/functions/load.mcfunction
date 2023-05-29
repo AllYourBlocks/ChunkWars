@@ -1,3 +1,5 @@
+#> gamestate:load
+
 # Server
 scoreboard objectives add gamestate dummy
 execute unless score $stage gamestate matches -2147483648..2147483647 run scoreboard players set $stage gamestate 0

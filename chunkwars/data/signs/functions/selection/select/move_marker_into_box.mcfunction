@@ -1,3 +1,5 @@
+#> signs:selection/select/move_marker_into_box
+
 execute if block ~ ~ ~ #wall_signs[facing=north] run tp @s ~ ~ ~11
 execute if block ~ ~ ~ #wall_signs[facing=east] run tp @s ~-11 ~ ~
 execute if block ~ ~ ~ #wall_signs[facing=south] run tp @s ~ ~ ~-11

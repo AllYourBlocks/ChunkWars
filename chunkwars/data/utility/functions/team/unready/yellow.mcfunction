@@ -1,3 +1,5 @@
+#> utility:team/unready/yellow
+
 #> utility:team/unready/yeööpw
 
 scoreboard players set $yellow_ready team_ready 0

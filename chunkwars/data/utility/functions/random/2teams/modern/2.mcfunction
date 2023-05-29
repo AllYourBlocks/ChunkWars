@@ -1,3 +1,5 @@
+#> utility:random/2teams/modern/2
+
 # summon a marker to get a fresh UUID
 execute as @p[limit=1] at @s run summon marker ~ ~ ~ {Tags:["random"]}
 

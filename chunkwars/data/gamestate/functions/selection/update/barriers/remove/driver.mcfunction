@@ -1,3 +1,5 @@
+#> gamestate:selection/update/barriers/remove/driver
+
 execute as @a[tag=Turn,team=Yellow] run function gamestate:selection/update/barriers/remove/yellow/driver
 execute as @a[tag=Turn,team=Blue] run function gamestate:selection/update/barriers/remove/blue/driver
 execute as @a[tag=Turn,team=Green] run function gamestate:selection/update/barriers/remove/green/driver

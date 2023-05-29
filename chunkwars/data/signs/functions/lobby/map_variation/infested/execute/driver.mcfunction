@@ -1,3 +1,5 @@
+#> signs:lobby/map_variation/infested/execute/driver
+
 execute unless score $stage gamestate matches 0..3 run function signs:lobby/map_variation/infested/execute/fail
 execute if score $stage gamestate matches 0..3 run function signs:lobby/map_variation/infested/execute/success
 

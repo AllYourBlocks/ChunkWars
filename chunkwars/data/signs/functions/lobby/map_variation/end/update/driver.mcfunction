@@ -1,3 +1,5 @@
+#> signs:lobby/map_variation/end/update/driver
+
 # all is well, just update
 execute unless score $map_size gamestate matches 1 run function signs:lobby/map_variation/end/update/success/driver
 
