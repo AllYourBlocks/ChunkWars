@@ -9,9 +9,10 @@ scoreboard players set $count_state_pregame timer 0
 
 execute as @a[team=!Spectator] run function utility:team/join/spectator
 tag @a remove Ingame
-time set noon
-weather clear 10000
 gamerule doDaylightCycle false
+time set noon
+gamerule doWeatherCycle false
+weather clear
 
 clear @a
 effect clear @a

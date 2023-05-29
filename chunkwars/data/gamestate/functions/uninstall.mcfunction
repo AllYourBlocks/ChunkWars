@@ -23,7 +23,6 @@ scoreboard objectives remove end_reached
 
 # Player
 scoreboard objectives remove team
-scoreboard objectives remove cage
 
 team remove Lobby
 team remove Spectator

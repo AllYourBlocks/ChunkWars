@@ -1,6 +1,6 @@
-#> arena:build/4teams/vintage/standard/random/overworld
+#> arena:build/4teams/vintage/standard/random/all
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s -16 39 7152
 execute as @e[tag=paste_yellow] at @s run tp @s 15 39 7183
 execute as @e[tag=paste_red] at @s run tp @s 15 39 7152
@@ -23,7 +23,7 @@ function arena:build/common/based_on_marker_yellow
 function arena:build/common/based_on_marker_green
 function arena:build/common/based_on_marker_red
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s -16 39 7152
 execute as @e[tag=paste_yellow] at @s run tp @s 15 39 7183
 execute as @e[tag=paste_red] at @s run tp @s 15 39 7152
@@ -46,7 +46,7 @@ function arena:build/common/based_on_marker_yellow
 function arena:build/common/based_on_marker_green
 function arena:build/common/based_on_marker_red
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s -16 39 7152
 execute as @e[tag=paste_yellow] at @s run tp @s 15 39 7183
 execute as @e[tag=paste_red] at @s run tp @s 15 39 7152
@@ -69,7 +69,7 @@ function arena:build/common/based_on_marker_yellow
 function arena:build/common/based_on_marker_green
 function arena:build/common/based_on_marker_red
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s -16 39 7152
 execute as @e[tag=paste_yellow] at @s run tp @s 15 39 7183
 execute as @e[tag=paste_red] at @s run tp @s 15 39 7152
@@ -92,7 +92,7 @@ function arena:build/common/based_on_marker_yellow
 function arena:build/common/based_on_marker_green
 function arena:build/common/based_on_marker_red
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s -16 39 7152
 execute as @e[tag=paste_yellow] at @s run tp @s 15 39 7183
 execute as @e[tag=paste_red] at @s run tp @s 15 39 7152

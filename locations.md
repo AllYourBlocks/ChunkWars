@@ -25,11 +25,11 @@
 
 ---
 
-# Destination Logic (Relative to northeast center block)
+# Destination Logic (Relative to northeast centre block)
 
 This assumes we have an entity we can spawn to, relatively.
 
-Spawn entity at -0.5, 53.5, 1024.5 (Center of block -1, 53, 1024)
+Spawn entity at -0.5, 53.5, 1024.5 (Centre of block -1, 53, 1024)
 
 ## Pasting offsets for east (yellow)
 

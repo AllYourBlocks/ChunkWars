@@ -1,6 +1,6 @@
-#> arena:build/2teams/modern/condensed/random/overworld
+#> arena:build/2teams/modern/condensed/random/all
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s 0 39 2048
 execute as @e[tag=paste_yellow] at @s run tp @s 31 39 2079
 
@@ -17,7 +17,7 @@ execute as @e[tag=read_blue] at @s run function teleports:memory/2teams/modern/1
 function arena:build/common/based_on_marker_blue
 function arena:build/common/based_on_marker_yellow
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s 0 39 2048
 execute as @e[tag=paste_yellow] at @s run tp @s 31 39 2079
 
@@ -34,7 +34,7 @@ execute as @e[tag=read_blue] at @s run function teleports:memory/2teams/modern/9
 function arena:build/common/based_on_marker_blue
 function arena:build/common/based_on_marker_yellow
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s 0 39 2048
 execute as @e[tag=paste_yellow] at @s run tp @s 31 39 2079
 
@@ -51,7 +51,7 @@ execute as @e[tag=read_blue] at @s run function teleports:memory/2teams/modern/6
 function arena:build/common/based_on_marker_blue
 function arena:build/common/based_on_marker_yellow
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s 0 39 2048
 execute as @e[tag=paste_yellow] at @s run tp @s 31 39 2079
 
@@ -68,7 +68,7 @@ execute as @e[tag=read_blue] at @s run function teleports:memory/2teams/modern/1
 function arena:build/common/based_on_marker_blue
 function arena:build/common/based_on_marker_yellow
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s 0 39 2048
 execute as @e[tag=paste_yellow] at @s run tp @s 31 39 2079
 
@@ -85,7 +85,7 @@ execute as @e[tag=read_blue] at @s run function teleports:memory/2teams/modern/7
 function arena:build/common/based_on_marker_blue
 function arena:build/common/based_on_marker_yellow
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s 0 39 2048
 execute as @e[tag=paste_yellow] at @s run tp @s 31 39 2079
 
@@ -102,7 +102,7 @@ execute as @e[tag=read_blue] at @s run function teleports:memory/2teams/modern/5
 function arena:build/common/based_on_marker_blue
 function arena:build/common/based_on_marker_yellow
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s 0 39 2048
 execute as @e[tag=paste_yellow] at @s run tp @s 31 39 2079
 
@@ -119,7 +119,7 @@ execute as @e[tag=read_blue] at @s run function teleports:memory/2teams/modern/8
 function arena:build/common/based_on_marker_blue
 function arena:build/common/based_on_marker_yellow
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s 0 39 2048
 execute as @e[tag=paste_yellow] at @s run tp @s 31 39 2079
 
@@ -136,7 +136,7 @@ execute as @e[tag=read_blue] at @s run function teleports:memory/2teams/modern/1
 function arena:build/common/based_on_marker_blue
 function arena:build/common/based_on_marker_yellow
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s 0 39 2048
 execute as @e[tag=paste_yellow] at @s run tp @s 31 39 2079
 
@@ -153,7 +153,7 @@ execute as @e[tag=read_blue] at @s run function teleports:memory/2teams/modern/2
 function arena:build/common/based_on_marker_blue
 function arena:build/common/based_on_marker_yellow
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s 0 39 2048
 execute as @e[tag=paste_yellow] at @s run tp @s 31 39 2079
 
@@ -170,7 +170,7 @@ execute as @e[tag=read_blue] at @s run function teleports:memory/2teams/modern/1
 function arena:build/common/based_on_marker_blue
 function arena:build/common/based_on_marker_yellow
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s 0 39 2048
 execute as @e[tag=paste_yellow] at @s run tp @s 31 39 2079
 
@@ -187,7 +187,7 @@ execute as @e[tag=read_blue] at @s run function teleports:memory/2teams/modern/1
 function arena:build/common/based_on_marker_blue
 function arena:build/common/based_on_marker_yellow
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s 0 39 2048
 execute as @e[tag=paste_yellow] at @s run tp @s 31 39 2079
 
@@ -204,7 +204,7 @@ execute as @e[tag=read_blue] at @s run function teleports:memory/2teams/modern/0
 function arena:build/common/based_on_marker_blue
 function arena:build/common/based_on_marker_yellow
 
-#> reposition markers to center
+#> reposition markers to centre
 execute as @e[tag=paste_blue] at @s run tp @s 0 39 2048
 execute as @e[tag=paste_yellow] at @s run tp @s 31 39 2079
 

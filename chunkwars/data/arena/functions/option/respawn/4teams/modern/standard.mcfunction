@@ -1,5 +1,5 @@
 
-#> ! replacing the head block will not spawn a bed !
+#> ! replacing the head block will not drop a bed !
 
 # blue bed
 setblock 85 58 5034 minecraft:air

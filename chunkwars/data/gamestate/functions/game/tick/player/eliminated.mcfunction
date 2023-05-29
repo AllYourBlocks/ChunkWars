@@ -8,4 +8,4 @@ tag @s remove Ingame
 tag @s remove eliminated
 
 function utility:team/join/spectator
-function teleports:game/center
+function teleports:game/centre

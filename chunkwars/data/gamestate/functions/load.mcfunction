@@ -69,16 +69,6 @@ execute unless score $green_ready team_ready matches -2147483648..2147483647 run
 execute unless score $red_ready team_ready matches -2147483648..2147483647 run scoreboard players set $red_ready team_ready 0
 execute unless score $yellow_ready team_ready matches -2147483648..2147483647 run scoreboard players set $yellow_ready team_ready 0
 
-scoreboard objectives add timer dummy
-execute unless score $count_lobby_down timer matches -2147483648..2147483647 run scoreboard players set $count_lobby_down timer 0
-execute unless score $count_sumo_down timer matches -2147483648..2147483647 run scoreboard players set $count_sumo_down timer 0
-execute unless score $count_houses_down timer matches -2147483648..2147483647 run scoreboard players set $count_houses_down timer 0
-execute unless score $count_pregame_down timer matches -2147483648..2147483647 run scoreboard players set $count_pregame_down timer 0
-execute unless score $count_state_lobby timer matches -2147483648..2147483647 run scoreboard players set $count_state_lobby timer 0
-execute unless score $count_state_sumo timer matches -2147483648..2147483647 run scoreboard players set $count_state_sumo timer 0
-execute unless score $count_state_houses timer matches -2147483648..2147483647 run scoreboard players set $count_state_houses timer 0
-execute unless score $count_state_pregame timer matches -2147483648..2147483647 run scoreboard players set $count_state_pregame timer 0
-
 scoreboard objectives add random dummy
 scoreboard objectives add chunk_position dummy
 
@@ -138,8 +128,6 @@ scoreboard objectives add team dummy
 # 7 - Lobby     - a player jumping around in the puzzle
 
 scoreboard objectives add triggers trigger
-
-scoreboard objectives add cage dummy
 
 scoreboard objectives add respawn_status dummy
 scoreboard objectives add death_count deathCount
