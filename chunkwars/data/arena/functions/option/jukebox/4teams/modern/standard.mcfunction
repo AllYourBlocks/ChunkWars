@@ -1,3 +1,5 @@
+#> arena:option/jukebox/4teams/modern/standard
+
 # blue stack
 setblock 85 61 5036 minecraft:jukebox
 setblock 85 62 5036 minecraft:chest[facing=west]

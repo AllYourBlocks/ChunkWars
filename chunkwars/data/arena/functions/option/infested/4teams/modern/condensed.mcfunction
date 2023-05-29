@@ -1,4 +1,4 @@
-
+#> arena:option/infested/4teams/modern/condensed
 
 fill 55 43 6088 -56 43 6199 minecraft:infested_chiseled_stone_bricks replace minecraft:chiseled_stone_bricks
 fill 55 43 6088 -56 43 6199 minecraft:infested_cobblestone replace minecraft:cobblestone

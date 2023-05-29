@@ -1,3 +1,5 @@
+#> arena:option/jukebox/2teams/modern/fill_condensed
+
 item replace block 53 62 1996 container.0 with minecraft:music_disc_13 1
 item replace block 53 62 1996 container.1 with minecraft:music_disc_cat 1
 item replace block 53 62 1996 container.2 with minecraft:music_disc_blocks 1

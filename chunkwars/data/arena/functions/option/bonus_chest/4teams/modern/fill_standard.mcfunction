@@ -1,3 +1,5 @@
+#> arena:option/bonus_chest/4teams/modern/fill_standard
+
 item replace block -79 57 5040 container.0 with minecraft:stick
 item replace block -79 57 5040 container.1 with minecraft:salmon
 item replace block -79 57 5040 container.2 with minecraft:jungle_log

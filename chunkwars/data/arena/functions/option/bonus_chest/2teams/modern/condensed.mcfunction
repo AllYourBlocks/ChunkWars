@@ -1,3 +1,5 @@
+#> arena:option/bonus_chest/2teams/modern/condensed
+
 # blue chest
 setblock 47 57 2001 chest[facing=east] 
 

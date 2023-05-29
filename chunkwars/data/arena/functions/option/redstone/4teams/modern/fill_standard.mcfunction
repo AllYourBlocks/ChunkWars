@@ -1,3 +1,5 @@
+#> arena:option/redstone/4teams/modern/fill_standard
+
 item replace block 85 58 5037 container.0 with minecraft:redstone 64
 item replace block 85 58 5037 container.1 with minecraft:redstone_torch 64
 item replace block 85 58 5037 container.2 with minecraft:redstone_block 64

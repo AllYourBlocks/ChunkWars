@@ -1,3 +1,5 @@
+#> arena:option/enchanting_table/4teams/modern/condensed
+
 # blue enchanting table
 setblock 49 58 6091 minecraft:enchanting_table
 # red enchanting table

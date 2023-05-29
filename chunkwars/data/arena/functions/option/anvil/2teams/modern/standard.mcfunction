@@ -1,3 +1,5 @@
+#> arena:option/anvil/2teams/modern/standard
+
 # blue anvil
 setblock 81 58 941 minecraft:anvil[facing=north]
 # yellow anvil

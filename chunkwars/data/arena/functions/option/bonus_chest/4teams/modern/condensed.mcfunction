@@ -1,3 +1,5 @@
+#> arena:option/bonus_chest/4teams/modern/condensed
+
 # green chest
 setblock -47 57 6096 chest[facing=north]
 

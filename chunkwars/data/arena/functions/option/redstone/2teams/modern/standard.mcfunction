@@ -1,3 +1,5 @@
+#> arena:option/redstone/2teams/modern/standard
+
 # yellow redstone
 setblock 85 59 941 minecraft:redstone_wall_torch[facing=west]
 setblock 85 58 941 minecraft:chest[facing=west]

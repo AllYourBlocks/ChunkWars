@@ -1,3 +1,5 @@
+#> arena:option/bonus_chest/2teams/modern/standard
+
 # blue chest
 setblock 79 57 945 chest[facing=east]
 

@@ -1,3 +1,5 @@
+#> arena:option/jukebox/2teams/modern/condensed
+
 # blue stack
 setblock 53 61 1996 minecraft:jukebox
 setblock 53 62 1996 minecraft:chest[facing=west]

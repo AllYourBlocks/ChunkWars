@@ -1,3 +1,5 @@
+#> arena:option/bonus_chest/4teams/modern/fill_condensed
+
 item replace block 47 57 6097 container.0 with minecraft:stick
 item replace block 47 57 6097 container.1 with minecraft:salmon
 item replace block 47 57 6097 container.2 with minecraft:jungle_log

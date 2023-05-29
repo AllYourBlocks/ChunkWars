@@ -1,3 +1,5 @@
+#> arena:option/redstone/4teams/modern/fill_condensed
+
 item replace block 50 58 6197 container.0 with minecraft:redstone 64
 item replace block 50 58 6197 container.1 with minecraft:redstone_torch 64
 item replace block 50 58 6197 container.2 with minecraft:redstone_block 64

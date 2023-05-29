@@ -1,3 +1,5 @@
+#> arena:option/redstone/2teams/modern/condensed
+
 # yellow redstone
 setblock 53 59 1997 minecraft:redstone_wall_torch[facing=west]
 setblock 53 58 1997 minecraft:chest[facing=west]

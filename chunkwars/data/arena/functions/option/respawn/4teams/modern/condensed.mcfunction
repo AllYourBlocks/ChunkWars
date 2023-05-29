@@ -1,3 +1,4 @@
+#> arena:option/respawn/4teams/modern/condensed
 
 #> ! replacing the head block will not drop a bed !
 

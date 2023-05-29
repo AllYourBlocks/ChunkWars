@@ -1,3 +1,5 @@
+#> arena:option/anvil/4teams/modern/condensed
+
 # blue anvil
 setblock 49 58 6093 minecraft:anvil[facing=north]
 # red anvil
