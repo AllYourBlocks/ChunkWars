@@ -17,10 +17,5 @@ weather clear
 clear @a
 effect clear @a
 
-tellraw ffaen {"text":"Click here to rebuild the map","color":"red","clickEvent":{"action":"suggest_command","value":"/function rebuild:arena"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function rebuild:arena"}}}
-tellraw Blocks {"text":"Click here to rebuild the map","color":"red","clickEvent":{"action":"suggest_command","value":"/function rebuild:arena"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function rebuild:arena"}}}
-tellraw SLiPCoR {"text":"Click here to rebuild the map","color":"red","clickEvent":{"action":"suggest_command","value":"/function rebuild:arena"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function rebuild:arena"}}}
-
-tellraw ffaen {"text":"Click here to restart the game","color":"gray","clickEvent":{"action":"suggest_command","value":"/function gamestate:lobby/init/driver"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function gamestate:lobby/init/driver"}}}
-tellraw Blocks {"text":"Click here to restart the game","color":"gray","clickEvent":{"action":"suggest_command","value":"/function gamestate:lobby/init/driver"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function gamestate:lobby/init/driver"}}}
-tellraw SLiPCoR {"text":"Click here to restart the game","color":"gray","clickEvent":{"action":"suggest_command","value":"/function gamestate:lobby/init/driver"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function gamestate:lobby/init/driver"}}}
+tellraw @a {"text":"Click here to rebuild the map (OPs Only!)","color":"red","clickEvent":{"action":"suggest_command","value":"/function rebuild:arena"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function rebuild:arena\n(Only server operators can use this command)"}}}
+tellraw @a {"text":"Click here to restart the game (OPs Only!)","color":"gray","clickEvent":{"action":"suggest_command","value":"/function gamestate:lobby/init/driver"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function gamestate:lobby/init/driver\n(Only server operators can use this command)"}}}
