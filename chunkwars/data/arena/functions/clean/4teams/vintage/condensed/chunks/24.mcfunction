@@ -1,0 +1,6 @@
+#> arena:clean/4teams/vintage/condensed/chunks/24
+
+fill -24 -64 8200 -9 63 8215 minecraft:air
+fill -24 64 8200 -9 191 8215 minecraft:air
+kill @e[type=!player,type=!marker,x=-24,y=-64,z=8200,dx=16,dy=256,dz=16]
+kill @e[type=!player,type=!marker,x=-24,y=-64,z=8200,dx=16,dy=256,dz=16]
