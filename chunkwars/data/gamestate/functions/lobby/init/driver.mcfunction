@@ -6,7 +6,10 @@
 
 execute as @a run function utility:player/reset
 
+gamerule doDaylightCycle false
 time set noon
+gamerule doWeatherCycle false
+weather clear 10
 
 scoreboard players set $stage gamestate 0
 

@@ -19,6 +19,11 @@ execute if score $daylight_cycle option matches 1 run gamerule doDaylightCycle t
 
 gamerule doMobSpawning true
 
+execute if score $difficulty option matches 0 run difficulty peaceful
+execute if score $difficulty option matches 1 run difficulty easy
+execute if score $difficulty option matches 2 run difficulty normal
+execute if score $difficulty option matches 3 run difficulty hard
+
 scoreboard players set $blue_bed_broken map_status 0
 scoreboard players set $yellow_bed_broken map_status 0
 scoreboard players set $green_bed_broken map_status 0
