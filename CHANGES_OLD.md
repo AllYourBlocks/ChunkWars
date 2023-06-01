@@ -231,8 +231,8 @@
 * Maybe selection works now?
 
 ## 2) New Features
-* Nether will spawn in as soon as that side has a lit nether portal
-* End will spawn in as soon as either end portal would be finished
+* Nether will be built in as soon as that side has a lit nether portal
+* End will be built in as soon as either end portal would be finished
 * Players will teleport from end portal to end, when portal is finished
 
 ---
