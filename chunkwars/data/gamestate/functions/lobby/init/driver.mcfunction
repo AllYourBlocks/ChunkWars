@@ -37,8 +37,6 @@ scoreboard players reset @a break_green_bed
 scoreboard players reset @a nether_reached
 scoreboard players reset @a end_reached
 
-scoreboard players reset @a respawn_status
-
 difficulty easy
 gamerule doMobSpawning false
 

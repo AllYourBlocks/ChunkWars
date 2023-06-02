@@ -131,9 +131,6 @@ scoreboard objectives add team dummy
 
 scoreboard objectives add triggers trigger
 
-scoreboard objectives add respawn_status dummy
-scoreboard objectives add death_count deathCount
-
 team add Lobby
 team add Spectator
 team add Playing
@@ -245,6 +242,3 @@ team modify Puzzle color gray
 #define score_holder $yellow
 #define score_holder $red
 #define score_holder $green
-
-#define objective respawn_status
-#define objective death_count

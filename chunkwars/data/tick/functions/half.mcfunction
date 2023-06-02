@@ -18,6 +18,9 @@ execute as @a if score @s triggers matches 1.. run function utility:player/trigg
 # handle players being at the world spawn
 execute as @a[x=-14,y=99,z=-1038,dx=28,dy=3,dz=28] run function utility:player/at_spawn
 
+# handle players being able to one-shot
+execute if score $one_shot option matches 1 as @a[tag=Ingame] run function utility:player/one_shot
+
 # prevent lobby players from hurting each other, put lobby people to adventure mode
 function utility:player/lobby_status
 
