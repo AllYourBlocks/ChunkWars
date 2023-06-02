@@ -50,12 +50,18 @@ schedule function utility:sign/unlock/all 1t
 
 kill @e[tag=reader]
 kill @e[tag=paster]
+kill @e[tag=filler]
 
-summon marker -123 69 9094 {Tags:["paste_blue","paster"]}
-summon marker -123 69 9094 {Tags:["paste_yellow","paster"]}
-summon marker -123 69 9094 {Tags:["paste_red","paster"]}
-summon marker -123 69 9094 {Tags:["paste_green","paster"]}
-summon marker -123 69 9094 {Tags:["read_blue","reader"]}
-summon marker -123 69 9094 {Tags:["read_yellow","reader"]}
-summon marker -123 69 9094 {Tags:["read_red","reader"]}
-summon marker -123 69 9094 {Tags:["read_green","reader"]}
+summon marker ~ ~ ~ {Tags:["paste_blue","paster"]}
+summon marker ~ ~ ~ {Tags:["paste_yellow","paster"]}
+summon marker ~ ~ ~ {Tags:["paste_red","paster"]}
+summon marker ~ ~ ~ {Tags:["paste_green","paster"]}
+summon marker ~ ~ ~ {Tags:["read_blue","reader"]}
+summon marker ~ ~ ~ {Tags:["read_yellow","reader"]}
+summon marker ~ ~ ~ {Tags:["read_red","reader"]}
+summon marker ~ ~ ~ {Tags:["read_green","reader"]}
+summon marker ~ ~ ~ {Tags:["fill_chest","filler"]}
+
+execute as @e[tag=paster] run function teleports:memory/holding
+execute as @e[tag=reader] run function teleports:memory/holding
+execute as @e[tag=filler] run function teleports:memory/holding

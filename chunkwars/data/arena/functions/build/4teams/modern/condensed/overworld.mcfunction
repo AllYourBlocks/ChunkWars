@@ -1,13 +1,7 @@
 #> arena:build/4teams/modern/condensed/overworld
 
-execute as @e[tag=read_blue] run tp -140 69 9070
-execute as @e[tag=read_yellow] run tp -140 69 9070
-execute as @e[tag=read_red] run tp -140 69 9070
-execute as @e[tag=read_green] run tp -140 69 9070
-execute as @e[tag=paste_blue] run tp -140 69 9070
-execute as @e[tag=paste_yellow] run tp -140 69 9070
-execute as @e[tag=paste_red] run tp -140 69 9070
-execute as @e[tag=paste_green] run tp -140 69 9070
+execute as @e[tag=paster] run function teleports:memory/holding
+execute as @e[tag=reader] run function teleports:memory/holding
 
 schedule function arena:build/4teams/modern/condensed/raw/yellow_home 1t
 

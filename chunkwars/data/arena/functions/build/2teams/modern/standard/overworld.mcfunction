@@ -4,10 +4,8 @@
 
 # in the condensed arena, we first paste the ocean, so the rest can wrap itself around it without destroying air
 
-execute as @e[tag=read_blue] run tp -140 69 9070
-execute as @e[tag=read_yellow] run tp -140 69 9070
-execute as @e[tag=paste_blue] run tp -140 69 9070
-execute as @e[tag=paste_yellow] run tp -140 69 9070
+execute as @e[tag=reader] run function teleports:memory/holding
+execute as @e[tag=paster] run function teleports:memory/holding
 
 schedule function arena:build/2teams/modern/standard/raw/yellow_home 10t
 

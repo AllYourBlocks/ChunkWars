@@ -45,9 +45,6 @@ setblock -37 57 8154 lime_bed[facing=west,part=foot] replace
 
 #> Move markers back to protect from unloading
 
-execute as @e[tag=paste_blue] run tp -140 69 9070
-execute as @e[tag=paste_yellow] run tp -140 69 9070
-execute as @e[tag=paste_green] run tp -140 69 9070
-execute as @e[tag=paste_red] run tp -140 69 9070
+execute as @e[tag=paster] run function teleports:memory/holding
 
 scoreboard players set loops random 0

@@ -31,3 +31,5 @@ execute if score $map_random map_variation matches 1 run schedule function arena
 execute unless score $map_random map_variation matches 1 run function gamestate:pregame/init/build_chunks
 
 schedule function gamestate:pregame/init/give_items/driver 1t
+
+execute as @a[tag=fill_chest] run schedule function teleports:memory/holding 5s

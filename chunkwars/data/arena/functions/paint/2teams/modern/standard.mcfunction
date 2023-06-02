@@ -40,9 +40,6 @@ fill -84 58 1107 -83 58 1107 minecraft:yellow_carpet replace #minecraft:wool_car
 
 #> Move markers back to protect from unloading
 
-execute as @e[tag=read_blue] run tp -140 69 9070
-execute as @e[tag=read_yellow] run tp -140 69 9070
-execute as @e[tag=paste_blue] run tp -140 69 9070
-execute as @e[tag=paste_yellow] run tp -140 69 9070
+execute as @e[tag=paster] run function teleports:memory/holding
 
 scoreboard players set loops random 0

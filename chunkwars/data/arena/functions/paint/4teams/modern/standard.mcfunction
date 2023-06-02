@@ -53,9 +53,6 @@ fill -84 58 5037 -84 58 5036 minecraft:lime_carpet replace #minecraft:wool_carpe
 
 #> Move markers back to protect from unloading
 
-execute as @e[tag=paste_blue] run tp -140 69 9070
-execute as @e[tag=paste_yellow] run tp -140 69 9070
-execute as @e[tag=paste_green] run tp -140 69 9070
-execute as @e[tag=paste_red] run tp -140 69 9070
+execute as @e[tag=paster] run function teleports:memory/holding
 
 scoreboard players set loops random 0

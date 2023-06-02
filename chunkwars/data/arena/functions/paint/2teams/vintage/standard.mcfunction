@@ -36,7 +36,6 @@ setblock -70 57 3140 minecraft:yellow_bed[facing=south,part=foot]
 
 #> Move markers back to protect from unloading
 
-execute as @e[tag=paste_blue] run tp -140 69 9070
-execute as @e[tag=paste_yellow] run tp -140 69 9070
+execute as @e[tag=paster] run function teleports:memory/holding
 
 scoreboard players set loops random 0
