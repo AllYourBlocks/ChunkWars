@@ -4,8 +4,6 @@
 
 # in the condensed arena, we first paste the ocean, so the rest can wrap itself around it without destroying air
 
-#>TODO: check all chunk positions whether they should be ocean!
-
 schedule function arena:build/2teams/modern/condensed/raw/0_1 1t
 schedule function arena:build/2teams/modern/condensed/raw/180_1 1t
 
