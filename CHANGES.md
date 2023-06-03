@@ -4,6 +4,7 @@
 
 1) Fixes
 * Memory Area is now mob proof
+* One-Shot Option should work now
 
 2) Changes
 * Rename Armageddon to TNT
@@ -14,4 +15,4 @@
 3) Additions
 * Implement "Bed Status" announcement, looks similar to advancement, chat only
 * Implement "We Have to Go Deeper" and "The End?" advancements
-* Implement Options for Vintage Arenas: Anvil, Enchanting Table, Jukebox, Redstone
+* Implement Options for Vintage Arenas: Anvil, Enchanting Table, Infested, Jukebox, Redstone, Respawn
