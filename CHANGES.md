@@ -11,6 +11,7 @@
 * Always place ocean first, especially in random and condensed
 * Lobby rebuilding is split into 3 parts now
 * Filling of chests is now done with markers, too - less duplicated code!
+* Bonus Chest location has been updated
 
 3) Additions
 * Implement "Bed Status" announcement, looks similar to advancement, chat only
