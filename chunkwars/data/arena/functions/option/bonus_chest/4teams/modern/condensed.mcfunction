@@ -1,35 +1,41 @@
 #> arena:option/bonus_chest/4teams/modern/condensed
 
-# green chest
-setblock -47 57 6096 chest[facing=north]
+# yellow chest
+setblock -44 57 6186 chest[facing=west]
+execute as @e[tag=fill_chest] at @s run tp -44 57 6186
+execute as @e[tag=fill_chest] at @s run function arena:option/bonus_chest/common/fill_chest
 
-setblock -46 57 6096 torch
-setblock -48 57 6096 torch
-setblock -47 57 6095 torch
-setblock -47 57 6097 torch
+setblock -43 57 6186 torch
+setblock -45 57 6186 torch
+setblock -44 57 6185 torch
+setblock -44 57 6187 torch
+
+# green chest
+setblock -43 57 6100 chest[facing=north]
+execute as @e[tag=fill_chest] at @s run tp -43 57 6100
+execute as @e[tag=fill_chest] at @s run function arena:option/bonus_chest/common/fill_chest
+
+setblock -42 57 6100 torch
+setblock -44 57 6100 torch
+setblock -43 57 6099 torch
+setblock -43 57 6101 torch
 
 # blue chest
-setblock 47 57 6097 chest[facing=east]
+setblock 43 57 6101 chest[facing=east]
+execute as @e[tag=fill_chest] at @s run tp 43 57 6101
+execute as @e[tag=fill_chest] at @s run function arena:option/bonus_chest/common/fill_chest
 
-setblock 48 57 6097 torch
-setblock 47 57 6096 torch
-setblock 46 57 6097 torch
-setblock 47 57 6098 torch
+setblock 42 57 6101 torch
+setblock 44 57 6101 torch
+setblock 43 57 6100 torch
+setblock 43 57 6102 torch
 
 # red chest
-setblock 46 57 6191 chest[facing=south]
+setblock 42 57 6187 chest[facing=south]
+execute as @e[tag=fill_chest] at @s run tp 42 57 6187
+execute as @e[tag=fill_chest] at @s run function arena:option/bonus_chest/common/fill_chest
 
-setblock 46 57 6192 torch
-setblock 47 57 6191 torch
-setblock 46 57 6190 torch
-setblock 45 57 6191 torch
-
-# yellow chest
-setblock -48 57 6190 chest[facing=west]
-
-setblock -47 57 6190 torch
-setblock -49 57 6190 torch
-setblock -48 57 6189 torch
-setblock -48 57 6191 torch
-
-schedule function arena:option/bonus_chest/4teams/modern/fill_condensed 2s
+setblock 41 57 6187 torch
+setblock 43 57 6187 torch
+setblock 42 57 6186 torch
+setblock 42 57 6188 torch

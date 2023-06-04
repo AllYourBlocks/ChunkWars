@@ -1,19 +1,21 @@
 #> arena:option/bonus_chest/2teams/modern/standard
 
-# blue chest
-setblock 79 57 945 chest[facing=east]
-
-setblock 78 57 945 torch
-setblock 80 57 945 torch
-setblock 79 57 944 torch
-setblock 79 57 946 torch
-
 # yellow chest
-setblock -80 57 1102 chest[facing=west]
+setblock -76 57 1098 chest[facing=west]
+execute as @e[tag=fill_chest] at @s run tp -76 57 1098
+execute as @e[tag=fill_chest] at @s run function arena:option/bonus_chest/common/fill_chest
 
-setblock -81 57 1102 torch
-setblock -79 57 1102 torch
-setblock -80 57 1101 torch
-setblock -80 57 1103 torch
+setblock -75 57 1098 torch
+setblock -77 57 1098 torch
+setblock -76 57 1097 torch
+setblock -76 57 1099 torch
 
-schedule function arena:option/bonus_chest/2teams/modern/fill_standard 2s
+# blue chest
+setblock 75 57 949 chest[facing=east]
+execute as @e[tag=fill_chest] at @s run tp 75 57 949
+execute as @e[tag=fill_chest] at @s run function arena:option/bonus_chest/common/fill_chest
+
+setblock 74 57 949 torch
+setblock 76 57 949 torch
+setblock 75 57 948 torch
+setblock 75 57 950 torch
