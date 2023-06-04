@@ -4,6 +4,10 @@
 
 # in the condensed arena, we first paste the ocean, so the rest can wrap itself around it without destroying air
 
+schedule function arena:build/2teams/vintage/condensed/raw/180_9 1t
+schedule function arena:build/2teams/vintage/condensed/raw/0_9 1t
+
+
 schedule function arena:build/2teams/vintage/condensed/raw/yellow_home 10t
 
 schedule function arena:build/2teams/vintage/condensed/raw/180_4 20t
@@ -15,7 +19,6 @@ schedule function arena:build/2teams/vintage/condensed/raw/180_8 34t
 
 schedule function arena:build/2teams/vintage/condensed/raw/180_10 40t
 schedule function arena:build/2teams/vintage/condensed/raw/180_6 42t
-schedule function arena:build/2teams/vintage/condensed/raw/180_9 44t
 schedule function arena:build/2teams/vintage/condensed/raw/180_2 46t
 
 schedule function arena:build/2teams/vintage/condensed/raw/0_7 50t
@@ -26,7 +29,6 @@ schedule function arena:build/2teams/vintage/condensed/raw/180_3 52t
 
 schedule function arena:build/2teams/vintage/condensed/raw/0_10 60t
 schedule function arena:build/2teams/vintage/condensed/raw/0_6 62t
-schedule function arena:build/2teams/vintage/condensed/raw/0_9 64t
 schedule function arena:build/2teams/vintage/condensed/raw/0_2 66t
 
 schedule function arena:build/2teams/vintage/condensed/raw/0_5 70t
