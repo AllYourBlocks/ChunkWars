@@ -1,19 +1,10 @@
-# ChangeLog v0.7.4
-**Housekeeping**
+# ChangeLog v0.7.5
+**TBD**
 ---
 
 1) Fixes
-* Memory Area is now mob proof
-* One-Shot Option should work now
 
 2) Changes
-* Rename Armageddon to TNT
-* Always place ocean first, especially in random and condensed
-* Lobby rebuilding is split into 3 parts now
-* Filling of chests is now done with markers, too - less duplicated code!
-* Bonus Chest location has been updated
+* Rename Weather to Weather Cycle
 
 3) Additions
-* Implement "Bed Status" announcement, looks similar to advancement, chat only
-* Implement "We Have to Go Deeper" and "The End?" advancements
-* Implement Options for Vintage Arenas: Anvil, Enchanting Table, Infested, Jukebox, Redstone, Respawn

@@ -1,3 +1,3 @@
-#> signs:lobby/option/weather/execute/fail
+#> signs:lobby/option/weather_cycle/execute/fail
 
 tellraw @s {"text":"You can not change options right now","color":"#82becb"}

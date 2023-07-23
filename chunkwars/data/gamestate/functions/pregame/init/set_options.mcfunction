@@ -5,8 +5,8 @@ execute if score $keep_inventory option matches 1 run gamerule keepInventory tru
 
 #daylight cycle gets set properly after countdown!
 
-execute if score $weather option matches 0 run gamerule doWeatherCycle false
-execute if score $weather option matches 1 run gamerule doWeatherCycle true
+execute if score $weather_cycle option matches 0 run gamerule doWeatherCycle false
+execute if score $weather_cycle option matches 1 run gamerule doWeatherCycle true
 
 execute if score $regeneration option matches 0 run gamerule naturalRegeneration false
 execute if score $regeneration option matches 1 run gamerule naturalRegeneration true

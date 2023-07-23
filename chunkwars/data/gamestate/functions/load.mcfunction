@@ -26,7 +26,7 @@ scoreboard objectives add pick_order dummy
 
 scoreboard objectives add option dummy
 execute unless score $wither_skulls option matches -2147483648..2147483647 run scoreboard players set $wither_skulls option 0
-execute unless score $weather option matches -2147483648..2147483647 run scoreboard players set $weather option 0
+execute unless score $weather_cycle option matches -2147483648..2147483647 run scoreboard players set $weather_cycle option 0
 execute unless score $troll option matches -2147483648..2147483647 run scoreboard players set $troll option 0
 execute unless score $tnt option matches -2147483648..2147483647 run scoreboard players set $tnt option 0
 execute unless score $spawn_eggs option matches -2147483648..2147483647 run scoreboard players set $spawn_eggs option 0
@@ -158,7 +158,7 @@ team modify Puzzle color gray
 # Options
 #define objective option
 #define score_holder $wither_skulls
-#define score_holder $weather
+#define score_holder $weather_cycle
 #define score_holder $troll
 #define score_holder $tnt
 #define score_holder $spawn_eggs

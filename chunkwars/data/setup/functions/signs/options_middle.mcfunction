@@ -18,4 +18,4 @@ give @s oak_sign{display:{Name:'{"text":"Option: Bed Status"}'},BlockEntityTag:{
 
 give @s oak_sign{display:{Name:'{"text":"Option: Daylight Cycle"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Daylight Cycle","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/daylight_cycle/execute/driver"}}',Text2:'{"text":"ON","color":"#bdfc00"}',Text4:'{"text":"Right click","color":"yellow"}'}}
 
-give @s oak_sign{display:{Name:'{"text":"Option: Weather"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Weather","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/weather/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
+give @s oak_sign{display:{Name:'{"text":"Option: Weather Cycle"}'},BlockEntityTag:{Color:"gray",GlowingText:1b,Text1:'{"text":"Weather Cycle","color":"white","clickEvent":{"action":"run_command","value":"/function signs:lobby/option/weather_cycle/execute/driver"}}',Text2:'{"text":"OFF","color":"#82becb"}',Text4:'{"text":"Right click","color":"yellow"}'}}
