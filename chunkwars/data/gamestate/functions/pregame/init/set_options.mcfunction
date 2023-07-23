@@ -3,6 +3,8 @@
 execute if score $keep_inventory option matches 0 run gamerule keepInventory false
 execute if score $keep_inventory option matches 1 run gamerule keepInventory true
 
+function arena:option/friendly_fire/driver
+
 #daylight cycle gets set properly after countdown!
 
 execute if score $weather_cycle option matches 0 run gamerule doWeatherCycle false

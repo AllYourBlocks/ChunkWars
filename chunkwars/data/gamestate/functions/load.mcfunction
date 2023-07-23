@@ -39,6 +39,7 @@ execute unless score $keep_inventory option matches -2147483648..2147483647 run 
 execute unless score $iron_gear option matches -2147483648..2147483647 run scoreboard players set $iron_gear option 0
 execute unless score $jukebox option matches -2147483648..2147483647 run scoreboard players set $jukebox option 0
 execute unless score $halloween option matches -2147483648..2147483647 run scoreboard players set $halloween option 0
+execute unless score $friendly_fire option matches -2147483648..2147483647 run scoreboard players set $friendly_fire option 1
 execute unless score $ender_pearls option matches -2147483648..2147483647 run scoreboard players set $ender_pearls option 0
 execute unless score $enchanting_table option matches -2147483648..2147483647 run scoreboard players set $enchanting_table option 0
 execute unless score $difficulty option matches -2147483648..2147483647 run scoreboard players set $difficulty option 2
@@ -171,6 +172,7 @@ team modify Puzzle color gray
 #define score_holder $iron_gear
 #define score_holder $jukebox
 #define score_holder $halloween
+#define score_holder $friendly_fire
 #define score_holder $ender_pearls
 #define score_holder $enchanting_table
 #define score_holder $difficulty
