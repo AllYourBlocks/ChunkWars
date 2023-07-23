@@ -5,3 +5,5 @@ execute as @e[tag=paste_red] at @s run setblock ~ ~ ~ minecraft:redstone_block
 execute as @e[tag=paste_red] at @s run fill ~ ~ ~ ~ ~1 ~ minecraft:air
 
 execute as @e[tag=paste_red] at @s run summon marker ~ ~ ~ {Tags:["remove_water_red","remove_water"]}
+
+fillbiome ~-8 ~8 ~8 ~-24 ~24 ~24 ice_spikes

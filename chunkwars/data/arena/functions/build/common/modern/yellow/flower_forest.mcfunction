@@ -5,3 +5,5 @@ execute as @e[tag=paste_yellow] at @s run setblock ~ ~ ~ minecraft:redstone_bloc
 execute as @e[tag=paste_yellow] at @s run fill ~ ~ ~ ~ ~1 ~ minecraft:air
 
 execute as @e[tag=paste_yellow] at @s run summon marker ~-12 ~7 ~-12 {Tags:["check_end_portal_yellow","check_portal"]}
+
+fillbiome ~-8 ~-8 ~-8 ~-24 ~-24 ~-24 flower_forest

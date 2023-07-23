@@ -5,3 +5,5 @@ execute as @e[tag=paste_yellow] at @s run setblock ~ ~ ~ minecraft:redstone_bloc
 execute as @e[tag=paste_yellow] at @s run fill ~ ~ ~ ~ ~1 ~ minecraft:air
 
 execute as @e[tag=paste_yellow] at @s run summon marker ~ ~ ~ {Tags:["remove_water_yellow","remove_water"]}
+
+fillbiome ~-8 ~-8 ~-8 ~-24 ~-24 ~-24 basalt_deltas

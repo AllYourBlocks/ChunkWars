@@ -5,3 +5,5 @@ execute as @e[tag=paste_red] at @s run setblock ~ ~ ~ minecraft:redstone_block
 execute as @e[tag=paste_red] at @s run fill ~ ~ ~ ~ ~1 ~ minecraft:air
 
 execute as @e[tag=paste_red] at @s run summon marker ~-16 ~21 ~18 {Tags:["check_nether_portal_red","check_portal"]}
+
+fillbiome ~-8 ~8 ~8 ~-24 ~24 ~24 mushroom_fields

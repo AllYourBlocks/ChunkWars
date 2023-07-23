@@ -5,3 +5,5 @@ execute as @e[tag=paste_green] at @s run setblock ~ ~ ~ minecraft:redstone_block
 execute as @e[tag=paste_green] at @s run fill ~ ~ ~ ~ ~1 ~ minecraft:air
 
 execute as @e[tag=paste_green] at @s run summon marker ~ ~ ~ {Tags:["remove_water_green","remove_water"]}
+
+fillbiome ~8 ~8 ~-8 ~24 ~24 ~-24 nether_wastes

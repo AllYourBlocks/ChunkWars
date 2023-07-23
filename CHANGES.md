@@ -10,3 +10,4 @@
 
 3) Additions
 * Add 'Friendly Fire' setting
+* Set the biome when building the chunks

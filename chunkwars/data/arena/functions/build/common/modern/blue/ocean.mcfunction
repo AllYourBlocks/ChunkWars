@@ -7,3 +7,5 @@ execute as @e[tag=paste_blue] at @s run setblock ~ ~ ~ minecraft:redstone_block
 execute as @e[tag=paste_blue] at @s run fill ~ ~ ~ ~ ~1 ~ minecraft:air
 
 schedule function utility:waterstop/disable 1s
+
+fillbiome ~8 ~8 ~8 ~24 ~24 ~24 ocean
