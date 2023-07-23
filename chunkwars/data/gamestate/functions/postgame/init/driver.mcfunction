@@ -12,7 +12,7 @@ tag @a remove Ingame
 gamerule doDaylightCycle false
 time set noon
 gamerule doWeatherCycle false
-weather clear
+weather clear 10000
 
 clear @a
 effect clear @a
