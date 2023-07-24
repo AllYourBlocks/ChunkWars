@@ -3,6 +3,8 @@
 ---
 
 1) Fixes
+* Change weather clear command
+* Update sign update logic for the 1.20 update - Addresses #177
 
 2) Changes
 * Rename 'Weather' to 'Weather Cycle'
