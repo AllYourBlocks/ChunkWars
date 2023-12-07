@@ -13,8 +13,6 @@ gamemode survival @a[team=Yellow]
 gamemode survival @a[team=Red]
 gamemode survival @a[team=Green]
 
-advancement revoke @a everything
-
 execute if score $daylight_cycle option matches 1 run gamerule doDaylightCycle true
 
 gamerule doMobSpawning true

@@ -39,6 +39,8 @@ effect give @a[team=Red] minecraft:regeneration 20 0 true
 
 time set 23459
 
+advancement revoke @a everything
+
 function gamestate:pregame/init/set_options
 function gamestate:pregame/init/set_timer
 
