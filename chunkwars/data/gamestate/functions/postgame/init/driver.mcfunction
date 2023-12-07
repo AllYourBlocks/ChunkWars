@@ -17,5 +17,5 @@ weather clear 10000
 clear @a
 effect clear @a
 
-tellraw @a {"text":"Click here to rebuild the map (OPs Only!)","color":"red","clickEvent":{"action":"suggest_command","value":"/function rebuild:arena"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function rebuild:arena\n(Only server operators can use this command)"}}}
-tellraw @a {"text":"Click here to restart the game (OPs Only!)","color":"gray","clickEvent":{"action":"suggest_command","value":"/function gamestate:lobby/init/driver"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function gamestate:lobby/init/driver\n(Only server operators can use this command)"}}}
+tellraw @a {"text":"Click here to rebuild the Arena (OPs Only)","color":"red","clickEvent":{"action":"suggest_command","value":"/function rebuild:arena"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function rebuild:arena\n(Only server operators can use this command)"}}}
+tellraw @a {"text":"Click here to restart the game (OPs Only)","color":"gray","clickEvent":{"action":"suggest_command","value":"/function gamestate:lobby/init/driver"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to run /function gamestate:lobby/init/driver\n(Only server operators can use this command)"}}}
