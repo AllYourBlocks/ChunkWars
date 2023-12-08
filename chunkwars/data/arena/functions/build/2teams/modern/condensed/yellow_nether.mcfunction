@@ -10,6 +10,6 @@ function arena:build/2teams/modern/condensed/raw/180_4
 function arena:build/2teams/modern/condensed/raw/180_3
 function arena:build/2teams/modern/condensed/raw/0_14
 
-function arena:paint/2teams/modern/condensed
+schedule function arena:paint/2teams/modern/condensed 1s
 
 schedule function utility:ai/enable 2s

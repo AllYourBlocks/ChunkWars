@@ -8,6 +8,6 @@ scoreboard players set $green_nether_pasted map_status 1
 
 function arena:build/4teams/modern/condensed/raw/270_4
 
-function arena:paint/4teams/modern/standard
+schedule function arena:paint/4teams/modern/standard 1s
 
 schedule function utility:ai/enable 2s
