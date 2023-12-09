@@ -6,7 +6,7 @@ scoreboard players set $green_nether_pasted map_status 1
 #>Green Side Load 
 #>----------------------
 
-function arena:build/4teams/modern/condensed/raw/270_4
+function arena:build/4teams/modern/standard/raw/270_4
 
 schedule function arena:paint/4teams/modern/standard 1s
 
