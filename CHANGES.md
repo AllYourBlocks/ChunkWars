@@ -1,15 +1,14 @@
-# ChangeLog v0.7.5
-**TBD**
+# ChangeLog v0.7.6
+**Randomness, Elders, End**
 ---
 
 1) Fixes
-* Change weather clear command
-* Update sign update logic for the 1.20 update - Addresses #177
+* Implement Nether Option for Random games
+* Delay randomisation and random building for network lag introduced in 1.20
 
-2) Changes
-* Rename 'Weather' to 'Weather Cycle'
-* Rename 'End' option sign to 'The End'
+2) Additions
+* Have Elder Guardians drop the Tide Armor Trim Smithing Template
 
-3) Additions
-* Add 'Friendly Fire' setting
-* Set the biome when building the chunks
+3) Changes
+* Only check for End generation if any Nether is built
+
