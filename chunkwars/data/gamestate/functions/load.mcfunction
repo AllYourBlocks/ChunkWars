@@ -219,6 +219,7 @@ team modify Puzzle color gray
 #define score_holder $yellow_bed_broken
 #define score_holder $green_bed_broken
 #define score_holder $red_bed_broken
+#define score_holder $nether_count
 
 # Teams Ready
 
@@ -237,7 +238,6 @@ team modify Puzzle color gray
 #define score_holder $count_sumo_down
 #define score_holder $count_houses_down
 #define score_holder $count_pregame_down
-
 
 #define objective pick_order
 #define score_holder $blue
