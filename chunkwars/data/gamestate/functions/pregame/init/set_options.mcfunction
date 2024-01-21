@@ -29,8 +29,8 @@ execute as @a[tag=Ingame] if score $one_shot option matches 1 run function utili
 
 execute if score $map_infested map_variation matches 1 run schedule function arena:option/infested/driver 1s
 
-execute if score $map_random map_variation matches 1 run schedule function arena:option/random/driver 21t
-execute unless score $map_random map_variation matches 1 run function gamestate:pregame/init/build_chunks
+execute if score $map_random map_variation matches 1 run schedule function arena:option/random/driver 10s
+execute unless score $map_random map_variation matches 1 run schedule function gamestate:pregame/init/build_chunks 5s
 
 schedule function gamestate:pregame/init/give_items/driver 1t
 
